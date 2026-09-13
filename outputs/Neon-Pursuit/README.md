@@ -1,4 +1,4 @@
-# Neon Pursuit — Worlds 9.0.0
+# Neon Pursuit — Worlds 9.1.0
 
 An offline highway driving game with eight cars, four environments, very fast acceleration and gradual coasting.
 
@@ -62,6 +62,10 @@ Daylight uses one broad sun with cooler sky fill and a more restrained ground co
 Branches and grass use less regular proportions and grouping, with reduced redundant geometry. Wildlife has more continuous skull, muzzle, body and feather shapes and smaller fitted eyes. These refinements remain stylized original art. They do not establish photographic realism, scanned anatomy, licensed manufacturer replicas or Forza-level presentation.
 
 GALLERY.html contains matched component and full-game comparisons. Full-game matching fixes camera, scene seed, pose and simulation time; its displayed frozen-frame FPS is not a benchmark. Performance is measured separately while the game is actually driving.
+
+## Blender all-object runtime replacement
+
+`BLENDER-ALL-OBJECTS.md` documents the 849-mesh authored Blender library and the runtime swap for the black garage/player car. The HTTP-served path uses the local GLB; the normal offline `Launch.cmd` path keeps a clean procedural fallback because browsers block local `file://` fetches.
 
 ## Blender Ultra+ cinematic
 

@@ -1,5 +1,5 @@
 {
-  "version": "9.0.0",
+  "version": "9.1.0",
   "verifiedAt": "2026-09-13T20:20:00Z",
   "gameSHA256": "8ce237b3ad62a39aa6afb8e71f52085b04246a137794ef29cc567333813ffb82",
   "archiveHashRecord": "External work/zip-v9-results.json; the archive hash is kept outside the archive to avoid self-reference.",
@@ -32,5 +32,13 @@
     ],
     "pbrPayloads": "assets-source/blender-pbr/",
     "offlinePlayer": "gallery/blender/index.html"
+  },
+  "blenderAssetRuntime": {
+    "status": "integrated",
+    "library": "gallery/blender/hero-blender-ultraplus.glb",
+    "exportedObjects": 849,
+    "heroParts": 110,
+    "runtimeReplacement": "black garage/player car when served over local HTTP",
+    "fileProtocol": "clean procedural fallback"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "version": "9.0.0",
+  "version": "9.1.0",
   "files": {
     "AUDIO-SOURCES.md": {
       "bytes": 7971,
@@ -1885,5 +1885,11 @@
       "bytes": 973878,
       "sha256": "81a5a95e9b340abd71354c2fac46cdf55d52a7e1572bad7268ee083e5f42fd95"
     }
+  },
+  "blenderAssetRuntime": {
+    "library": "gallery/blender/hero-blender-ultraplus.glb",
+    "exportedObjects": 849,
+    "heroParts": 110,
+    "loader": "source/blenderAssetRuntime.js"
   }
 }

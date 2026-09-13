@@ -1,6 +1,10 @@
-# Neon Pursuit v9 — verification
+# Neon Pursuit v9.1.0 — verification
 
-Recorded 2026-09-13; final runtime SHA-256 `32c5ee86784a55cef911072245243990c4794b2654f4db4d89d381c799bfe154`.
+Recorded 2026-09-13; final runtime SHA-256 `8d26d6bb345ac11b20d6a8a9e7eeafb05e9058a9f8eb799c696272681e0fbdef`.
+
+## Blender all-object runtime replacement
+
+The local GLB asset library is parsed by `source/blenderAssetRuntime.js` when the game is served over HTTP. It reports 849 exported Blender mesh objects, 110 hero-car parts and coverage for vehicle, road, ocean, trees, rocks, wildlife and clouds. The black garage/player car swaps to that authored mesh after the library is ready; `file://` launches intentionally use the clean procedural fallback because Chromium blocks local fetches.
 
 ## Concrete visual changes
 
@@ -61,3 +65,4 @@ V9 is an original stylized refinement. It is not indistinguishable from a real p
 Installed runtime read-back: **True**. Installed and independently extracted offline driving/audio/Ultra+ launch checks: **True**.
 The previous verified v8 folder is preserved as `Neon-Pursuit-before-v9`.
 Final packaging validates the manifest, ZIP CRC and every archived file against the installed bytes. Archive hashes are recorded outside the archive to avoid self-reference. Visible launch details and any launcher fallback are recorded in the external delivery report.
+
