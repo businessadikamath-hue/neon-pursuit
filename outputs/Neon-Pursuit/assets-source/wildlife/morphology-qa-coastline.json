@@ -1,0 +1,741 @@
+{
+  "passed": true,
+  "subjects": [
+    {
+      "biome": "coastline",
+      "type": "ground",
+      "name": "Roe deer",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 5184,
+            "size": [
+              0.6553999781608582,
+              0.8998397588729858,
+              1.409909963607788
+            ],
+            "maxNormalLengthError": 3.963611705515291e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 5904,
+            "size": [
+              0.4598914086818695,
+              0.8372786045074463,
+              1.3680000305175781
+            ],
+            "maxNormalLengthError": 4.275877163451014e-8,
+            "zeroNormals": 0
+          }
+        },
+        "head": {
+          "before": {
+            "triangles": 6128,
+            "size": [
+              0.8092658519744873,
+              0.9674864411354065,
+              0.690200001001358
+            ],
+            "maxNormalLengthError": 3.982136664859581e-8,
+            "zeroNormals": 4
+          },
+          "after": {
+            "triangles": 8016,
+            "size": [
+              0.4939188063144684,
+              0.8994190767407417,
+              0.5140809565782547
+            ],
+            "maxNormalLengthError": 4.056905467120231e-8,
+            "zeroNormals": 4
+          }
+        },
+        "leg": {
+          "before": {
+            "triangles": 800,
+            "size": [
+              0.16963745653629303,
+              0.8363137636333704,
+              0.24790000170469284
+            ],
+            "maxNormalLengthError": 3.267978465615329e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 1368,
+            "size": [
+              0.13708524405956268,
+              0.7929999828338623,
+              0.20762451738119125
+            ],
+            "maxNormalLengthError": 3.717247953893832e-8,
+            "zeroNormals": 0
+          }
+        },
+        "tail": {
+          "before": {
+            "triangles": 224,
+            "size": [
+              0.11604967340826988,
+              0.23184985853731632,
+              0.16944580897688866
+            ],
+            "maxNormalLengthError": 3.301028295155106e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 224,
+            "size": [
+              0.11604967340826988,
+              0.23184985853731632,
+              0.16944580897688866
+            ],
+            "maxNormalLengthError": 3.301028295155106e-8,
+            "zeroNormals": 0
+          }
+        },
+        "fur": {
+          "before": {
+            "triangles": 360,
+            "size": [
+              0.6610389351844788,
+              0.5920630097389221,
+              1.1198057532310486
+            ],
+            "maxNormalLengthError": 3.817662874716632e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 360,
+            "size": [
+              0.4564940333366394,
+              0.5059283971786499,
+              1.1009897589683533
+            ],
+            "maxNormalLengthError": 3.163973572029022e-8,
+            "zeroNormals": 0
+          }
+        }
+      }
+    },
+    {
+      "biome": "coastline",
+      "type": "ground",
+      "name": "Red fox",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 5184,
+            "size": [
+              0.4745999872684479,
+              0.4798510819673538,
+              1.1699999570846558
+            ],
+            "maxNormalLengthError": 3.8046587436113555e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 5904,
+            "size": [
+              0.3077317774295807,
+              0.40986719727516174,
+              1.1399999856948853
+            ],
+            "maxNormalLengthError": 4.7610785314233794e-8,
+            "zeroNormals": 0
+          }
+        },
+        "head": {
+          "before": {
+            "triangles": 6736,
+            "size": [
+              0.43802410364151,
+              0.48749998211860657,
+              0.7631988674402237
+            ],
+            "maxNormalLengthError": 3.982136664859581e-8,
+            "zeroNormals": 4
+          },
+          "after": {
+            "triangles": 7736,
+            "size": [
+              0.2618117332458496,
+              0.3138355165719986,
+              0.3259099945425987
+            ],
+            "maxNormalLengthError": 4.1386807758669875e-8,
+            "zeroNormals": 4
+          }
+        },
+        "leg": {
+          "before": {
+            "triangles": 800,
+            "size": [
+              0.12284091860055923,
+              0.42359126545488834,
+              0.23110000789165497
+            ],
+            "maxNormalLengthError": 3.267978465615329e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 1368,
+            "size": [
+              0.09926862269639969,
+              0.37299999594688416,
+              0.19716361165046692
+            ],
+            "maxNormalLengthError": 3.5517299989962225e-8,
+            "zeroNormals": 0
+          }
+        },
+        "tail": {
+          "before": {
+            "triangles": 512,
+            "size": [
+              0.25228115171194077,
+              0.3824351355433464,
+              0.803617300465703
+            ],
+            "maxNormalLengthError": 3.632126821528914e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 512,
+            "size": [
+              0.25228115171194077,
+              0.3824351355433464,
+              0.803617300465703
+            ],
+            "maxNormalLengthError": 3.632126821528914e-8,
+            "zeroNormals": 0
+          }
+        },
+        "fur": {
+          "before": {
+            "triangles": 360,
+            "size": [
+              0.5566951930522919,
+              0.5089809894561768,
+              0.9650539457798004
+            ],
+            "maxNormalLengthError": 3.669980519482863e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 360,
+            "size": [
+              0.314249187707901,
+              0.37140047550201416,
+              0.9264394044876099
+            ],
+            "maxNormalLengthError": 3.1766930863597054e-8,
+            "zeroNormals": 0
+          }
+        }
+      }
+    },
+    {
+      "biome": "coastline",
+      "type": "ground",
+      "name": "Harbor seal",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 4608,
+            "size": [
+              1.3443175554275513,
+              0.80401211977005,
+              1.7315999865531921
+            ],
+            "maxNormalLengthError": 3.889124344791384e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 6480,
+            "size": [
+              1.3443175554275513,
+              0.8015737384557724,
+              1.6871999502182007
+            ],
+            "maxNormalLengthError": 4.150315913165059e-8,
+            "zeroNormals": 0
+          }
+        },
+        "head": {
+          "before": {
+            "triangles": 7296,
+            "size": [
+              0.6645625829696655,
+              0.4368000030517578,
+              0.7242601811885834
+            ],
+            "maxNormalLengthError": 4.541546805292285e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 6968,
+            "size": [
+              0.2581523060798645,
+              0.2052341178059578,
+              0.35335999727249146
+            ],
+            "maxNormalLengthError": 4.668737996205152e-8,
+            "zeroNormals": 0
+          }
+        },
+        "leg": {
+          "before": null,
+          "after": null
+        },
+        "tail": {
+          "before": {
+            "triangles": 576,
+            "size": [
+              0.6153213977813721,
+              0.08999999798834324,
+              0.56954126060009
+            ],
+            "maxNormalLengthError": 3.216532662442262e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 576,
+            "size": [
+              0.6153213977813721,
+              0.08999999798834324,
+              0.56954126060009
+            ],
+            "maxNormalLengthError": 3.216532662442262e-8,
+            "zeroNormals": 0
+          }
+        },
+        "fur": {
+          "before": null,
+          "after": null
+        }
+      }
+    },
+    {
+      "biome": "coastline",
+      "type": "birds",
+      "name": "Herring gull",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 63360,
+            "size": [
+              0.2235676646232605,
+              0.2919086068868637,
+              1.016999989748001
+            ],
+            "maxNormalLengthError": 3.686347382902966e-8,
+            "zeroNormals": 93
+          },
+          "after": {
+            "triangles": 15376,
+            "size": [
+              0.2030138224363327,
+              0.2525726556777954,
+              0.9899999797344208
+            ],
+            "maxNormalLengthError": 4.1652211457687827e-8,
+            "zeroNormals": 9
+          }
+        },
+        "wing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              1.0199999809265137,
+              0.043325599282979965,
+              0.47447624802589417
+            ],
+            "maxNormalLengthError": 3.582825347514529e-8,
+            "zeroNormals": 26
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              1.0275954226963222,
+              0.018092508893460035,
+              0.3807999938726425
+            ],
+            "maxNormalLengthError": 2.991603542668031e-8,
+            "zeroNormals": 33
+          }
+        },
+        "leftWing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              1.0199999809265137,
+              0.043325599282979965,
+              0.47447624802589417
+            ],
+            "maxNormalLengthError": 3.656018376929637e-8,
+            "zeroNormals": 624
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              1.0275954226963222,
+              0.018092508893460035,
+              0.3807999938726425
+            ],
+            "maxNormalLengthError": 3.8723498185788685e-8,
+            "zeroNormals": 792
+          }
+        }
+      }
+    },
+    {
+      "biome": "coastline",
+      "type": "birds",
+      "name": "Common tern",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 63648,
+            "size": [
+              0.2235676646232605,
+              0.29790860414505005,
+              1.2328476905822754
+            ],
+            "maxNormalLengthError": 3.70293297136115e-8,
+            "zeroNormals": 93
+          },
+          "after": {
+            "triangles": 15376,
+            "size": [
+              0.2030138224363327,
+              0.2525726556777954,
+              1.2088547348976135
+            ],
+            "maxNormalLengthError": 4.1652211457687827e-8,
+            "zeroNormals": 9
+          }
+        },
+        "wing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              0.9399999976158142,
+              0.042504798620939255,
+              0.3070140555500984
+            ],
+            "maxNormalLengthError": 3.812129012459309e-8,
+            "zeroNormals": 26
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              0.9447345305234194,
+              0.018006096128374338,
+              0.24639999866485596
+            ],
+            "maxNormalLengthError": 3.2049007891998826e-8,
+            "zeroNormals": 33
+          }
+        },
+        "leftWing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              0.9399999976158142,
+              0.042504798620939255,
+              0.3070140555500984
+            ],
+            "maxNormalLengthError": 3.6000494363364055e-8,
+            "zeroNormals": 624
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              0.9447345305234194,
+              0.018006096128374338,
+              0.24639999866485596
+            ],
+            "maxNormalLengthError": 3.40744688021033e-8,
+            "zeroNormals": 792
+          }
+        }
+      }
+    },
+    {
+      "biome": "coastline",
+      "type": "birds",
+      "name": "Cormorant",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 63584,
+            "size": [
+              0.2235676646232605,
+              0.30952781438827515,
+              1.4669999480247498
+            ],
+            "maxNormalLengthError": 3.686347382902966e-8,
+            "zeroNormals": 93
+          },
+          "after": {
+            "triangles": 15376,
+            "size": [
+              0.2030138224363327,
+              0.2525726556777954,
+              1.4399999976158142
+            ],
+            "maxNormalLengthError": 4.1652211457687827e-8,
+            "zeroNormals": 9
+          }
+        },
+        "wing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              1.0199999809265137,
+              0.04312039911746979,
+              0.4326107054948807
+            ],
+            "maxNormalLengthError": 3.517647617634623e-8,
+            "zeroNormals": 26
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              1.0270035360008478,
+              0.018092508893460035,
+              0.3472000062465668
+            ],
+            "maxNormalLengthError": 2.9890295794032795e-8,
+            "zeroNormals": 33
+          }
+        },
+        "leftWing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              1.0199999809265137,
+              0.04312039911746979,
+              0.4326107054948807
+            ],
+            "maxNormalLengthError": 3.517647617634623e-8,
+            "zeroNormals": 624
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              1.0270035360008478,
+              0.018092508893460035,
+              0.3472000062465668
+            ],
+            "maxNormalLengthError": 3.847899843201219e-8,
+            "zeroNormals": 792
+          }
+        }
+      }
+    }
+  ],
+  "skulls": [
+    {
+      "name": "skull-fox",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.26888602543571477,
+      "minimumTriangleArea": 0.000025829942206861563
+    },
+    {
+      "name": "skull-coyote",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.32726053449755066,
+      "minimumTriangleArea": 0.00003017303148626175
+    },
+    {
+      "name": "skull-deer",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.43951581119480915,
+      "minimumTriangleArea": 0.000027865225163454303
+    },
+    {
+      "name": "skull-reindeer",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.5298957024945732,
+      "minimumTriangleArea": 0.00003679973536758914
+    },
+    {
+      "name": "skull-bighorn",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.5893878320889342,
+      "minimumTriangleArea": 0.00003391718662110087
+    },
+    {
+      "name": "skull-cat",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.46721318046664057,
+      "minimumTriangleArea": 0.00003254250087201332
+    },
+    {
+      "name": "skull-hare",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.27638563232818286,
+      "minimumTriangleArea": 0.000022230336784036483
+    },
+    {
+      "name": "skull-tapir",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.4594771243709458,
+      "minimumTriangleArea": 0.000053086776391294306
+    },
+    {
+      "name": "skull-capybara",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.5077274569178075,
+      "minimumTriangleArea": 0.000055389463939116116
+    },
+    {
+      "name": "skull-seal",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.355742380868175,
+      "minimumTriangleArea": 0.000026843382034197575
+    },
+    {
+      "name": "skull-bird",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 1.1440449512845197,
+      "minimumTriangleArea": 0.00005791197620886802
+    }
+  ],
+  "behavior": [
+    {
+      "biome": "coastline",
+      "quality": "Low",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Low",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Low",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "High",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "High",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "High",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra+",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra+",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra+",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Game Only",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Game Only",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Game Only",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    }
+  ],
+  "errors": []
+}

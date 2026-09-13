@@ -1,0 +1,1 @@
+The unchanged original four 660-second recordings are retained from v8. This procedural generator retains its recorded workspace output path; adjust it before rerunning. No downloaded recording is an input.

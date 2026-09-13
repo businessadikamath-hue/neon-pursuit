@@ -1,0 +1,91 @@
+{
+  "state": {
+    "unlocked": true,
+    "state": "running",
+    "enabled": false,
+    "nature": true,
+    "car": "black",
+    "biome": "coastline",
+    "lastBird": {
+      "biome": "coastline",
+      "species": 0,
+      "name": "Herring gull",
+      "a": 1100,
+      "b": 650,
+      "d": 0.85,
+      "type": "sawtooth",
+      "n": 3,
+      "pan": 0.06281095743179321
+    },
+    "engineProfile": "Original twin-turbo V8 growl",
+    "engineSource": "Original procedural approximation; not a recorded real-car engine",
+    "soundscape": "surf wash, tree wind, leaf rustle, gulls/terns/cormorants",
+    "signature": "black/3/1/coastline",
+    "rpm": 5000,
+    "gear": 4,
+    "rms": 0.03559406803393722,
+    "peak": 0.10653701424598694,
+    "limiter": {
+      "type": "Dynamics compression and oversampled tanh soft limiting",
+      "compressionDb": -0.0012670592404901981,
+      "digitalClipSamples": 0
+    },
+    "layers": {
+      "engine": 0,
+      "harmonic": 0,
+      "sub": 0,
+      "grit": 0,
+      "top": 0,
+      "coast": 0,
+      "brake": 0,
+      "shift": 0.00009999999747378752,
+      "impact": 0,
+      "wind": 0.09488487243652344,
+      "ocean": 0.14574606716632843,
+      "weather": 0.01799888163805008,
+      "rustle": 0.055887795984745026,
+      "rainLow": 0,
+      "insectsA": 0.0016110780416056514,
+      "insectsB": 0,
+      "birds": 0,
+      "animals": 0,
+      "traffic": 0,
+      "siren": 0
+    },
+    "recording": {
+      "source": "Original procedural 11-minute recordings; no downloaded audio",
+      "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+      "expectedDurationSeconds": 660,
+      "durationSeconds": 0,
+      "offsetSeconds": 0,
+      "loaded": false,
+      "playing": false,
+      "crossfadeSeconds": 6,
+      "crossfades": 0,
+      "fallbackActive": true,
+      "errors": [
+        "coastline: MEDIA_ELEMENT_ERROR: Format error",
+        "coastline: Failed to load because no supported source was found."
+      ],
+      "tracks": [
+        {
+          "biome": "coastline",
+          "durationSeconds": 0,
+          "offsetSeconds": 0,
+          "currentTime": 0,
+          "loaded": false,
+          "paused": false,
+          "volume": 0.6590912113081945,
+          "retiring": false,
+          "error": "coastline: Failed to load because no supported source was found."
+        }
+      ]
+    },
+    "loopSeconds": 47,
+    "fallbackLoopSeconds": 47,
+    "looping": true,
+    "seamJump": 0
+  },
+  "missingFileRequests": 1,
+  "pageErrors": []
+}

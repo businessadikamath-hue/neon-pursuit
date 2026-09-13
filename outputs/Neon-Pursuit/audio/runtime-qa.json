@@ -1,0 +1,1112 @@
+{
+  "engines": [
+    {
+      "car": "black",
+      "profile": "Original twin-turbo V8 growl",
+      "signature": "black/3/1/coastline",
+      "rms": 0.35884749987724374,
+      "peak": 0.7786856889724731,
+      "clippedSamples": 0,
+      "engineGain": 0.6198466420173645,
+      "shiftGain": 0.09389559924602509,
+      "shiftRms": 0.13699964440708207,
+      "brakeGain": 0.19271287322044373,
+      "coastGain": 0.12785933911800385
+    },
+    {
+      "car": "silver",
+      "profile": "Twin-turbo GT baritone",
+      "signature": "silver/2.2/0.75/coastline",
+      "rms": 0.42896734168969164,
+      "peak": 0.7688066959381104,
+      "clippedSamples": 0,
+      "engineGain": 0.679729700088501,
+      "shiftGain": 0.10408725589513779,
+      "shiftRms": 0.18549200401641808,
+      "brakeGain": 0.24351832270622253,
+      "coastGain": 0.12822385132312775
+    },
+    {
+      "car": "red",
+      "profile": "Track engine metallic scream",
+      "signature": "red/3.5/1.32/coastline",
+      "rms": 0.3723110771415486,
+      "peak": 0.7677112817764282,
+      "clippedSamples": 0,
+      "engineGain": 0.5698390007019043,
+      "shiftGain": 0.0864991694688797,
+      "shiftRms": 0.12054969280939805,
+      "brakeGain": 0.1971738636493683,
+      "coastGain": 0.12802225351333618
+    },
+    {
+      "car": "rally",
+      "profile": "Original rally three-cylinder rasp",
+      "signature": "rally/1.8/1.55/coastline",
+      "rms": 0.33721742149208583,
+      "peak": 0.7871513366699219,
+      "clippedSamples": 0,
+      "engineGain": 0.569781482219696,
+      "shiftGain": 0.0858168751001358,
+      "shiftRms": 0.12390149786754451,
+      "brakeGain": 0.17412979900836945,
+      "coastGain": 0.12807589769363403
+    },
+    {
+      "car": "muscle",
+      "profile": "Cross-plane muscle rumble",
+      "signature": "muscle/1.35/0.5/coastline",
+      "rms": 0.3959219627760938,
+      "peak": 0.7848248481750488,
+      "clippedSamples": 0,
+      "engineGain": 0.7196987867355347,
+      "shiftGain": 0.11099115014076233,
+      "shiftRms": 0.17074063707814974,
+      "brakeGain": 0.24966368079185486,
+      "coastGain": 0.1280226707458496
+    },
+    {
+      "car": "roadster",
+      "profile": "Light roadster intake bark",
+      "signature": "roadster/2.1/1.75/coastline",
+      "rms": 0.44921828101088107,
+      "peak": 0.7491273880004883,
+      "clippedSamples": 0,
+      "engineGain": 0.6397692561149597,
+      "shiftGain": 0.09891252964735031,
+      "shiftRms": 0.14423919583145947,
+      "brakeGain": 0.14318980276584625,
+      "coastGain": 0.12802313268184662
+    },
+    {
+      "car": "electric",
+      "profile": "Electric drive turbine whine",
+      "signature": "electric/1.6/2.2/coastline",
+      "rms": 0.45588176696052474,
+      "peak": 0.7571852207183838,
+      "clippedSamples": 0,
+      "engineGain": 0.5198239684104919,
+      "shiftGain": 0.07959645986557007,
+      "shiftRms": 0.13148279704845883,
+      "brakeGain": 0.2961927652359009,
+      "coastGain": 0.1280238926410675
+    },
+    {
+      "car": "safari",
+      "profile": "Heavy off-road six-cylinder throb",
+      "signature": "safari/1.15/0.6/coastline",
+      "rms": 0.4511734435243152,
+      "peak": 0.7669694423675537,
+      "clippedSamples": 0,
+      "engineGain": 0.7496746182441711,
+      "shiftGain": 0.11561606824398041,
+      "shiftRms": 0.18514540369162405,
+      "brakeGain": 0.3164263069629669,
+      "coastGain": 0.12807589769363403
+    }
+  ],
+  "recordings": [
+    {
+      "biome": "coastline",
+      "before": {
+        "source": "Original procedural 11-minute recordings; no downloaded audio",
+        "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+        "expectedDurationSeconds": 660,
+        "durationSeconds": 660,
+        "offsetSeconds": 64.84046955036246,
+        "loaded": true,
+        "playing": true,
+        "crossfadeSeconds": 6,
+        "crossfades": 0,
+        "fallbackActive": false,
+        "errors": [],
+        "tracks": [
+          {
+            "biome": "coastline",
+            "durationSeconds": 660,
+            "offsetSeconds": 64.84046955036246,
+            "currentTime": 67.606458,
+            "loaded": true,
+            "paused": false,
+            "volume": 0.6001810220593017,
+            "retiring": false,
+            "error": null
+          }
+        ]
+      },
+      "after": {
+        "source": "Original procedural 11-minute recordings; no downloaded audio",
+        "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+        "expectedDurationSeconds": 660,
+        "durationSeconds": 660,
+        "offsetSeconds": 64.84046955036246,
+        "loaded": true,
+        "playing": true,
+        "crossfadeSeconds": 6,
+        "crossfades": 0,
+        "fallbackActive": false,
+        "errors": [],
+        "tracks": [
+          {
+            "biome": "coastline",
+            "durationSeconds": 660,
+            "offsetSeconds": 64.84046955036246,
+            "currentTime": 68.216666,
+            "loaded": true,
+            "paused": false,
+            "volume": 0.6935392845126201,
+            "retiring": false,
+            "error": null
+          }
+        ]
+      },
+      "advancedSeconds": 0.6102080000000001
+    },
+    {
+      "biome": "tundra",
+      "before": {
+        "source": "Original procedural 11-minute recordings; no downloaded audio",
+        "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+        "expectedDurationSeconds": 660,
+        "durationSeconds": 660,
+        "offsetSeconds": 14.979429055343337,
+        "loaded": true,
+        "playing": true,
+        "crossfadeSeconds": 6,
+        "crossfades": 1,
+        "fallbackActive": false,
+        "errors": [],
+        "tracks": [
+          {
+            "biome": "coastline",
+            "durationSeconds": 660,
+            "offsetSeconds": 64.84046955036246,
+            "currentTime": 71.090092,
+            "loaded": true,
+            "paused": false,
+            "volume": 0.14870967524038328,
+            "retiring": true,
+            "error": null
+          },
+          {
+            "biome": "tundra",
+            "durationSeconds": 660,
+            "offsetSeconds": 14.979429055343337,
+            "currentTime": 17.751774,
+            "loaded": true,
+            "paused": false,
+            "volume": 0.6004168625795127,
+            "retiring": false,
+            "error": null
+          }
+        ]
+      },
+      "after": {
+        "source": "Original procedural 11-minute recordings; no downloaded audio",
+        "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+        "expectedDurationSeconds": 660,
+        "durationSeconds": 660,
+        "offsetSeconds": 14.979429055343337,
+        "loaded": true,
+        "playing": true,
+        "crossfadeSeconds": 6,
+        "crossfades": 1,
+        "fallbackActive": false,
+        "errors": [],
+        "tracks": [
+          {
+            "biome": "coastline",
+            "durationSeconds": 660,
+            "offsetSeconds": 64.84046955036246,
+            "currentTime": 71.704529,
+            "loaded": true,
+            "paused": false,
+            "volume": 0.0076255971288079535,
+            "retiring": true,
+            "error": null
+          },
+          {
+            "biome": "tundra",
+            "durationSeconds": 660,
+            "offsetSeconds": 14.979429055343337,
+            "currentTime": 18.366139,
+            "loaded": true,
+            "paused": false,
+            "volume": 0.6958585380902111,
+            "retiring": false,
+            "error": null
+          }
+        ]
+      },
+      "advancedSeconds": 0.6143649999999994
+    },
+    {
+      "biome": "desert",
+      "before": {
+        "source": "Original procedural 11-minute recordings; no downloaded audio",
+        "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+        "expectedDurationSeconds": 660,
+        "durationSeconds": 660,
+        "offsetSeconds": 561.4290802575624,
+        "loaded": true,
+        "playing": true,
+        "crossfadeSeconds": 6,
+        "crossfades": 2,
+        "fallbackActive": false,
+        "errors": [],
+        "tracks": [
+          {
+            "biome": "tundra",
+            "durationSeconds": 660,
+            "offsetSeconds": 14.979429055343337,
+            "currentTime": 21.229788,
+            "loaded": true,
+            "paused": false,
+            "volume": 0.16421659783696993,
+            "retiring": true,
+            "error": null
+          },
+          {
+            "biome": "desert",
+            "durationSeconds": 660,
+            "offsetSeconds": 561.4290802575624,
+            "currentTime": 564.180752,
+            "loaded": true,
+            "paused": false,
+            "volume": 0.6000967737663336,
+            "retiring": false,
+            "error": null
+          }
+        ]
+      },
+      "after": {
+        "source": "Original procedural 11-minute recordings; no downloaded audio",
+        "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+        "expectedDurationSeconds": 660,
+        "durationSeconds": 660,
+        "offsetSeconds": 561.4290802575624,
+        "loaded": true,
+        "playing": true,
+        "crossfadeSeconds": 6,
+        "crossfades": 2,
+        "fallbackActive": false,
+        "errors": [],
+        "tracks": [
+          {
+            "biome": "tundra",
+            "durationSeconds": 660,
+            "offsetSeconds": 14.979429055343337,
+            "currentTime": 21.841418,
+            "loaded": true,
+            "paused": false,
+            "volume": 0.026927622644446918,
+            "retiring": true,
+            "error": null
+          },
+          {
+            "biome": "desert",
+            "durationSeconds": 660,
+            "offsetSeconds": 561.4290802575624,
+            "currentTime": 564.792384,
+            "loaded": true,
+            "paused": false,
+            "volume": 0.6934116379591233,
+            "retiring": false,
+            "error": null
+          }
+        ]
+      },
+      "advancedSeconds": 0.611631999999986
+    },
+    {
+      "biome": "jungle",
+      "before": {
+        "source": "Original procedural 11-minute recordings; no downloaded audio",
+        "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+        "expectedDurationSeconds": 660,
+        "durationSeconds": 660,
+        "offsetSeconds": 43.648217169930426,
+        "loaded": true,
+        "playing": true,
+        "crossfadeSeconds": 6,
+        "crossfades": 3,
+        "fallbackActive": false,
+        "errors": [],
+        "tracks": [
+          {
+            "biome": "desert",
+            "durationSeconds": 660,
+            "offsetSeconds": 561.4290802575624,
+            "currentTime": 567.661547,
+            "loaded": true,
+            "paused": false,
+            "volume": 0.1489594461867869,
+            "retiring": true,
+            "error": null
+          },
+          {
+            "biome": "jungle",
+            "durationSeconds": 660,
+            "offsetSeconds": 43.648217169930426,
+            "currentTime": 46.424667,
+            "loaded": true,
+            "paused": false,
+            "volume": 0.600130474317501,
+            "retiring": false,
+            "error": null
+          }
+        ]
+      },
+      "after": {
+        "source": "Original procedural 11-minute recordings; no downloaded audio",
+        "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+        "expectedDurationSeconds": 660,
+        "durationSeconds": 660,
+        "offsetSeconds": 43.648217169930426,
+        "loaded": true,
+        "playing": true,
+        "crossfadeSeconds": 6,
+        "crossfades": 3,
+        "fallbackActive": false,
+        "errors": [],
+        "tracks": [
+          {
+            "biome": "desert",
+            "durationSeconds": 660,
+            "offsetSeconds": 561.4290802575624,
+            "currentTime": 568.271305,
+            "loaded": true,
+            "paused": false,
+            "volume": 0.011495807734701486,
+            "retiring": true,
+            "error": null
+          },
+          {
+            "biome": "jungle",
+            "durationSeconds": 660,
+            "offsetSeconds": 43.648217169930426,
+            "currentTime": 47.034415,
+            "loaded": true,
+            "paused": false,
+            "volume": 0.693397452628563,
+            "retiring": false,
+            "error": null
+          }
+        ]
+      },
+      "advancedSeconds": 0.6097480000000033
+    }
+  ],
+  "birds": [
+    {
+      "bird": {
+        "biome": "coastline",
+        "species": 0,
+        "name": "Herring gull",
+        "a": 1100,
+        "b": 650,
+        "d": 0.85,
+        "type": "sawtooth",
+        "n": 3,
+        "pan": -0.8100000023841858
+      },
+      "rms": 0.012518744236642563
+    },
+    {
+      "bird": {
+        "biome": "coastline",
+        "species": 1,
+        "name": "Common tern",
+        "a": 2400,
+        "b": 3200,
+        "d": 0.18,
+        "type": "sine",
+        "n": 4,
+        "pan": -0.20999999344348907
+      },
+      "rms": 0.01085224092522801
+    },
+    {
+      "bird": {
+        "biome": "coastline",
+        "species": 2,
+        "name": "Cormorant",
+        "a": 260,
+        "b": 175,
+        "d": 0.27,
+        "type": "triangle",
+        "n": 3,
+        "pan": 0.38999998569488525
+      },
+      "rms": 0.013302675880635245
+    },
+    {
+      "bird": {
+        "biome": "tundra",
+        "species": 0,
+        "name": "Snowy owl",
+        "a": 420,
+        "b": 320,
+        "d": 0.7,
+        "type": "sine",
+        "n": 2,
+        "pan": -0.8100000023841858
+      },
+      "rms": 0.010788188329166469
+    },
+    {
+      "bird": {
+        "biome": "tundra",
+        "species": 1,
+        "name": "Snow bunting",
+        "a": 2900,
+        "b": 1900,
+        "d": 0.12,
+        "type": "sine",
+        "n": 5,
+        "pan": -0.20999999344348907
+      },
+      "rms": 0.008070449998695583
+    },
+    {
+      "bird": {
+        "biome": "tundra",
+        "species": 2,
+        "name": "Ptarmigan",
+        "a": 640,
+        "b": 480,
+        "d": 0.19,
+        "type": "triangle",
+        "n": 5,
+        "pan": 0.38999998569488525
+      },
+      "rms": 0.013188292238035498
+    },
+    {
+      "bird": {
+        "biome": "desert",
+        "species": 0,
+        "name": "Red-tailed hawk",
+        "a": 2200,
+        "b": 1150,
+        "d": 0.75,
+        "type": "sawtooth",
+        "n": 1,
+        "pan": -0.8100000023841858
+      },
+      "rms": 0.007357492851032612
+    },
+    {
+      "bird": {
+        "biome": "desert",
+        "species": 1,
+        "name": "Common raven",
+        "a": 540,
+        "b": 330,
+        "d": 0.28,
+        "type": "triangle",
+        "n": 3,
+        "pan": -0.20999999344348907
+      },
+      "rms": 0.01119177639888795
+    },
+    {
+      "bird": {
+        "biome": "desert",
+        "species": 2,
+        "name": "Mourning dove",
+        "a": 470,
+        "b": 390,
+        "d": 0.65,
+        "type": "sine",
+        "n": 3,
+        "pan": 0.38999998569488525
+      },
+      "rms": 0.021552607794147645
+    },
+    {
+      "bird": {
+        "biome": "jungle",
+        "species": 0,
+        "name": "Scarlet macaw",
+        "a": 1200,
+        "b": 700,
+        "d": 0.46,
+        "type": "sawtooth",
+        "n": 3,
+        "pan": -0.8100000023841858
+      },
+      "rms": 0.007005569952530932
+    },
+    {
+      "bird": {
+        "biome": "jungle",
+        "species": 1,
+        "name": "Keel-billed toucan",
+        "a": 850,
+        "b": 1240,
+        "d": 0.18,
+        "type": "triangle",
+        "n": 5,
+        "pan": -0.20999999344348907
+      },
+      "rms": 0.008873491079854648
+    },
+    {
+      "bird": {
+        "biome": "jungle",
+        "species": 2,
+        "name": "Little blue heron",
+        "a": 620,
+        "b": 430,
+        "d": 0.4,
+        "type": "triangle",
+        "n": 2,
+        "pan": 0.38999998569488525
+      },
+      "rms": 0.015541011481412096
+    }
+  ],
+  "impacts": [
+    {
+      "kind": "vehicle",
+      "severity": 0.15,
+      "samples": [
+        {
+          "rms": 0.06088657340482906,
+          "peak": 0.17913854122161865,
+          "clips": 0
+        },
+        {
+          "rms": 0.0590603549408581,
+          "peak": 0.1416122019290924,
+          "clips": 0
+        },
+        {
+          "rms": 0.028312098876811714,
+          "peak": 0.06065283715724945,
+          "clips": 0
+        },
+        {
+          "rms": 0.015217721114464573,
+          "peak": 0.030345050618052483,
+          "clips": 0
+        },
+        {
+          "rms": 0.01146471732787068,
+          "peak": 0.019843824207782745,
+          "clips": 0
+        },
+        {
+          "rms": 0.009348345919116005,
+          "peak": 0.018223721534013748,
+          "clips": 0
+        },
+        {
+          "rms": 0.005123158617070511,
+          "peak": 0.012577632442116737,
+          "clips": 0
+        },
+        {
+          "rms": 0.004148480763378641,
+          "peak": 0.010673725046217442,
+          "clips": 0
+        }
+      ]
+    },
+    {
+      "kind": "vehicle",
+      "severity": 1,
+      "samples": [
+        {
+          "rms": 0.2974031002578614,
+          "peak": 0.72711580991745,
+          "clips": 0
+        },
+        {
+          "rms": 0.38124270646581104,
+          "peak": 0.72711580991745,
+          "clips": 0
+        },
+        {
+          "rms": 0.25296248503582697,
+          "peak": 0.5116168856620789,
+          "clips": 0
+        },
+        {
+          "rms": 0.19511966334111325,
+          "peak": 0.3802011013031006,
+          "clips": 0
+        },
+        {
+          "rms": 0.10801295801605394,
+          "peak": 0.2276400327682495,
+          "clips": 0
+        },
+        {
+          "rms": 0.07495672648216936,
+          "peak": 0.15259341895580292,
+          "clips": 0
+        },
+        {
+          "rms": 0.05775793894866219,
+          "peak": 0.11717700213193893,
+          "clips": 0
+        },
+        {
+          "rms": 0.03402150332417552,
+          "peak": 0.06855364143848419,
+          "clips": 0
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "severity": 0.15,
+      "samples": [
+        {
+          "rms": 0.06377551667662204,
+          "peak": 0.17567642033100128,
+          "clips": 0
+        },
+        {
+          "rms": 0.05231424356904107,
+          "peak": 0.13309131562709808,
+          "clips": 0
+        },
+        {
+          "rms": 0.028091684563501952,
+          "peak": 0.06685857474803925,
+          "clips": 0
+        },
+        {
+          "rms": 0.017088577379024077,
+          "peak": 0.04109356552362442,
+          "clips": 0
+        },
+        {
+          "rms": 0.009678670467738718,
+          "peak": 0.01885906234383583,
+          "clips": 0
+        },
+        {
+          "rms": 0.006424823874712407,
+          "peak": 0.0151814054697752,
+          "clips": 0
+        },
+        {
+          "rms": 0.002591317553831685,
+          "peak": 0.007834717631340027,
+          "clips": 0
+        },
+        {
+          "rms": 0.0025379317690918213,
+          "peak": 0.005590865388512611,
+          "clips": 0
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "severity": 1,
+      "samples": [
+        {
+          "rms": 0.3136831550759501,
+          "peak": 0.7346668243408203,
+          "clips": 0
+        },
+        {
+          "rms": 0.362829169978606,
+          "peak": 0.6472207307815552,
+          "clips": 0
+        },
+        {
+          "rms": 0.2703866115135356,
+          "peak": 0.500399112701416,
+          "clips": 0
+        },
+        {
+          "rms": 0.18456076807299487,
+          "peak": 0.3664620518684387,
+          "clips": 0
+        },
+        {
+          "rms": 0.11422407832177583,
+          "peak": 0.23665064573287964,
+          "clips": 0
+        },
+        {
+          "rms": 0.0838646311361311,
+          "peak": 0.16799169778823853,
+          "clips": 0
+        },
+        {
+          "rms": 0.054135239242603744,
+          "peak": 0.1033637523651123,
+          "clips": 0
+        },
+        {
+          "rms": 0.032910448143627834,
+          "peak": 0.06710155308246613,
+          "clips": 0
+        }
+      ]
+    },
+    {
+      "kind": "barrier",
+      "severity": 0.15,
+      "samples": [
+        {
+          "rms": 0.06756095780533976,
+          "peak": 0.18875175714492798,
+          "clips": 0
+        },
+        {
+          "rms": 0.07058461061064483,
+          "peak": 0.1699998527765274,
+          "clips": 0
+        },
+        {
+          "rms": 0.041618626974856215,
+          "peak": 0.10118075460195541,
+          "clips": 0
+        },
+        {
+          "rms": 0.021515134866424653,
+          "peak": 0.04200580343604088,
+          "clips": 0
+        },
+        {
+          "rms": 0.007825816974000551,
+          "peak": 0.01932445913553238,
+          "clips": 0
+        },
+        {
+          "rms": 0.00515961594880109,
+          "peak": 0.013043495826423168,
+          "clips": 0
+        },
+        {
+          "rms": 0.0034859970593231347,
+          "peak": 0.008364692330360413,
+          "clips": 0
+        },
+        {
+          "rms": 0.004175149326498003,
+          "peak": 0.009796012192964554,
+          "clips": 0
+        }
+      ]
+    },
+    {
+      "kind": "barrier",
+      "severity": 1,
+      "samples": [
+        {
+          "rms": 0.3190868820262362,
+          "peak": 0.7432860732078552,
+          "clips": 0
+        },
+        {
+          "rms": 0.3834227020588543,
+          "peak": 0.7085336446762085,
+          "clips": 0
+        },
+        {
+          "rms": 0.274657008188184,
+          "peak": 0.5301092863082886,
+          "clips": 0
+        },
+        {
+          "rms": 0.19657958566234396,
+          "peak": 0.3909650444984436,
+          "clips": 0
+        },
+        {
+          "rms": 0.13115435454064123,
+          "peak": 0.2915126085281372,
+          "clips": 0
+        },
+        {
+          "rms": 0.0919950339589945,
+          "peak": 0.18722598254680634,
+          "clips": 0
+        },
+        {
+          "rms": 0.054936148495473854,
+          "peak": 0.11598875373601913,
+          "clips": 0
+        },
+        {
+          "rms": 0.03272734099683289,
+          "peak": 0.06508836895227432,
+          "clips": 0
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "loopCrossfade": {
+    "source": "Original procedural 11-minute recordings; no downloaded audio",
+    "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+    "expectedDurationSeconds": 660,
+    "durationSeconds": 660,
+    "offsetSeconds": 240.91442216689674,
+    "loaded": true,
+    "playing": true,
+    "crossfadeSeconds": 6,
+    "crossfades": 4,
+    "fallbackActive": false,
+    "errors": [],
+    "tracks": [
+      {
+        "biome": "jungle",
+        "durationSeconds": 660,
+        "offsetSeconds": 43.648217169930426,
+        "currentTime": 656.145714,
+        "loaded": true,
+        "paused": false,
+        "volume": 0.5046843557003527,
+        "retiring": true,
+        "error": null
+      },
+      {
+        "biome": "jungle",
+        "durationSeconds": 660,
+        "offsetSeconds": 240.91442216689674,
+        "currentTime": 242.017432,
+        "loaded": true,
+        "paused": false,
+        "volume": 0.279220815025584,
+        "retiring": false,
+        "error": null
+      }
+    ]
+  },
+  "afterLoop": {
+    "source": "Original procedural 11-minute recordings; no downloaded audio",
+    "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+    "expectedDurationSeconds": 660,
+    "durationSeconds": 660,
+    "offsetSeconds": 240.91442216689674,
+    "loaded": true,
+    "playing": true,
+    "crossfadeSeconds": 6,
+    "crossfades": 4,
+    "fallbackActive": false,
+    "errors": [],
+    "tracks": [
+      {
+        "biome": "jungle",
+        "durationSeconds": 660,
+        "offsetSeconds": 240.91442216689674,
+        "currentTime": 248.535712,
+        "loaded": true,
+        "paused": false,
+        "volume": 0.88,
+        "retiring": false,
+        "error": null
+      }
+    ]
+  },
+  "pause": {
+    "unlocked": true,
+    "state": "running",
+    "enabled": false,
+    "nature": true,
+    "car": "black",
+    "biome": "jungle",
+    "lastBird": {
+      "biome": "jungle",
+      "species": 1,
+      "name": "Keel-billed toucan",
+      "a": 850,
+      "b": 1240,
+      "d": 0.18,
+      "type": "triangle",
+      "n": 5,
+      "pan": 0.492032527923584
+    },
+    "engineProfile": "Original twin-turbo V8 growl",
+    "engineSource": "Original procedural approximation; not a recorded real-car engine",
+    "soundscape": "rain, foliage, insects, macaws/toucans/herons",
+    "signature": "black/3/1/jungle",
+    "rpm": 5000,
+    "gear": 4,
+    "rms": 0.00024688298993277044,
+    "peak": 0.0008180239237844944,
+    "limiter": {
+      "type": "Dynamics compression and oversampled tanh soft limiting",
+      "compressionDb": -0.0001342038594884798,
+      "digitalClipSamples": 0
+    },
+    "layers": {
+      "engine": 0,
+      "harmonic": 0,
+      "sub": 0,
+      "grit": 0,
+      "top": 0,
+      "coast": 0,
+      "brake": 0,
+      "shift": 0.00009999999747378752,
+      "impact": 0,
+      "wind": 0.06516450643539429,
+      "ocean": 0,
+      "weather": 0.09903541207313538,
+      "rustle": 0.020633157342672348,
+      "rainLow": 0.026497337967157364,
+      "insectsA": 0.013308362103998661,
+      "insectsB": 0.006187085527926683,
+      "birds": 0,
+      "animals": 0,
+      "traffic": 0,
+      "siren": 0
+    },
+    "recording": {
+      "source": "Original procedural 11-minute recordings; no downloaded audio",
+      "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+      "expectedDurationSeconds": 660,
+      "durationSeconds": 660,
+      "offsetSeconds": 240.91442216689674,
+      "loaded": true,
+      "playing": false,
+      "crossfadeSeconds": 6,
+      "crossfades": 4,
+      "fallbackActive": false,
+      "errors": [],
+      "tracks": [
+        {
+          "biome": "jungle",
+          "durationSeconds": 660,
+          "offsetSeconds": 240.91442216689674,
+          "currentTime": 248.751451,
+          "loaded": true,
+          "paused": true,
+          "volume": 0,
+          "retiring": false,
+          "error": null
+        }
+      ]
+    },
+    "loopSeconds": 660,
+    "fallbackLoopSeconds": 47,
+    "looping": true,
+    "seamJump": 0
+  },
+  "resume": {
+    "source": "Original procedural 11-minute recordings; no downloaded audio",
+    "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+    "expectedDurationSeconds": 660,
+    "durationSeconds": 660,
+    "offsetSeconds": 240.91442216689674,
+    "loaded": true,
+    "playing": true,
+    "crossfadeSeconds": 6,
+    "crossfades": 4,
+    "fallbackActive": false,
+    "errors": [],
+    "tracks": [
+      {
+        "biome": "jungle",
+        "durationSeconds": 660,
+        "offsetSeconds": 240.91442216689674,
+        "currentTime": 249.598839,
+        "loaded": true,
+        "paused": false,
+        "volume": 0.19421374281892095,
+        "retiring": false,
+        "error": null
+      }
+    ]
+  },
+  "final": {
+    "unlocked": true,
+    "state": "running",
+    "enabled": true,
+    "nature": false,
+    "car": "black",
+    "biome": "jungle",
+    "lastBird": {
+      "biome": "jungle",
+      "species": 2,
+      "name": "Little blue heron",
+      "a": 620,
+      "b": 430,
+      "d": 0.4,
+      "type": "triangle",
+      "n": 2,
+      "pan": 0.38999998569488525
+    },
+    "lastImpact": {
+      "severity": 1,
+      "kind": "barrier",
+      "time": 42.792
+    },
+    "engineProfile": "Original twin-turbo V8 growl",
+    "engineSource": "Original procedural approximation; not a recorded real-car engine",
+    "soundscape": "rain, foliage, insects, macaws/toucans/herons",
+    "signature": "black/3/1/jungle",
+    "rpm": 5000,
+    "gear": 4,
+    "rms": 0.001210013119810377,
+    "peak": 0.0020066462457180023,
+    "limiter": {
+      "type": "Dynamics compression and oversampled tanh soft limiting",
+      "compressionDb": -0.0001342038594884798,
+      "digitalClipSamples": 0
+    },
+    "layers": {
+      "engine": 0,
+      "harmonic": 0,
+      "sub": 0,
+      "grit": 0,
+      "top": 0,
+      "coast": 0,
+      "brake": 0,
+      "shift": 0,
+      "impact": 0.0010000000474974513,
+      "wind": 0,
+      "ocean": 0,
+      "weather": 0,
+      "rustle": 0,
+      "rainLow": 0,
+      "insectsA": 0,
+      "insectsB": 0,
+      "birds": 0,
+      "animals": 0,
+      "traffic": 0,
+      "siren": 0
+    },
+    "recording": {
+      "source": "Original procedural 11-minute recordings; no downloaded audio",
+      "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+      "expectedDurationSeconds": 660,
+      "durationSeconds": 660,
+      "offsetSeconds": 240.91442216689674,
+      "loaded": true,
+      "playing": true,
+      "crossfadeSeconds": 6,
+      "crossfades": 4,
+      "fallbackActive": false,
+      "errors": [],
+      "tracks": [
+        {
+          "biome": "jungle",
+          "durationSeconds": 660,
+          "offsetSeconds": 240.91442216689674,
+          "currentTime": 292.260832,
+          "loaded": true,
+          "paused": false,
+          "volume": 0.11070880906034107,
+          "retiring": false,
+          "error": null
+        }
+      ]
+    },
+    "loopSeconds": 660,
+    "fallbackLoopSeconds": 47,
+    "looping": true,
+    "seamJump": 0
+  }
+}

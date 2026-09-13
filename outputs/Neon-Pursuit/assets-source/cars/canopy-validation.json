@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "cars": [
+    {
+      "id": "black",
+      "panes": 3,
+      "outwardNormals": true
+    },
+    {
+      "id": "silver",
+      "panes": 3,
+      "outwardNormals": true
+    },
+    {
+      "id": "red",
+      "panes": 3,
+      "outwardNormals": true
+    },
+    {
+      "id": "rally",
+      "panes": 3,
+      "outwardNormals": true
+    },
+    {
+      "id": "muscle",
+      "panes": 3,
+      "outwardNormals": true
+    },
+    {
+      "id": "electric",
+      "panes": 3,
+      "outwardNormals": true
+    },
+    {
+      "id": "safari",
+      "panes": 3,
+      "outwardNormals": true
+    }
+  ],
+  "sharedBoundaryConstruction": true
+}

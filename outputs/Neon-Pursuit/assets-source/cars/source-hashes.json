@@ -1,0 +1,30 @@
+{
+  "version": 9,
+  "sourceStable": true,
+  "installedV8GameSHA256": "05ce5ad0f0b0eb4a4ae96c677c0c8f58644d03ad05420b16324418ea48e384ca",
+  "physicsUnchangedSHA256": "8e453e393a93d69d52e898abdb53a3cc53942b886a779cd914f7181b0908148c",
+  "sources": {
+    "work/engine-v9/models.js": "dfdad278ecf516c88dbe2ef837795c666e0f24062d9555de2299db5d9a459393",
+    "work/engine-v9/vehicleDetailTier.js": "388e8838c48248eb13eb26c74a48ae125d19a9f79cc95ed2bdbde597dc0e1f68",
+    "work/engine-v9/heroVehicleParts.js": "f4d0b36013a7962600370ba025c5495793110254bce396f5ed1e1b864b217b22",
+    "work/engine-v9/blenderVehicleBodiesV8.js": "7df56136f2279ab9c95a02d531ccd43a6e21df5a2725faeb35d839ae013e303b",
+    "work/engine-v9/vehicleCanopyV9.js": "30ad51f3395786a7aa08e94333c749209d903297f284f33aeb2e34a6652992da",
+    "work/car-assets-v9/build_vehicle_bodies.py": "ea4b47890cbacbce9f140bf9be270ad16f9199c437f811b19d626ded365d3ce4",
+    "work/car-assets-v9/body-designs.json": "907a78ac7f3a9829051a76faa4b2dcaf57d5b493fd7187a826d4c57f5af13faf",
+    "work/car-assets-v9/neon-pursuit-vehicles-v9.blend": "0ca63fe258e7eea405cf540f69766671efa0c39aadaff7e3894a19108bff65ba",
+    "work/car-assets-v9/render-body-proof.py": "92a498a29b174816fb4821c5452ad087e7ef3f2f00f09d6220b0fd0563035e2f",
+    "work/car-assets-v9/neon-v9-body-proof.blend": "c7cb59cbd91891c1e482f42b1cdeaea044e1d017809e1e4f078064a1a9c31d52",
+    "work/car-assets-v9/blender-v9-body-proof.png": "394fc38e945940d99c21b4af39f08042f944c8d1e461e62627c5a90771cb51aa",
+    "work/car-assets-v9/build_hero_details.py": "9819013e8e9fb674304537c5dd288882f9e11036b58d531bd9ac89157e4e5ec9",
+    "work/car-assets-v9/neon-ultraplus-parts.blend": "ac83201d34d574ae0d2dddd999e8745c8e5cd7536b9769f13a704785da943ece",
+    "work/car-assets-v9/gallery/main.js": "5162c98f5a83b736d94b78382a65d06d6fea53d26a6d2b90bf8fe2d95718e625",
+    "work/car-assets-v9/gallery/gallery.js": "5aa3414da56b0b2dc701b0320e89ec6e8a31dc2ce91df9696412e92a5518528a",
+    "work/car-assets-v9/gallery/browser-report.json": "90808072222e69df079ecb5f79d8a590a5bd172ff0d4a3065287aa6484f4410e",
+    "work/car-assets-v9/gallery/batching-pixel-report.json": "9005c76a30034e7750214ab8f78b2bfa05fb715ace1d004a0472e4bd69ac735f",
+    "work/car-assets-v9/blender-render-report.json": "4cd02b2232f05875e397c4e53a57100698a821e249c29c500d58e4f1a90875ed",
+    "work/car-assets-v9/ultraplus-validation.json": "9e1d8ba47432f1b8999a16181930a81bba74e23057e117c227edd4010c1e09d9",
+    "work/car-assets-v9/body-validation-report.json": "dc5121844b987ff1e6c9a575ba9dc7e6200e736de731df46689a19eb652891d5",
+    "work/car-assets-v9/model-validation-report.json": "85ab9e9441f87af4776dfa8cf357b45fa8235ae319f6d8bce0ede5c3b2935774",
+    "work/car-assets-v9/canopy-validation.json": "913ec68b3feaac8dfc47570f390ab2d4dc2aa852779f60f5abe4921e48809dc7"
+  }
+}

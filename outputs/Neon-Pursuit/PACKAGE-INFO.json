@@ -1,0 +1,36 @@
+{
+  "version": "9.0.0",
+  "verifiedAt": "2026-09-13T20:20:00Z",
+  "gameSHA256": "8ce237b3ad62a39aa6afb8e71f52085b04246a137794ef29cc567333813ffb82",
+  "archiveHashRecord": "External work/zip-v9-results.json; the archive hash is kept outside the archive to avoid self-reference.",
+  "installedAndExtractedOfflineSmokePassed": true,
+  "ultraPlusActivationPassed": true,
+  "qualityPass10": {
+    "ultraPlusShadowMap": "4096x4096",
+    "ultraPlusSupersampling": "2x device-pixel ceiling",
+    "terrainHeightfield": "160x80 per recycled tile",
+    "distantHillMesh": "96x64 displaced geometry with local scanned PBR",
+    "licensePlates": "front and rear raised glyph relief with neon edge bars",
+    "offlineSmoke": "four biomes at Ultra+, zero page/console errors, zero external requests"
+  },
+  "previousVersion": "8.0.0",
+  "previousFolder": "../Neon-Pursuit-before-v9",
+  "blenderCinematic": {
+    "blenderVersion": "5.2.1 LTS",
+    "scene": "gallery/blender/neon-pursuit-blender-cinematic.blend",
+    "heroStill": "gallery/blender/hero-still.png",
+    "glb": "gallery/blender/hero-blender-ultraplus.glb",
+    "frameCount": 48,
+    "frameRate": 24,
+    "frameResolution": "1280x720",
+    "renderEngine": "Cycles still + Eevee animation frames",
+    "pbrSurfaces": [
+      "asphalt",
+      "shoreline sand",
+      "tree bark",
+      "roadside and aggregate stone"
+    ],
+    "pbrPayloads": "assets-source/blender-pbr/",
+    "offlinePlayer": "gallery/blender/index.html"
+  }
+}

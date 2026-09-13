@@ -1,0 +1,472 @@
+{
+  "scope": "Matched original vegetation component renders; fixed camera/light/tier, no whole-game performance claim",
+  "bundleSha256": "97a8e30d20a3a1d94a1d62670ba68cfcee01d9708d7a29d6a4b1d24ccc3e8bd7",
+  "rows": [
+    {
+      "id": "coastal-oak",
+      "version": "before",
+      "triangles": 137052,
+      "camera": [
+        4.242104918479919,
+        7.117353380203247,
+        14.10844916343689
+      ],
+      "target": [
+        0.02856278419494629,
+        4.308325290679932,
+        0.0633087158203125
+      ],
+      "renderer": {
+        "frame": 2,
+        "calls": 3,
+        "triangles": 137054,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "coastal-oak-before.png"
+    },
+    {
+      "id": "coastal-oak",
+      "version": "after",
+      "triangles": 79230,
+      "camera": [
+        4.242104918479919,
+        7.117353380203247,
+        14.10844916343689
+      ],
+      "target": [
+        0.02856278419494629,
+        4.308325290679932,
+        0.0633087158203125
+      ],
+      "renderer": {
+        "frame": 3,
+        "calls": 3,
+        "triangles": 79232,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "coastal-oak-after.png"
+    },
+    {
+      "id": "shore-pine",
+      "version": "before",
+      "triangles": 55424,
+      "camera": [
+        4.098298270225524,
+        6.938399684906006,
+        13.698577704429626
+      ],
+      "target": [
+        -0.009301543235778809,
+        4.199999809265137,
+        0.006578326225280762
+      ],
+      "renderer": {
+        "frame": 4,
+        "calls": 3,
+        "triangles": 55426,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "shore-pine-before.png"
+    },
+    {
+      "id": "shore-pine",
+      "version": "after",
+      "triangles": 40012,
+      "camera": [
+        4.098298270225524,
+        6.938399684906006,
+        13.698577704429626
+      ],
+      "target": [
+        -0.009301543235778809,
+        4.199999809265137,
+        0.006578326225280762
+      ],
+      "renderer": {
+        "frame": 5,
+        "calls": 3,
+        "triangles": 40014,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "shore-pine-after.png"
+    },
+    {
+      "id": "tundra-High",
+      "version": "before",
+      "triangles": 18480,
+      "camera": [
+        4.138755876541137,
+        6.938399684906006,
+        13.707768740653991
+      ],
+      "target": [
+        0.031156063079833984,
+        4.199999809265137,
+        0.015769362449645996
+      ],
+      "renderer": {
+        "frame": 6,
+        "calls": 3,
+        "triangles": 18482,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "tundra-High-before.png"
+    },
+    {
+      "id": "tundra-High",
+      "version": "after",
+      "triangles": 11496,
+      "camera": [
+        4.138755876541137,
+        6.938399684906006,
+        13.707768740653991
+      ],
+      "target": [
+        0.031156063079833984,
+        4.199999809265137,
+        0.015769362449645996
+      ],
+      "renderer": {
+        "frame": 7,
+        "calls": 3,
+        "triangles": 11498,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "tundra-High-after.png"
+    },
+    {
+      "id": "tundra-UltraPlus",
+      "version": "before",
+      "triangles": 55424,
+      "camera": [
+        4.1543051786422724,
+        6.938399684906006,
+        13.686971726417541
+      ],
+      "target": [
+        0.04670536518096924,
+        4.199999809265137,
+        -0.005027651786804199
+      ],
+      "renderer": {
+        "frame": 8,
+        "calls": 3,
+        "triangles": 55426,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "tundra-UltraPlus-before.png"
+    },
+    {
+      "id": "tundra-UltraPlus",
+      "version": "after",
+      "triangles": 40012,
+      "camera": [
+        4.1543051786422724,
+        6.938399684906006,
+        13.686971726417541
+      ],
+      "target": [
+        0.04670536518096924,
+        4.199999809265137,
+        -0.005027651786804199
+      ],
+      "renderer": {
+        "frame": 9,
+        "calls": 3,
+        "triangles": 40014,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "tundra-UltraPlus-after.png"
+    },
+    {
+      "id": "mesquite",
+      "version": "before",
+      "triangles": 85230,
+      "camera": [
+        2.9511512084305282,
+        4.815940589606762,
+        9.83609828799963
+      ],
+      "target": [
+        -0.06192827224731445,
+        2.807220935821533,
+        -0.20749998092651367
+      ],
+      "renderer": {
+        "frame": 10,
+        "calls": 3,
+        "triangles": 85232,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "mesquite-before.png"
+    },
+    {
+      "id": "mesquite",
+      "version": "after",
+      "triangles": 44220,
+      "camera": [
+        2.9511512084305282,
+        4.815940589606762,
+        9.83609828799963
+      ],
+      "target": [
+        -0.06192827224731445,
+        2.807220935821533,
+        -0.20749998092651367
+      ],
+      "renderer": {
+        "frame": 11,
+        "calls": 3,
+        "triangles": 44222,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "mesquite-after.png"
+    },
+    {
+      "id": "jungle-kapok",
+      "version": "before",
+      "triangles": 141372,
+      "camera": [
+        4.1493379020690915,
+        7.074458847045898,
+        13.929690885543822
+      ],
+      "target": [
+        -0.03881025314331055,
+        4.282360076904297,
+        -0.03080296516418457
+      ],
+      "renderer": {
+        "frame": 12,
+        "calls": 3,
+        "triangles": 141374,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "jungle-kapok-before.png"
+    },
+    {
+      "id": "jungle-kapok",
+      "version": "after",
+      "triangles": 82046,
+      "camera": [
+        4.1493379020690915,
+        7.074458847045898,
+        13.929690885543822
+      ],
+      "target": [
+        -0.03881025314331055,
+        4.282360076904297,
+        -0.03080296516418457
+      ],
+      "renderer": {
+        "frame": 13,
+        "calls": 3,
+        "triangles": 82048,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "jungle-kapok-after.png"
+    },
+    {
+      "id": "jungle-palm",
+      "version": "before",
+      "triangles": 17732,
+      "camera": [
+        5.469185989379882,
+        7.804355966567993,
+        15.373727378845214
+      ],
+      "target": [
+        0.8489316701889038,
+        4.724186420440674,
+        -0.027120351791381836
+      ],
+      "renderer": {
+        "frame": 14,
+        "calls": 3,
+        "triangles": 17734,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "jungle-palm-before.png"
+    },
+    {
+      "id": "jungle-palm",
+      "version": "after",
+      "triangles": 12384,
+      "camera": [
+        5.469185989379882,
+        7.804355966567993,
+        15.373727378845214
+      ],
+      "target": [
+        0.8489316701889038,
+        4.724186420440674,
+        -0.027120351791381836
+      ],
+      "renderer": {
+        "frame": 15,
+        "calls": 3,
+        "triangles": 12386,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "jungle-palm-after.png"
+    },
+    {
+      "id": "kapok-root",
+      "version": "before",
+      "triangles": 28540,
+      "camera": [
+        2.5,
+        1.55,
+        3.9
+      ],
+      "target": [
+        0,
+        0.8,
+        0
+      ],
+      "renderer": {
+        "frame": 16,
+        "calls": 2,
+        "triangles": 28542,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "kapok-root-before.png"
+    },
+    {
+      "id": "kapok-root",
+      "version": "after",
+      "triangles": 16346,
+      "camera": [
+        2.5,
+        1.55,
+        3.9
+      ],
+      "target": [
+        0,
+        0.8,
+        0
+      ],
+      "renderer": {
+        "frame": 17,
+        "calls": 2,
+        "triangles": 16348,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "kapok-root-after.png"
+    },
+    {
+      "id": "grass-litter",
+      "version": "before",
+      "triangles": 2912,
+      "camera": [
+        1.0453361772084637,
+        1.8573226515094114,
+        3.316092765431089
+      ],
+      "target": [
+        0.09673100752462493,
+        0.4344148969836534,
+        0.1540755331516266
+      ],
+      "renderer": {
+        "frame": 18,
+        "calls": 10,
+        "triangles": 2914,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "grass-litter-before.png"
+    },
+    {
+      "id": "grass-litter",
+      "version": "after",
+      "triangles": 1624,
+      "camera": [
+        1.0453361772084637,
+        1.8573226515094114,
+        3.316092765431089
+      ],
+      "target": [
+        0.09673100752462493,
+        0.4344148969836534,
+        0.1540755331516266
+      ],
+      "renderer": {
+        "frame": 19,
+        "calls": 10,
+        "triangles": 1626,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "grass-litter-after.png"
+    },
+    {
+      "id": "fern-aroid",
+      "version": "before",
+      "triangles": 6204,
+      "camera": [
+        1.6336795249674465,
+        2.99462111558998,
+        5.342469168733805
+      ],
+      "target": [
+        0.02597831487655622,
+        0.5830693004536442,
+        -0.016534864902496338
+      ],
+      "renderer": {
+        "frame": 20,
+        "calls": 5,
+        "triangles": 6206,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "fern-aroid-before.png"
+    },
+    {
+      "id": "fern-aroid",
+      "version": "after",
+      "triangles": 5088,
+      "camera": [
+        1.6336795249674465,
+        2.99462111558998,
+        5.342469168733805
+      ],
+      "target": [
+        0.02597831487655622,
+        0.5830693004536442,
+        -0.016534864902496338
+      ],
+      "renderer": {
+        "frame": 21,
+        "calls": 5,
+        "triangles": 5090,
+        "points": 0,
+        "lines": 0
+      },
+      "file": "fern-aroid-after.png"
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "started": "2026-09-13T03:16:37.015Z",
+  "passed": true,
+  "browserClosed": true,
+  "finished": "2026-09-13T03:16:43.831Z"
+}

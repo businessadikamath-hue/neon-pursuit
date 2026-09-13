@@ -1,0 +1,84 @@
+{
+  "blender": "4.5.5 LTS",
+  "origin": "Original authored procedural meshes generated inside Blender; no imported or downloaded art",
+  "models": [
+    {
+      "name": "coastal-lod1",
+      "vertices": 527,
+      "triangles": 852,
+      "finite": true
+    },
+    {
+      "name": "coastal-lod2",
+      "vertices": 1046,
+      "triangles": 1808,
+      "finite": true
+    },
+    {
+      "name": "desert-lod1",
+      "vertices": 527,
+      "triangles": 852,
+      "finite": true
+    },
+    {
+      "name": "desert-lod2",
+      "vertices": 1046,
+      "triangles": 1808,
+      "finite": true
+    },
+    {
+      "name": "kapok-lod1",
+      "vertices": 639,
+      "triangles": 1020,
+      "finite": true
+    },
+    {
+      "name": "kapok-lod2",
+      "vertices": 1244,
+      "triangles": 2128,
+      "finite": true
+    },
+    {
+      "name": "conifer-lod1",
+      "vertices": 527,
+      "triangles": 852,
+      "finite": true
+    },
+    {
+      "name": "conifer-lod2",
+      "vertices": 1046,
+      "triangles": 1808,
+      "finite": true
+    },
+    {
+      "name": "palm-lod1",
+      "vertices": 247,
+      "triangles": 432,
+      "finite": true
+    },
+    {
+      "name": "palm-lod2",
+      "vertices": 551,
+      "triangles": 1008,
+      "finite": true
+    },
+    {
+      "name": "weathered-rock-0",
+      "vertices": 1142,
+      "triangles": 2032,
+      "finite": true
+    },
+    {
+      "name": "weathered-rock-1",
+      "vertices": 1095,
+      "triangles": 1956,
+      "finite": true
+    },
+    {
+      "name": "weathered-rock-2",
+      "vertices": 1091,
+      "triangles": 1954,
+      "finite": true
+    }
+  ]
+}

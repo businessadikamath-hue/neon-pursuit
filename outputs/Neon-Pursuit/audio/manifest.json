@@ -1,0 +1,71 @@
+{
+  "description": "Four original eleven-minute recordings, not downloaded field recordings. Runtime adds the existing twelve species bird profiles and crossfades randomized playback positions.",
+  "durationTargetSeconds": 660,
+  "redistribution": "Generated from mathematical signals and seeded noise without third-party recordings; included for local offline redistribution with Neon Pursuit.",
+  "recordings": {
+    "coastline": {
+      "file": "coastline.mp3",
+      "durationSeconds": 660.0,
+      "sampleRate": 24000,
+      "channels": 2,
+      "encoding": "MP3 112 kbit/s",
+      "bytes": 9241187,
+      "sha256": "22b114c1d339471eada15ba835bd4e5704eaecd1b09eb4b43bc5b8a74ad4a432",
+      "source": "Original seeded procedural synthesis; no downloaded audio",
+      "design": "Long ocean swells, breaking wash and foam, low distant surf, gusting tree wind, scattered gull/tern-like calls.",
+      "discreteTextureEvents": 57,
+      "birdPhrases": 96,
+      "preEncodingPeak": 0.7969493269920349,
+      "preEncodingRms": 0.09240808254985355,
+      "maxChunkBoundaryJump": 0.16428333520889282
+    },
+    "tundra": {
+      "file": "tundra.mp3",
+      "durationSeconds": 660.0,
+      "sampleRate": 24000,
+      "channels": 2,
+      "encoding": "MP3 112 kbit/s",
+      "bytes": 9241184,
+      "sha256": "db612fa04bf25e0b33d9f85fff80f6cbe9d2b2b30aed80843b0f54d1ce848532",
+      "source": "Original seeded procedural synthesis; no downloaded audio",
+      "design": "Soft snow wind, narrow ice whistles, sparse ice crackles and drifting snow hiss, distant northern bird-like calls.",
+      "discreteTextureEvents": 102,
+      "birdPhrases": 112,
+      "preEncodingPeak": 0.5478814244270325,
+      "preEncodingRms": 0.0324814535127624,
+      "maxChunkBoundaryJump": 0.07345925271511078
+    },
+    "desert": {
+      "file": "desert.mp3",
+      "durationSeconds": 660.0,
+      "sampleRate": 24000,
+      "channels": 2,
+      "encoding": "MP3 112 kbit/s",
+      "bytes": 9241184,
+      "sha256": "0edb6c38726bab5217c2bcf53512c881444db8ead832878add82945103f5cc93",
+      "source": "Original seeded procedural synthesis; no downloaded audio",
+      "design": "Dry broad wind with slow gusts, sand hiss, irregular insect pulses, sparse raven/dove/hawk-like calls.",
+      "discreteTextureEvents": 100,
+      "birdPhrases": 78,
+      "preEncodingPeak": 0.27039816975593567,
+      "preEncodingRms": 0.03664299511123781,
+      "maxChunkBoundaryJump": 0.028368961066007614
+    },
+    "jungle": {
+      "file": "jungle.mp3",
+      "durationSeconds": 660.0,
+      "sampleRate": 24000,
+      "channels": 2,
+      "encoding": "MP3 112 kbit/s",
+      "bytes": 9241184,
+      "sha256": "758f209e2a9003c22674efc0f43eb275c94bcbf1a0fac79acfaabe261649c54b",
+      "source": "Original seeded procedural synthesis; no downloaded audio",
+      "design": "Layered rain canopy and leaf drips, low distant rain wash, insect choruses with independent pulses, tropical bird-like calls.",
+      "discreteTextureEvents": 99,
+      "birdPhrases": 163,
+      "preEncodingPeak": 0.3380633592605591,
+      "preEncodingRms": 0.05652159732440851,
+      "maxChunkBoundaryJump": 0.09739794582128525
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "gameSHA256": "32c5ee86784a55cef911072245243990c4794b2654f4db4d89d381c799bfe154",
+  "audio": [
+    {
+      "biome": "coastline",
+      "duration": 660,
+      "offset": 177.27586585023712,
+      "advanced": 0.6249109999999973,
+      "engineRms": 0.11002840962199403,
+      "enginePeak": 0.22044947743415833,
+      "clipSamples": 0,
+      "crossfades": 0
+    },
+    {
+      "biome": "tundra",
+      "duration": 660,
+      "offset": 426.18367508277186,
+      "advanced": 0.8366169999999897,
+      "engineRms": 0.11472170409433165,
+      "enginePeak": 0.25151631236076355,
+      "clipSamples": 0,
+      "crossfades": 1
+    },
+    {
+      "biome": "desert",
+      "duration": 660,
+      "offset": 198.3390759138158,
+      "advanced": 0.8226470000000177,
+      "engineRms": 0.11640445614272213,
+      "enginePeak": 0.2647053599357605,
+      "clipSamples": 0,
+      "crossfades": 2
+    },
+    {
+      "biome": "jungle",
+      "duration": 660,
+      "offset": 547.0530932376785,
+      "advanced": 0.7970299999999497,
+      "engineRms": 0.11743346116326595,
+      "enginePeak": 0.28743577003479004,
+      "clipSamples": 0,
+      "crossfades": 3
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "coast": {
+    "mph": 188.1083126052239,
+    "x": 2
+  },
+  "brake": {
+    "mph": 0,
+    "cruise": false
+  },
+  "nature": {
+    "found": true,
+    "pose": {
+      "travel": 13,
+      "time": 4.008333333333334,
+      "x": -6.638888888888889,
+      "h": {
+        "id": "nature-0-0",
+        "x": -6.638888888888889,
+        "z": -13,
+        "width": 2.3682866439320476,
+        "length": 1.0969152231072308,
+        "species": "Lowland tapir"
+      }
+    },
+    "hit": {
+      "kind": "nature",
+      "closingMph": 99.98125766726169,
+      "damage": 53.247154252682876,
+      "atTravel": 13.37246351189644,
+      "atX": -6.637691162856125
+    },
+    "health": 46.752845747317124,
+    "off": {
+      "impact": null,
+      "hazards": [],
+      "health": 100
+    }
+  },
+  "passed": true
+}

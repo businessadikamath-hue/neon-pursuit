@@ -1,0 +1,1065 @@
+{
+  "version": "9.0.0",
+  "sourceStable": true,
+  "created": "2026-09-13T17:56:16.421331+00:00",
+  "gameSHA256": "32c5ee86784a55cef911072245243990c4794b2654f4db4d89d381c799bfe154",
+  "installedV8GameSHA256": "05ce5ad0f0b0eb4a4ae96c677c0c8f58644d03ad05420b16324418ea48e384ca",
+  "files": {
+    "work/car-assets-v9/ACCEPTANCE.md": {
+      "bytes": 5709,
+      "sha256": "7a09345c9d4dffbc92e8aa659efb7014acecc448d91dc79c76e3063bb776af22"
+    },
+    "work/car-assets-v9/baseline-reproduction.json": {
+      "bytes": 457,
+      "sha256": "c721b625a098480866d2826eb56adf33804839d52ba91042910be3963000cd6b"
+    },
+    "work/car-assets-v9/blender-render-report.json": {
+      "bytes": 459,
+      "sha256": "4cd02b2232f05875e397c4e53a57100698a821e249c29c500d58e4f1a90875ed"
+    },
+    "work/car-assets-v9/blender-v9-body-proof.png": {
+      "bytes": 1206169,
+      "sha256": "394fc38e945940d99c21b4af39f08042f944c8d1e461e62627c5a90771cb51aa"
+    },
+    "work/car-assets-v9/body-build-report.json": {
+      "bytes": 2301,
+      "sha256": "7474ce29fecaf4b84c4f67048bf77f2ee7a533a7f663c1ea40ce079380920315"
+    },
+    "work/car-assets-v9/body-designs.json": {
+      "bytes": 20908,
+      "sha256": "907a78ac7f3a9829051a76faa4b2dcaf57d5b493fd7187a826d4c57f5af13faf"
+    },
+    "work/car-assets-v9/body-validation-report.json": {
+      "bytes": 5480,
+      "sha256": "dc5121844b987ff1e6c9a575ba9dc7e6200e736de731df46689a19eb652891d5"
+    },
+    "work/car-assets-v9/build_hero_details.py": {
+      "bytes": 10387,
+      "sha256": "9819013e8e9fb674304537c5dd288882f9e11036b58d531bd9ac89157e4e5ec9"
+    },
+    "work/car-assets-v9/build_vehicle_bodies.py": {
+      "bytes": 13521,
+      "sha256": "ea4b47890cbacbce9f140bf9be270ad16f9199c437f811b19d626ded365d3ce4"
+    },
+    "work/car-assets-v9/canopy-validation.json": {
+      "bytes": 645,
+      "sha256": "913ec68b3feaac8dfc47570f390ab2d4dc2aa852779f60f5abe4921e48809dc7"
+    },
+    "work/car-assets-v9/compare-pixels.py": {
+      "bytes": 832,
+      "sha256": "f6bb40a46fc7869d6381d612cfd3963908277c6de8ecd2ec8f9c462c0c28a1a3"
+    },
+    "work/car-assets-v9/freeze-report.cjs": {
+      "bytes": 8524,
+      "sha256": "a361440fcb4a1238ad37c8907e506caa1c9adabf48967d0fe9c99d09c02bd18a"
+    },
+    "work/car-assets-v9/gallery/batching-pixel-report.json": {
+      "bytes": 838,
+      "sha256": "9005c76a30034e7750214ab8f78b2bfa05fb715ace1d004a0472e4bd69ac735f"
+    },
+    "work/car-assets-v9/gallery/browser-report.json": {
+      "bytes": 3222,
+      "sha256": "90808072222e69df079ecb5f79d8a590a5bd172ff0d4a3065287aa6484f4410e"
+    },
+    "work/car-assets-v9/gallery/gallery.js": {
+      "bytes": 17571289,
+      "sha256": "5aa3414da56b0b2dc701b0320e89ec6e8a31dc2ce91df9696412e92a5518528a"
+    },
+    "work/car-assets-v9/gallery/index.html": {
+      "bytes": 186,
+      "sha256": "98d3d00e112207418f13db381e080939e6189ff6fb23d097d55a52e83dda9501"
+    },
+    "work/car-assets-v9/gallery/main.js": {
+      "bytes": 4069,
+      "sha256": "5162c98f5a83b736d94b78382a65d06d6fea53d26a6d2b90bf8fe2d95718e625"
+    },
+    "work/car-assets-v9/gallery/v8-black-close.png": {
+      "bytes": 1036097,
+      "sha256": "04c6c6649316091fae2c663159028a7c5d1f76eb2515718e4b187317ceab29b4"
+    },
+    "work/car-assets-v9/gallery/v8-black-far.png": {
+      "bytes": 194366,
+      "sha256": "d2776c6e308ae65d273ed8dc9d1199564df129798866a8bc9b5d2ffa5c491e85"
+    },
+    "work/car-assets-v9/gallery/v8-front.png": {
+      "bytes": 1148594,
+      "sha256": "581c69616094790c89616fd862fe7b8e39883a1e1b6d1ddd7ac8fe026488cf02"
+    },
+    "work/car-assets-v9/gallery/v8-rear.png": {
+      "bytes": 860845,
+      "sha256": "987e994585cdc0450d82b1f4f3b1d3859683be2c5b29219d0e2eaba070caa7de"
+    },
+    "work/car-assets-v9/gallery/v8-silver-close.png": {
+      "bytes": 965810,
+      "sha256": "806f41cc7bc69ec9d8915a7a5b4bf25b67381dda2bfac90eb174039e71f1c257"
+    },
+    "work/car-assets-v9/gallery/v8-traffic-close.png": {
+      "bytes": 974759,
+      "sha256": "5f107bc507763f51896db8d13459c0272431e1b21490ad8e59a9e0627cce1dfd"
+    },
+    "work/car-assets-v9/gallery/v8-traffic-rear.png": {
+      "bytes": 807888,
+      "sha256": "c1c3de52ed646bc348cdb4768a2bc4716afd454313683cad6a3640e9a944b14d"
+    },
+    "work/car-assets-v9/gallery/v8-traffic.png": {
+      "bytes": 1026251,
+      "sha256": "20733d6656095341c140c16ad21193b036906f64b11dbcd8adc75215179ea917"
+    },
+    "work/car-assets-v9/gallery/v9-black-close.png": {
+      "bytes": 944335,
+      "sha256": "915e07130825467310e94296de45d4286d5cce274e4772af606c4e1c165b2168"
+    },
+    "work/car-assets-v9/gallery/v9-black-far.png": {
+      "bytes": 186976,
+      "sha256": "025cadb7f64dbe8576d39fb37e4eb18448173ac5cc469c4e22dc650632e67c94"
+    },
+    "work/car-assets-v9/gallery/v9-front.png": {
+      "bytes": 1095987,
+      "sha256": "7c5ca6d8f6f48200b681536163b004860adc5491259187b33d475de2337fe77f"
+    },
+    "work/car-assets-v9/gallery/v9-rear.png": {
+      "bytes": 814694,
+      "sha256": "0d4cfd55e3e587f9dfed896d4a9acbf9eb49aaedb8e005d102517775daf90abe"
+    },
+    "work/car-assets-v9/gallery/v9-silver-close.png": {
+      "bytes": 881288,
+      "sha256": "c9a3539bcf9515b2d76a39cd94aec51cf6104d718c1b11ead6fe4a2f6fac6624"
+    },
+    "work/car-assets-v9/gallery/v9-traffic-close.png": {
+      "bytes": 906013,
+      "sha256": "cda8b63e881a98a1d2ee7232e0b0e54cdbf1436329922aae10134f432111e124"
+    },
+    "work/car-assets-v9/gallery/v9-traffic-rear.png": {
+      "bytes": 758586,
+      "sha256": "9efd64ec23d91909b095b9358a5fdaea038c51d44005b714fd21979021fa3633"
+    },
+    "work/car-assets-v9/gallery/v9-traffic.png": {
+      "bytes": 973888,
+      "sha256": "fa54162f44e0addc756d67a7a52ab86c4fc0a9d3696a18b57eda2cae1b37f830"
+    },
+    "work/car-assets-v9/gallery/v9-unbatched-front.png": {
+      "bytes": 1095979,
+      "sha256": "82f2df7e5babb434adc6b979d744e99febde75f9f7f1a3909ab6ac14b6972d03"
+    },
+    "work/car-assets-v9/gallery/v9-unbatched-rear.png": {
+      "bytes": 814713,
+      "sha256": "8fac855c47c0d42ebf02f1d707de5866088e31e8ae99bfee1c09ed495178e546"
+    },
+    "work/car-assets-v9/gallery/v9-unbatched-traffic-rear.png": {
+      "bytes": 758579,
+      "sha256": "849c909d7d76321af18d3d6bf7ec2b76351d4efab9e0e21e036518374d3b595e"
+    },
+    "work/car-assets-v9/gallery/v9-unbatched-traffic.png": {
+      "bytes": 973878,
+      "sha256": "81a5a95e9b340abd71354c2fac46cdf55d52a7e1572bad7268ee083e5f42fd95"
+    },
+    "work/car-assets-v9/gallery-capture.cjs": {
+      "bytes": 2376,
+      "sha256": "a2208c068e00eb8c8dcfaa0eb6a6cfccade29583d88adbd363fa8dcb9d7cefb7"
+    },
+    "work/car-assets-v9/hero-parts-report.json": {
+      "bytes": 723,
+      "sha256": "4728195b93d20a6afeca9eea0f43858faa438c461273c1082883ebf1c0c6b450"
+    },
+    "work/car-assets-v9/model-validation-report.json": {
+      "bytes": 3065,
+      "sha256": "85ab9e9441f87af4776dfa8cf357b45fa8235ae319f6d8bce0ede5c3b2935774"
+    },
+    "work/car-assets-v9/neon-pursuit-vehicles-v9.blend": {
+      "bytes": 11965225,
+      "sha256": "0ca63fe258e7eea405cf540f69766671efa0c39aadaff7e3894a19108bff65ba"
+    },
+    "work/car-assets-v9/neon-ultraplus-parts.blend": {
+      "bytes": 6547894,
+      "sha256": "ac83201d34d574ae0d2dddd999e8745c8e5cd7536b9769f13a704785da943ece"
+    },
+    "work/car-assets-v9/neon-v9-body-proof.blend": {
+      "bytes": 1724207,
+      "sha256": "c7cb59cbd91891c1e482f42b1cdeaea044e1d017809e1e4f078064a1a9c31d52"
+    },
+    "work/car-assets-v9/prepare-gallery.cjs": {
+      "bytes": 1011,
+      "sha256": "7ac7504f7e4aff2f36eed579e37df8df896aed61666160ea0c5e20271ebb5b56"
+    },
+    "work/car-assets-v9/README.md": {
+      "bytes": 4005,
+      "sha256": "535d9ef939cca5be9baba1bad30d95e63b1e313bfb4f59833e09f3ae59461cc2"
+    },
+    "work/car-assets-v9/refine-runtime.cjs": {
+      "bytes": 4666,
+      "sha256": "1ae09f7318ca2b1ea9c713c5a5b3024ccee95305d6a8d49448e68b421fa74209"
+    },
+    "work/car-assets-v9/render-body-proof.py": {
+      "bytes": 2153,
+      "sha256": "92a498a29b174816fb4821c5452ad087e7ef3f2f00f09d6220b0fd0563035e2f"
+    },
+    "work/car-assets-v9/source-hashes.json": {
+      "bytes": 2821,
+      "sha256": "85641bafdffe5542bb732b17a1ba8a67783e78b903a978cd85c26bd5a3d5396f"
+    },
+    "work/car-assets-v9/three-loader.mjs": {
+      "bytes": 477,
+      "sha256": "d6caa29700e391e410d1620a5cfbf4f87eaf9c0e28e9f803c2c7c452997e0607"
+    },
+    "work/car-assets-v9/ultraplus-validation.json": {
+      "bytes": 10304,
+      "sha256": "9e1d8ba47432f1b8999a16181930a81bba74e23057e117c227edd4010c1e09d9"
+    },
+    "work/car-assets-v9/validate-body-assets.mjs": {
+      "bytes": 2024,
+      "sha256": "d5eb367596df6e876e9297d0e8e138eae95a5aa37951a65668c438458086b33a"
+    },
+    "work/car-assets-v9/validate-canopy.mjs": {
+      "bytes": 1578,
+      "sha256": "dd6c24749ceeb2790d115053b1805cd40729d3508f24e6b30aaa769ea1a41ce2"
+    },
+    "work/car-assets-v9/validate-models.mjs": {
+      "bytes": 2606,
+      "sha256": "f1ba18811a10b7a754ab5aba8ab407859a1f66ecaa7b67a40e48c987853bb1fe"
+    },
+    "work/car-assets-v9/validate-ultraplus.mjs": {
+      "bytes": 4699,
+      "sha256": "e9ad1196fcc927b1de67ec4ce3dbdd41b08a97df7ef43e16e9b6dab2e3f81478"
+    },
+    "work/engine-v9/advancedWorld.js": {
+      "bytes": 4832,
+      "sha256": "d10e0ed5c47d761a2f0314c3549ff739f61afc2a8baa6655cf4eda60d4732415"
+    },
+    "work/engine-v9/atmospherePipeline.js": {
+      "bytes": 3823,
+      "sha256": "20007acb3b66566f10c65ddf0d41b87ad8c99970720e1cf3d52974fb8ed1cea1"
+    },
+    "work/engine-v9/audio.js": {
+      "bytes": 2388,
+      "sha256": "4b4d1f67ce3f1ed1cd1e4c79246c82fce83aaeaab64a8fd65e62993abaf70152"
+    },
+    "work/engine-v9/audio4.js": {
+      "bytes": 2867,
+      "sha256": "2b73c4f9a251cb787297765ead7c49df9c67123636add50f2dcb2f98719b83f9"
+    },
+    "work/engine-v9/audio5.js": {
+      "bytes": 27253,
+      "sha256": "a8ff421a2eff27ae39e16ea2ddce0fa40e7d5a44a26af5323b6bf470c1f3d2be"
+    },
+    "work/engine-v9/biomes.js": {
+      "bytes": 19171,
+      "sha256": "5d00119640e061477b567eee170573442ad056dc2a475ed70a7197e677613468"
+    },
+    "work/engine-v9/blenderCarBodies.js": {
+      "bytes": 1107864,
+      "sha256": "a18d23aceab3ece793fb7fc85f7d22fba20dd52caf10a99dd28a5fe49b968e77"
+    },
+    "work/engine-v9/blenderScenery8.js": {
+      "bytes": 978947,
+      "sha256": "dcb0290a9a7070ad63bbee8a32492a86b2bfb1a03f828540041294af8ace0b37"
+    },
+    "work/engine-v9/blenderUltraScenery8.js": {
+      "bytes": 284560,
+      "sha256": "aca904c5c7ca4804731a4a237079159f24c29fb8df10255f93e9647dc10da144"
+    },
+    "work/engine-v9/blenderVehicleBodiesV8.js": {
+      "bytes": 4735425,
+      "sha256": "7df56136f2279ab9c95a02d531ccd43a6e21df5a2725faeb35d839ae013e303b"
+    },
+    "work/engine-v9/blenderWildlife8.js": {
+      "bytes": 2843718,
+      "sha256": "debec997f0156ef2257b932d88fe6018a2f79d3956f92c254f07dd83fbda123b"
+    },
+    "work/engine-v9/detail.js": {
+      "bytes": 5372,
+      "sha256": "251d1027f8117f97781fd3ca6c15c3dcd0f230794fdc29253513126144372a51"
+    },
+    "work/engine-v9/heroVehicleParts.js": {
+      "bytes": 3884085,
+      "sha256": "f4d0b36013a7962600370ba025c5495793110254bce396f5ed1e1b864b217b22"
+    },
+    "work/engine-v9/hyperDetail10.js": {
+      "bytes": 10877,
+      "sha256": "9dcdae5c64428dbbf17225ef780adb9d9c753bdf80a96edb716811b76a86c5ab"
+    },
+    "work/engine-v9/lighting8.js": {
+      "bytes": 2887,
+      "sha256": "cd74da76058c93f6f3e7185f7feb3620f59c388e6f543c31a8fd7f598a6d1839"
+    },
+    "work/engine-v9/main.js": {
+      "bytes": 35867,
+      "sha256": "13fc3e66b7d6c06e62f51585c0ad4704669aa89cb794fcbb6ed7c91a22f734a1"
+    },
+    "work/engine-v9/models.js": {
+      "bytes": 36624,
+      "sha256": "8c13e3e9572c8d27273bbc6f3c76794f453a4a0d92e3b5be2904201774e07d99"
+    },
+    "work/engine-v9/ocean9.js": {
+      "bytes": 7216,
+      "sha256": "022027f596b87972af89af5566a810223ac48e735bfabf8c082455f6fe4b5f80"
+    },
+    "work/engine-v9/package.json": {
+      "bytes": 307,
+      "sha256": "67754855ce039c675c39f2c8f818be69addd2845254a5f48ad33bc459d54b5ae"
+    },
+    "work/engine-v9/photoCatalog9.js": {
+      "bytes": 4609,
+      "sha256": "1b1e1d04d434b0658ecfdd502cda40f76e84f3cb1298fb9f1d766164e3aa5de6"
+    },
+    "work/engine-v9/photographicScenery9.js": {
+      "bytes": 976,
+      "sha256": "c55547ab53bcbd88964ea3493f5801c59a2ecee954b125865e0cccbd5c2bc58e"
+    },
+    "work/engine-v9/photoResources9.js": {
+      "bytes": 6059,
+      "sha256": "eaefbc430f75928addab672ca41f530e2f95d44a34d1ba4c1b999e6805b05ddb"
+    },
+    "work/engine-v9/photoSkyPayloads9.js": {
+      "bytes": 13181253,
+      "sha256": "0a753b95394eae247aab6ff7292f3f3a14dec21e621efb085f7ed147db9be8ef"
+    },
+    "work/engine-v9/pipeline.js": {
+      "bytes": 1297,
+      "sha256": "de84186e03d58433421ecfaa5913d0bdd4ef3a92c1da36cb26c529f4eec719f8"
+    },
+    "work/engine-v9/plantSurface9.js": {
+      "bytes": 2714,
+      "sha256": "2734bf73447edd37280ff6feea133481cfa41c0243dc03e0ee8b2c727103a720"
+    },
+    "work/engine-v9/presets.js": {
+      "bytes": 774,
+      "sha256": "592123361180518abd4c37b4efc6cc7765bb7d8b75ed4929b55583d45baa1090"
+    },
+    "work/engine-v9/realCarSpecs.js": {
+      "bytes": 7349,
+      "sha256": "2ed580f4b68e929b5d8e4ac6e58b8befe422aa2a7499e44d03ac5d9ebde18589"
+    },
+    "work/engine-v9/route.js": {
+      "bytes": 8982,
+      "sha256": "f476dca8d24387adf401f6ec6fb0bc4b57c7cc00e4aaed24bb96d1c9f79b75c1"
+    },
+    "work/engine-v9/sceneryPolicy.js": {
+      "bytes": 4542,
+      "sha256": "e399f93eac5f72a6bc8187a6482e57d5487fdccccdcf74d7febb57a511733413"
+    },
+    "work/engine-v9/scenerySurface8.js": {
+      "bytes": 7251,
+      "sha256": "1542c890cb02960b56cc8a355f28d09ca9b07187eafbdec405add5ade8090ad2"
+    },
+    "work/engine-v9/sceneryUnderstory.js": {
+      "bytes": 11594,
+      "sha256": "a5027931706e87eacdfbb3b2cbf1c87b6e12214ba4a23e2ccb22d7be98def8ff"
+    },
+    "work/engine-v9/surfaceFinish9.js": {
+      "bytes": 4378,
+      "sha256": "4b418b515340ed243efb4a0a6e4846cd775f6f5ab2e19062faab406e935317c2"
+    },
+    "work/engine-v9/surfacePass.js": {
+      "bytes": 3253,
+      "sha256": "ba333759700adf0da9a5b6affa28343f9093486a0ebf09d9ccd88da93d2804e3"
+    },
+    "work/engine-v9/terrainSampler.js": {
+      "bytes": 1344,
+      "sha256": "0b7720e43044c86b3ca2b79b6132fc066ef9f23fd65bf08979605bab5ddd2c95"
+    },
+    "work/engine-v9/treePacks.js": {
+      "bytes": 27208,
+      "sha256": "26fc0104e58793202af971dc3b05c6472bc2e79989a0584a2bc19af40d1d81ac"
+    },
+    "work/engine-v9/ultraScenery8.js": {
+      "bytes": 8956,
+      "sha256": "ec7797af8f0a1e1ae960b4d3660bcde8791ca9643cb6b38712aaaccee3aa31ef"
+    },
+    "work/engine-v9/vehicleCanopyV9.js": {
+      "bytes": 2313,
+      "sha256": "30ad51f3395786a7aa08e94333c749209d903297f284f33aeb2e34a6652992da"
+    },
+    "work/engine-v9/vehicleDetailTier.js": {
+      "bytes": 13106,
+      "sha256": "388e8838c48248eb13eb26c74a48ae125d19a9f79cc95ed2bdbde597dc0e1f68"
+    },
+    "work/engine-v9/vehiclePhysics.js": {
+      "bytes": 14504,
+      "sha256": "8e453e393a93d69d52e898abdb53a3cc53942b886a779cd914f7181b0908148c"
+    },
+    "work/engine-v9/wildlifeArt.js": {
+      "bytes": 28478,
+      "sha256": "394742229f579428abb60c9e338034bc97b2f63074e64a4b87390dca44ea64ae"
+    },
+    "work/engine-v9/wildlifeDetail8.js": {
+      "bytes": 19014,
+      "sha256": "30f8b5225cac117a0316d60ead6a45b3e71ff6b6f6c53e9579f0270bd6ac08e2"
+    },
+    "work/engine-v9/world.js": {
+      "bytes": 14613,
+      "sha256": "f1d6283c32878a1c6476c4d3a4f24349cfe4be65bbc9ab63effd3b1265409c0b"
+    },
+    "work/engine-v9/worldArt.js": {
+      "bytes": 10251,
+      "sha256": "02b92d44832b3eaa8f08c7fad7691a70c08437054cb6ba189d4a4fc4f310f0f6"
+    },
+    "work/engine-v9/worldDetail10.js": {
+      "bytes": 5049,
+      "sha256": "50e6323b39edc7490805aef109e831e7f15fc6905d2b35b2d7ef4129aa514930"
+    },
+    "work/scenery-assets-v9/after-sceneryUnderstory.js": {
+      "bytes": 11643,
+      "sha256": "257a1d8b14cdffb54f900914089f99c82958877d239a681ba6f8860e5040ebc8"
+    },
+    "work/scenery-assets-v9/after-treePacks.js": {
+      "bytes": 27288,
+      "sha256": "c4ff522f78741dd655d76b6ecb33a507634b70ea2290c17aa38ff5e063998d8d"
+    },
+    "work/scenery-assets-v9/after-ultraScenery8.js": {
+      "bytes": 9028,
+      "sha256": "54462053a3dcb69d6e5abb8e68f4b4bfddb76ddc70de88cd089a8b19f2e1c605"
+    },
+    "work/scenery-assets-v9/before-sceneryUnderstory.js": {
+      "bytes": 11831,
+      "sha256": "71685ab5f37e0af29aca2314c9be40c3b388ed99bb5ab6a5f15fb861d40f4329"
+    },
+    "work/scenery-assets-v9/before-treePacks.js": {
+      "bytes": 25783,
+      "sha256": "831141705fec842e935e93a84607626d94d36c771f73739a2485e278c4a75b8e"
+    },
+    "work/scenery-assets-v9/before-ultraScenery8.js": {
+      "bytes": 8278,
+      "sha256": "1deec66c53eafc3baca9aa68cb4453152d5d467149decc27ee3931fdadedd3e6"
+    },
+    "work/scenery-assets-v9/build-report.json": {
+      "bytes": 1695,
+      "sha256": "50b408e1400388c4dbd1e71b6f921992587faacddeb3ab7ace8882b1bacc588c"
+    },
+    "work/scenery-assets-v9/capture-components.cjs": {
+      "bytes": 2155,
+      "sha256": "48475b6f3385ffff7c1e13fa6f2edc1729ccfad75f9e450bd9f387ea3b5048b4"
+    },
+    "work/scenery-assets-v9/capture-integrated.cjs": {
+      "bytes": 3091,
+      "sha256": "d1bb0b00ed17401784e0b283b7610d7be1833431ef0f67fce5f320f9865ae771"
+    },
+    "work/scenery-assets-v9/check-data.bundle.cjs": {
+      "bytes": 2490440,
+      "sha256": "e18fe26c481e5212c7e04e0d20d9c79affd69228840dcc3fd6e04eb23ac49544"
+    },
+    "work/scenery-assets-v9/check-data.js": {
+      "bytes": 6023,
+      "sha256": "0f642cc6485e34d29f3aad7efb3fc8dd3c67145898fda32a7e1e5ac3134d61ed"
+    },
+    "work/scenery-assets-v9/coastal-oak-after.png": {
+      "bytes": 461617,
+      "sha256": "930f8e4c4c2bf9aafa8b9beeb842b7eb47a0a435560b696ce3f7cab5a80db2f6"
+    },
+    "work/scenery-assets-v9/coastal-oak-before.png": {
+      "bytes": 465551,
+      "sha256": "ee38c2f0dcb9ce7a09c05e61fb9e2fc5feef21911641ad3fbdecb7aaff45730c"
+    },
+    "work/scenery-assets-v9/coastline-integrated-High.png": {
+      "bytes": 1015383,
+      "sha256": "6cbf307dc858f2997c65fe2ff069854a0ab75a3a0c02ee5064b6a5c4946a6987"
+    },
+    "work/scenery-assets-v9/coastline-integrated-shore.png": {
+      "bytes": 1179799,
+      "sha256": "371a73fbab359378d01566e456e55fb6ab7a8bf8db3a1b418a1bfc2ec80d6be8"
+    },
+    "work/scenery-assets-v9/coastline-integrated-UltraPlus.png": {
+      "bytes": 1084217,
+      "sha256": "0d12d21a8c7929ff89cf7a7eedd198943ae6e9e278a6e689e47c4d383e547d29"
+    },
+    "work/scenery-assets-v9/coastline-integrated-vegetation-close.png": {
+      "bytes": 1362521,
+      "sha256": "758742a6911c8760aa054a1d70ef63149366e8c4a9b93a515e083a91e649361d"
+    },
+    "work/scenery-assets-v9/component-entry.js": {
+      "bytes": 4649,
+      "sha256": "1f1ab5f5b69004aea92229d6f888a0de93d822d7659d7d211faccffdc4876ab9"
+    },
+    "work/scenery-assets-v9/component-validation.json": {
+      "bytes": 9980,
+      "sha256": "7af4f1df04b44f8e25ac3479393aacbe7836fb976ccc2c7cc3dc4a6bb8ff4ae6"
+    },
+    "work/scenery-assets-v9/components.bundle.js": {
+      "bytes": 2964745,
+      "sha256": "97a8e30d20a3a1d94a1d62670ba68cfcee01d9708d7a29d6a4b1d24ccc3e8bd7"
+    },
+    "work/scenery-assets-v9/components.html": {
+      "bytes": 390,
+      "sha256": "98fd2d68e89bc21451e35ce6d4a806206f1feda13914ae0c4403afd3e41e8b6d"
+    },
+    "work/scenery-assets-v9/data-validation.json": {
+      "bytes": 46034,
+      "sha256": "a028cd877a0517797597b86466b27fb92a6ae237c8ea2ec7956bfe8d7f8f5a6d"
+    },
+    "work/scenery-assets-v9/fern-aroid-after.png": {
+      "bytes": 237577,
+      "sha256": "546297492e8a9992e324a11c8972c5d77b8a0424eb6c7cc058e7d8e51a4b4313"
+    },
+    "work/scenery-assets-v9/fern-aroid-before.png": {
+      "bytes": 266089,
+      "sha256": "74b7aa5d99699c3f4fde3f1fa43331c3fa120ca135a6a695f746afbae80f2404"
+    },
+    "work/scenery-assets-v9/GALLERY.html": {
+      "bytes": 4894,
+      "sha256": "42056aa3581dd949251b6782ea532cdf8baf8fc6c5eab38e36caf954b444dcc7"
+    },
+    "work/scenery-assets-v9/generate-scenery-v9.py": {
+      "bytes": 6816,
+      "sha256": "4c37b43fff89b194cc19c499cb06b62eb7e2a750e6600d69816cd541bccb058e"
+    },
+    "work/scenery-assets-v9/grass-litter-after.png": {
+      "bytes": 212490,
+      "sha256": "384b7fbb7036db8a3fe1c422be6c8466fad1557db7ce65576e901b86c8482d01"
+    },
+    "work/scenery-assets-v9/grass-litter-before.png": {
+      "bytes": 239177,
+      "sha256": "ef1d2fd8bd81c5f6684a66a92bf4fa61ebd7444c2fb76efe8ed87af6ec0d95f5"
+    },
+    "work/scenery-assets-v9/integrated-entry.js": {
+      "bytes": 5813,
+      "sha256": "51332ae44e3cf4bd407321b0f77c58c1a2b97bde060bd07a090f23508a7aecea"
+    },
+    "work/scenery-assets-v9/integrated-validation.json": {
+      "bytes": 63099,
+      "sha256": "bdd78862c7ecb12957b66e4466ef11ce3bdeff475b35c67cea210054955e3675"
+    },
+    "work/scenery-assets-v9/integrated.bundle.js": {
+      "bytes": 26286009,
+      "sha256": "add3b90b463ca2531cb3157c2218a30b99ee7ce13af339c07d742fa04fb7b63a"
+    },
+    "work/scenery-assets-v9/integrated.html": {
+      "bytes": 232,
+      "sha256": "87943449092c2dbe05a7d6de872539f59c54c3b95bd45ba95a8c5ff61199b38d"
+    },
+    "work/scenery-assets-v9/jungle-integrated-High.png": {
+      "bytes": 1333551,
+      "sha256": "820167fe94488a2263c2a4b8d45d4334ce8c988c11a37e677332173762a383db"
+    },
+    "work/scenery-assets-v9/jungle-integrated-UltraPlus.png": {
+      "bytes": 1378795,
+      "sha256": "576a3edd234d7de5810795653033c416bf2d1d17e7adac0e238e4e51605d1ab6"
+    },
+    "work/scenery-assets-v9/jungle-integrated-vegetation-close.png": {
+      "bytes": 824803,
+      "sha256": "6e535d6ecc1bf5519880f24501f88778aa0161afd9f2f8fb54c89883403e9b25"
+    },
+    "work/scenery-assets-v9/jungle-kapok-after.png": {
+      "bytes": 574366,
+      "sha256": "c759e97e0aa82106da59c74a8787b36f2fdc6b56b6e16d62ca2afb761eeac4c9"
+    },
+    "work/scenery-assets-v9/jungle-kapok-before.png": {
+      "bytes": 647263,
+      "sha256": "e4093d5817d255f95a4dd8ad763602f03d7c26faec8cb56047aeec0b25eaddeb"
+    },
+    "work/scenery-assets-v9/jungle-palm-after.png": {
+      "bytes": 262307,
+      "sha256": "b5195d6f73b5dd41aeab5f4ce1a7a697bd50c70f63c023a591e955152e09f946"
+    },
+    "work/scenery-assets-v9/jungle-palm-before.png": {
+      "bytes": 339608,
+      "sha256": "6256dc06e08ea2dcad6d878ad92ca432016bc7919c6428d6299e0182cb2eb5fb"
+    },
+    "work/scenery-assets-v9/kapok-root-after.png": {
+      "bytes": 248594,
+      "sha256": "24b281db994617ac2195c14c0b93f42a38fb4b722532280669dfd261c9bd836c"
+    },
+    "work/scenery-assets-v9/kapok-root-before.png": {
+      "bytes": 312514,
+      "sha256": "5d74aa6ce3028a7a465d63dfbc351a81f66a11256d3c7cb4929b15f1be5f5a2a"
+    },
+    "work/scenery-assets-v9/mesquite-after.png": {
+      "bytes": 394465,
+      "sha256": "e74b6f32e3231e7ea4328eeaec135521208c30455550b611b0e5db124c5ab1c4"
+    },
+    "work/scenery-assets-v9/mesquite-before.png": {
+      "bytes": 542915,
+      "sha256": "65b388e6ebc93a99ced5b5edb34a2931157915e46e54f5db76f6a5d0aac1ef34"
+    },
+    "work/scenery-assets-v9/original-scenery-v9.blend": {
+      "bytes": 1849914,
+      "sha256": "d1bf29d7d6ab147b98a7266acd91734ed9dcc7d551626f10f62edcd59e72f7ec"
+    },
+    "work/scenery-assets-v9/prepare-fixtures.cjs": {
+      "bytes": 1329,
+      "sha256": "ed7d9de98b64e8be92fc8bef1319c2068feb514c252839610035552bde590d2d"
+    },
+    "work/scenery-assets-v9/SCENERY-V9.md": {
+      "bytes": 4884,
+      "sha256": "7acfa000ef1c4a7fd8f2a60cdb9510712802a103f865b1489b9f4ba5d3769c7b"
+    },
+    "work/scenery-assets-v9/shore-pine-after.png": {
+      "bytes": 244515,
+      "sha256": "b277cd8a9563a00af01b8d816e170101bb18212d9c6b599c45bc681bbe2baed1"
+    },
+    "work/scenery-assets-v9/shore-pine-before.png": {
+      "bytes": 496311,
+      "sha256": "8828601d3105829cfb739e63f829ab61c80e340335a19cc92cfdf5b1b5474780"
+    },
+    "work/scenery-assets-v9/source-hashes.json": {
+      "bytes": 833,
+      "sha256": "71b999b2187f31298d07e625519179d25517a610b5ae85d33af3be59d88b8012"
+    },
+    "work/scenery-assets-v9/tundra-High-after.png": {
+      "bytes": 192642,
+      "sha256": "cb2f7aca381796b84f05a2abc5061387c5607ef50a7c1af4655268c2552bb6b4"
+    },
+    "work/scenery-assets-v9/tundra-High-before.png": {
+      "bytes": 516030,
+      "sha256": "a2e7468d49150547f892a50f8509534c5b5fe913697c7847710b055b1a5cd4cd"
+    },
+    "work/scenery-assets-v9/tundra-UltraPlus-after.png": {
+      "bytes": 253873,
+      "sha256": "b42d5b0a52ee4df20297ae21e7fada6502e68f4c5d9fe59723067055b3903ee1"
+    },
+    "work/scenery-assets-v9/tundra-UltraPlus-before.png": {
+      "bytes": 494857,
+      "sha256": "0cbd09fdd53ba20f603ca4e2bc0cdef1ef153c99954b761ffd112230eba3a29a"
+    },
+    "work/scenery-assets-v9/v8-preservation-check.json": {
+      "bytes": 1336,
+      "sha256": "8ab5f193bb61d76dbd2de174426f84102fa31303d7a5a39a3a11c48809467ca5"
+    },
+    "work/scenery-assets-v9/v8-preservation-hashes.json": {
+      "bytes": 704,
+      "sha256": "5ca3766d531a4b0fd19afd3168fe26da0ec13bc1c98731b8e4cd316a40354d2a"
+    },
+    "work/scenery-assets-v9/write-report.cjs": {
+      "bytes": 7510,
+      "sha256": "a5f40afd8569a390c898b635df870fec5b3b80c80339367bf60bf372e1ccbb23"
+    },
+    "work/stage-v9/audio/AUDIO-VERIFICATION.md": {
+      "bytes": 5612,
+      "sha256": "4f0319737638a7ea0dc1609a37752fa44ec166720fdad384a964e0dd724e8e12"
+    },
+    "work/stage-v9/audio/coastline.mp3": {
+      "bytes": 9241187,
+      "sha256": "22b114c1d339471eada15ba835bd4e5704eaecd1b09eb4b43bc5b8a74ad4a432"
+    },
+    "work/stage-v9/audio/desert.mp3": {
+      "bytes": 9241184,
+      "sha256": "0edb6c38726bab5217c2bcf53512c881444db8ead832878add82945103f5cc93"
+    },
+    "work/stage-v9/audio/fallback-qa.json": {
+      "bytes": 2503,
+      "sha256": "5250f12080a28f4893ce2dc08cafca54db55bec9bef8c1611dfd6f3731380d1a"
+    },
+    "work/stage-v9/audio/file-audit.json": {
+      "bytes": 2131,
+      "sha256": "06ac1bfe7993f668a4289f76c30fd32823c7582da27dbc2bb6c5480bfe034742"
+    },
+    "work/stage-v9/audio/jungle.mp3": {
+      "bytes": 9241184,
+      "sha256": "758f209e2a9003c22674efc0f43eb275c94bcbf1a0fac79acfaabe261649c54b"
+    },
+    "work/stage-v9/audio/manifest.json": {
+      "bytes": 3240,
+      "sha256": "ef1afcb0b8e89511da715375bb4967ed4dfa0f3151b8267d7a35c9db83db6125"
+    },
+    "work/stage-v9/audio/runtime-qa.json": {
+      "bytes": 29199,
+      "sha256": "5f08dd818d6fe6e1eea2ef4b17a4bab6d553a77eb0b1700c3efff3d13d12f812"
+    },
+    "work/stage-v9/audio/tundra.mp3": {
+      "bytes": 9241184,
+      "sha256": "db612fa04bf25e0b33d9f85fff80f6cbe9d2b2b30aed80843b0f54d1ce848532"
+    },
+    "work/stage-v9/game.js": {
+      "bytes": 26369141,
+      "sha256": "32c5ee86784a55cef911072245243990c4794b2654f4db4d89d381c799bfe154"
+    },
+    "work/stage-v9/index.html": {
+      "bytes": 5692,
+      "sha256": "e02debb81d1ce033e4fb15d3505780a3f1e040d7247821335c3ff658bb463d1b"
+    },
+    "work/stage-v9/photographic/bark-1k-map.js": {
+      "bytes": 1116960,
+      "sha256": "368f6462d94afc929bef02cbfde15be2fdb0e4a19a0519dd834f7a652c376f5e"
+    },
+    "work/stage-v9/photographic/bark-1k-normalMap.js": {
+      "bytes": 1571366,
+      "sha256": "e8fb5be8db71aa96115b2a013867fba57f6dbe60dbb5e980be6afac5295121e2"
+    },
+    "work/stage-v9/photographic/bark-1k-roughnessMap.js": {
+      "bytes": 675709,
+      "sha256": "ed1f1461c4d22f514ef0fff7742e7c39bdfaa4c7195dc7be1c70040533e5d14c"
+    },
+    "work/stage-v9/photographic/bark-4k-map.js": {
+      "bytes": 15697428,
+      "sha256": "3e7205b22191b44132a59b5391b2e01f328e161bde1a6aab650327feb5472646"
+    },
+    "work/stage-v9/photographic/bark-4k-normalMap.js": {
+      "bytes": 24594950,
+      "sha256": "66636bb712edf44f649f44ed7ae7c8cc152de63af4555c7c0deffb73d044b886"
+    },
+    "work/stage-v9/photographic/bark-4k-roughnessMap.js": {
+      "bytes": 10561117,
+      "sha256": "3a2ca0cafe937c63fe2ec594e6f3b1caf246d6abfa06db73006b76f2fc7eca25"
+    },
+    "work/stage-v9/photographic/bird-contour.js": {
+      "bytes": 3983992,
+      "sha256": "5783973588918bb626723b9394a2af227b5cec814564768daafae697e8f4dd1b"
+    },
+    "work/stage-v9/photographic/dirtroad-1k-map.js": {
+      "bytes": 1227384,
+      "sha256": "e766415fa6bbd508d37d55d0b6a3a5d5826d592327f3c9c73bde8ccb4faab642"
+    },
+    "work/stage-v9/photographic/dirtroad-1k-normalMap.js": {
+      "bytes": 2052238,
+      "sha256": "98222db9f2ce954b35c54e83deed8b85716a695c601f29597553277b948edd25"
+    },
+    "work/stage-v9/photographic/dirtroad-1k-roughnessMap.js": {
+      "bytes": 520633,
+      "sha256": "4422a0be8f26819fa8d83d64603160401a70295b41793240075bac61d153d9ce"
+    },
+    "work/stage-v9/photographic/earth-1k-map.js": {
+      "bytes": 1773245,
+      "sha256": "bc0f0b1eca2b27228cc853a6120f537487cdedc5a560b3fd5b15da245593b7f0"
+    },
+    "work/stage-v9/photographic/earth-1k-normalMap.js": {
+      "bytes": 1840251,
+      "sha256": "f7180284a7e3e22afba5a19d3809af3fca5e445a383491cd3fa5446f4a8144cc"
+    },
+    "work/stage-v9/photographic/earth-1k-roughnessMap.js": {
+      "bytes": 981918,
+      "sha256": "a7c4243863b413ce634f495204b0ecb0cc640ebaad36e8b2ed0939989fe728f2"
+    },
+    "work/stage-v9/photographic/earth-4k-map.js": {
+      "bytes": 29347557,
+      "sha256": "4f155ecc93195c0935b3f7e8d2e959fc20b56367d426eccfeb7f10f66e218c2d"
+    },
+    "work/stage-v9/photographic/earth-4k-normalMap.js": {
+      "bytes": 24582127,
+      "sha256": "74cd2795e97c844b6b8259f2a22c4e27eef28dc5d56fa9a19005726579ae9b90"
+    },
+    "work/stage-v9/photographic/earth-4k-roughnessMap.js": {
+      "bytes": 17521258,
+      "sha256": "e92e24df5d70db694d651f589b43d280a86e2ee1ea0deaecc00a3166857aac16"
+    },
+    "work/stage-v9/photographic/MANIFEST.json": {
+      "bytes": 302,
+      "sha256": "4ff47666cd6c4862ad25cd3f78cb2bcb08d9c5e6c5d206799b842949391f4eb5"
+    },
+    "work/stage-v9/photographic/meadow-1k-map.js": {
+      "bytes": 1593966,
+      "sha256": "beac0efa528174044d7d6cc7e928fddee17779cee966b4dfb49d36d5bee57388"
+    },
+    "work/stage-v9/photographic/meadow-1k-normalMap.js": {
+      "bytes": 1954844,
+      "sha256": "c422f722354b3db953eff32bdecc8cee7335ad6102787a93e1a92418b9919080"
+    },
+    "work/stage-v9/photographic/meadow-1k-roughnessMap.js": {
+      "bytes": 681963,
+      "sha256": "87cf287a283195dc318c74409ceb727720c7c0cb14fe000b89e6118e023e411a"
+    },
+    "work/stage-v9/photographic/README.md": {
+      "bytes": 374,
+      "sha256": "4a76f9715e3c5664eddbd4e00344b9022f4dd651d5b1222cfe7e5d317102af1e"
+    },
+    "work/stage-v9/photographic/road-1k-map.js": {
+      "bytes": 975716,
+      "sha256": "af4e5d3be6d0c90db2509921c1def2da1cee40bb4c44c65aef3cc5a87e5442fb"
+    },
+    "work/stage-v9/photographic/road-1k-normalMap.js": {
+      "bytes": 1653606,
+      "sha256": "4bca9fe25c065848070954b182a0ae05628ba6c8f0b11149003a8f7b7a31c41e"
+    },
+    "work/stage-v9/photographic/road-1k-roughnessMap.js": {
+      "bytes": 725489,
+      "sha256": "22b1caff052b8efb447495425f6b0d6bb07e58ec6a07fb40ec5fb99b7e18ea5e"
+    },
+    "work/stage-v9/photographic/road-4k-map.js": {
+      "bytes": 15538944,
+      "sha256": "b7d95328301a5cfb0c7971b15bb1413b9b151dbd1c98930697a521e3795846f6"
+    },
+    "work/stage-v9/photographic/road-4k-normalMap.js": {
+      "bytes": 23210314,
+      "sha256": "30565027ed961d44f6ca8c4c2736477d055758a350018e63eef0e4dd8a41281e"
+    },
+    "work/stage-v9/photographic/road-4k-roughnessMap.js": {
+      "bytes": 11341893,
+      "sha256": "3bd8647899d99eee453ee44706dee17bad9167e7f2a5bf1a08a10646ac6bb6a8"
+    },
+    "work/stage-v9/photographic/rock-1k-map.js": {
+      "bytes": 1087304,
+      "sha256": "c710cb6dfbf4e59b23d4b817ce3c9bf70675c1be2fed2391755c972298ebb625"
+    },
+    "work/stage-v9/photographic/rock-1k-normalMap.js": {
+      "bytes": 1527354,
+      "sha256": "1261b26697c0050927137183190befec5435806f27878ca8580e26a2d5338b53"
+    },
+    "work/stage-v9/photographic/rock-1k-roughnessMap.js": {
+      "bytes": 461757,
+      "sha256": "c922fed30e247c5ba3fd0743848857d00cbef296396d4af519c68a433e5d7b54"
+    },
+    "work/stage-v9/photographic/rockroad-1k-map.js": {
+      "bytes": 1371756,
+      "sha256": "af15fdda3e5fead9e4991bd1d5f328780ec4a8ec56e6434194289bd84e633919"
+    },
+    "work/stage-v9/photographic/rockroad-1k-normalMap.js": {
+      "bytes": 1821098,
+      "sha256": "9ea1b06667cc61053b30cf73db80a75dec07f7db3f22ec4116ee8d3c0c3d5e6b"
+    },
+    "work/stage-v9/photographic/rockroad-1k-roughnessMap.js": {
+      "bytes": 857033,
+      "sha256": "ea724f41ea865a9e72c980a34b24b410034ef4dc7caaca52e07e476413825c6d"
+    },
+    "work/stage-v9/photographic/sand-1k-map.js": {
+      "bytes": 1280924,
+      "sha256": "bc564b8b203d1f3c2ada40d947d798d8d9c3b49873ea19af84fcb4455408abbf"
+    },
+    "work/stage-v9/photographic/sand-1k-normalMap.js": {
+      "bytes": 1529214,
+      "sha256": "385ae2c16928c0ae6db373695c7d28299646a284222718861a34be13007eba2c"
+    },
+    "work/stage-v9/photographic/sand-1k-roughnessMap.js": {
+      "bytes": 511969,
+      "sha256": "6763d750213ace01bd3bd6093a895d6a8cd8c51b565d293155349667cf0492b5"
+    },
+    "work/stage-v9/photographic/sand-4k-map.js": {
+      "bytes": 14419512,
+      "sha256": "cc93396c1ca1d0fdf082652eb0144972d5945dd17419244d2d85ee511b88448c"
+    },
+    "work/stage-v9/photographic/sand-4k-normalMap.js": {
+      "bytes": 23132094,
+      "sha256": "2053ee7cdbac558d2b05d44c2c1ab71f7f0b5245849e68296035ce51ca527059"
+    },
+    "work/stage-v9/photographic/sand-4k-roughnessMap.js": {
+      "bytes": 5623809,
+      "sha256": "cc932fb4aa0e098816b04665492ee7335abf02b0df7a531f2e8940aae9e3b8af"
+    },
+    "work/stage-v9/photographic/snow-1k-map.js": {
+      "bytes": 434100,
+      "sha256": "5a9e93cb07b37509bb61ac2155c7acf7eb085b01e68905db6ba99ad4ce500577"
+    },
+    "work/stage-v9/photographic/snow-1k-normalMap.js": {
+      "bytes": 1442590,
+      "sha256": "e54ae9b61c9d3ac36d42af082da9f9aac3dfa6192c75ca17729b6091fded9ff2"
+    },
+    "work/stage-v9/photographic/snow-1k-roughnessMap.js": {
+      "bytes": 194901,
+      "sha256": "98a456499d3dc15b8379c6578c34331e5620c370e5da5adf20a8e742cbf3311c"
+    },
+    "work/stage-v9/style.css": {
+      "bytes": 7533,
+      "sha256": "8da3e9469a0f02e84d634cf776feb05735530c9a222e5467cf8f0cb64c152513"
+    },
+    "work/wildlife-assets-v9/assembled-v8-close.png": {
+      "bytes": 2657882,
+      "sha256": "83788541eb3bcab6c5241f631433a79544d010fcc64e27c61c54aabbe9a74de1"
+    },
+    "work/wildlife-assets-v9/assembled-v8-full.png": {
+      "bytes": 2622404,
+      "sha256": "ac381d34ff4bf890227887779120ebf72ec34d9a194907e1c62782d10ec6ef48"
+    },
+    "work/wildlife-assets-v9/assembled-v8.json.gz": {
+      "bytes": 14356088,
+      "sha256": "b0533123c70ef37113370a59806f0bd124021bdbbbca1ec0b5dbf85a52cab5bb"
+    },
+    "work/wildlife-assets-v9/assembled-v9-close.png": {
+      "bytes": 2570364,
+      "sha256": "af1329a6a77ad2b1ba3042c2e1e5242e5533fb65ad6ec8ea8a57420ade5559f0"
+    },
+    "work/wildlife-assets-v9/assembled-v9-full.png": {
+      "bytes": 2567442,
+      "sha256": "37900ae43e7ea23818309de145a3cb0992a5fbffb7c16caa51bf9d180a8c87bb"
+    },
+    "work/wildlife-assets-v9/assembled-v9-review.blend": {
+      "bytes": 91799958,
+      "sha256": "63613ece215474290a8b886df3ac0cd05775cdd7d3760e4db0880254f461fbcf"
+    },
+    "work/wildlife-assets-v9/assembled-v9.json.gz": {
+      "bytes": 13280847,
+      "sha256": "e2220d8e335aef325a9d922cad3cfbd92e03b0082feff4caab1d7743ce541048"
+    },
+    "work/wildlife-assets-v9/browser-coastline-bird-close.png": {
+      "bytes": 125763,
+      "sha256": "80eab5e029d85fa620aee20fd683c1bdd0c6b270e7fc8b204084e600509900f6"
+    },
+    "work/wildlife-assets-v9/browser-coastline-far.png": {
+      "bytes": 28065,
+      "sha256": "42fef16256c24fb1e70889989bed1c349156edd995d177ce2fa0a9ab208735e1"
+    },
+    "work/wildlife-assets-v9/browser-coastline-ground-close.png": {
+      "bytes": 89803,
+      "sha256": "f1ce1e9b18c9052f895c7c773e21272f5374f73317d68a8b5256dea2260b4b95"
+    },
+    "work/wildlife-assets-v9/browser-desert-bird-close.png": {
+      "bytes": 158608,
+      "sha256": "5607980bf672030b31a9fd3491e6eea3d4b514a1dc73c358f6be3ec43eca8606"
+    },
+    "work/wildlife-assets-v9/browser-desert-far.png": {
+      "bytes": 30556,
+      "sha256": "b3ccc57f4c200adb86d42302e315967a2e1dbab633718d3a37a25073613836c2"
+    },
+    "work/wildlife-assets-v9/browser-desert-ground-close.png": {
+      "bytes": 170404,
+      "sha256": "d4e86cd6e599a3147b8325b3253e185ad1a204e1d71a87e8730ca7b255397808"
+    },
+    "work/wildlife-assets-v9/browser-entry.js": {
+      "bytes": 4880,
+      "sha256": "902f3f8ca789c4cbdf27435a4295ca9b84d4ffe5d2fbe69a601158aaa7dbb192"
+    },
+    "work/wildlife-assets-v9/browser-jungle-bird-close.png": {
+      "bytes": 152020,
+      "sha256": "750c556550cd40e227a5b4f550e8afe240c583cf1697e05467d9cb7ccde6d4a5"
+    },
+    "work/wildlife-assets-v9/browser-jungle-far.png": {
+      "bytes": 36125,
+      "sha256": "ca69dbc97c9351335a73dc68d2793b092e18b08c638da219f43960538254509d"
+    },
+    "work/wildlife-assets-v9/browser-jungle-ground-close.png": {
+      "bytes": 257391,
+      "sha256": "3f059ac983a8da49a6bf853aa5464caddb9e9c570350853f86f4425ca76f72e9"
+    },
+    "work/wildlife-assets-v9/browser-qa.cjs": {
+      "bytes": 3612,
+      "sha256": "e85517c639683ae6ff72e3b5453d6f3eb839514a9ce820a385ed33f772f7906a"
+    },
+    "work/wildlife-assets-v9/browser-qa.json": {
+      "bytes": 26017,
+      "sha256": "1b2a69528f8f85980c98cab8efb3fe1bf7d4efc920e8e9b60891306ac1c13f71"
+    },
+    "work/wildlife-assets-v9/browser-tundra-bird-close.png": {
+      "bytes": 146686,
+      "sha256": "2adbe454edc2ddc60ebc66b82899843e7f7ffd20191b6ec8aabfd91315913221"
+    },
+    "work/wildlife-assets-v9/browser-tundra-far.png": {
+      "bytes": 27777,
+      "sha256": "04dd8778079c6e02ac5f8459fafde277251c1c8fbe20d0f52bfb03092f51ba9c"
+    },
+    "work/wildlife-assets-v9/browser-tundra-ground-close.png": {
+      "bytes": 192210,
+      "sha256": "76d7ba0055e313b61cfd75389664e26094d8756362b72b491b6e3ab37ad0a08a"
+    },
+    "work/wildlife-assets-v9/browser.html": {
+      "bytes": 172,
+      "sha256": "3fdfdbf76dd3b1271015f53b2299b15a37902d06366b9c2aecefdc03b76369c5"
+    },
+    "work/wildlife-assets-v9/browser.js": {
+      "bytes": 4308185,
+      "sha256": "1645a2267c43af693a4d53294cfda1f888a46c768def402f6b87fc5becbb5805"
+    },
+    "work/wildlife-assets-v9/bundle.cjs": {
+      "bytes": 1283,
+      "sha256": "8adacd8877a56586d97c732adf5beded393e9ae957a4431b1ee1f239afedf18b"
+    },
+    "work/wildlife-assets-v9/comparison.html": {
+      "bytes": 2123,
+      "sha256": "d5398ea609297aa72ec8fbf48e77ea2de7331274e319402daf82630f053c9cb7"
+    },
+    "work/wildlife-assets-v9/component-provenance.json": {
+      "bytes": 1105,
+      "sha256": "b7c62c4565698b4e519f6f68fccf53073918b90a9a5c23769f19567a3f5ff42f"
+    },
+    "work/wildlife-assets-v9/detail-qa.cjs": {
+      "bytes": 3784904,
+      "sha256": "68a8a69886f8f4ad6495a610210ec451ee6199d4abba262a036204dc74e9adf1"
+    },
+    "work/wildlife-assets-v9/detail-qa.json": {
+      "bytes": 27271,
+      "sha256": "cd5294c32503f6aa2de293f433debc960bc4c4e1183bf56f8f01f711aabffcf5"
+    },
+    "work/wildlife-assets-v9/detail-qa.mjs": {
+      "bytes": 5565,
+      "sha256": "9cb9d554d79cd69c03c55eab3d02d00f8213f816d4a2209e59cef6fdc2f6a785"
+    },
+    "work/wildlife-assets-v9/export-v8.cjs": {
+      "bytes": 1059296,
+      "sha256": "0b6c5d320fe87c39ee85903c858a500d38a75b664acac8437eb9f65409d9565f"
+    },
+    "work/wildlife-assets-v9/export-v8.mjs": {
+      "bytes": 3427,
+      "sha256": "0af23372edeb8e0b46ad61b3b6a7b60a0ba661d687fbb7e72a9b8f0765dcbd3b"
+    },
+    "work/wildlife-assets-v9/export-v9.cjs": {
+      "bytes": 3713442,
+      "sha256": "5c7ca82f39fe947740c410b49dd5dad2a1c2e9d8afee41e57f07c2ad579c48fe"
+    },
+    "work/wildlife-assets-v9/export-v9.mjs": {
+      "bytes": 3433,
+      "sha256": "d6fc1eea9cab3fdd359c48df2df0d2a1655a80333783cf68b4c897033de0fbc9"
+    },
+    "work/wildlife-assets-v9/fit-surfaces.cjs": {
+      "bytes": 3363,
+      "sha256": "b52b4d5fe79b4e2f1bdb9d21dd4d10b62daad789350885b7570addc6b22422a4"
+    },
+    "work/wildlife-assets-v9/fix-horn-frame.cjs": {
+      "bytes": 686,
+      "sha256": "3af8ecadf796d1a175a632dbdb0b6ba40689c36845270161057c0b7ba1223f8a"
+    },
+    "work/wildlife-assets-v9/generate-components.py": {
+      "bytes": 5446,
+      "sha256": "23cfa074f1c631b85ed26ea2af70dff1566e00bf56c945ccd7e0a79be478185d"
+    },
+    "work/wildlife-assets-v9/morphology-qa-behavior-coastline.json": {
+      "bytes": 4884,
+      "sha256": "1303438790b3596fcf808593e7727b58057c0d52798dd487536547826b9a574a"
+    },
+    "work/wildlife-assets-v9/morphology-qa-behavior-desert.json": {
+      "bytes": 4839,
+      "sha256": "6742b62137a853095785830ca125c6b253530c4bd808423f14dcd906cececa8d"
+    },
+    "work/wildlife-assets-v9/morphology-qa-behavior-tundra.json": {
+      "bytes": 4839,
+      "sha256": "4dddc33033c1e74edf66279fe18a588bef4e0dfd622d497f47b9d501217fd2bc"
+    },
+    "work/wildlife-assets-v9/morphology-qa-coastline.json": {
+      "bytes": 19220,
+      "sha256": "9c3fd2ec921b8f12b60dcf372e7f782bb51426ca5737b0e9851fdfbe4156cefb"
+    },
+    "work/wildlife-assets-v9/morphology-qa-desert.json": {
+      "bytes": 20240,
+      "sha256": "5e607ac5be9247379b41d762606b7cdc6799dbc903b252e67c97ecc490b804f7"
+    },
+    "work/wildlife-assets-v9/morphology-qa-subjects-coastline.json": {
+      "bytes": 16472,
+      "sha256": "845e756a0bab3ba7a6adae06c503e32e964b30726c5934f6b0964290a1b36071"
+    },
+    "work/wildlife-assets-v9/morphology-qa-subjects-desert.json": {
+      "bytes": 17537,
+      "sha256": "83d0a2b80ce5482bbe012fe1785561432e01efb10fe72f037f7bbc92eb999de6"
+    },
+    "work/wildlife-assets-v9/morphology-qa-subjects-jungle.json": {
+      "bytes": 17001,
+      "sha256": "aa710384b2cf38e30da0b0eb381c2fcd7deff6e9bb7cedb49af1d76631549a79"
+    },
+    "work/wildlife-assets-v9/morphology-qa-subjects-tundra.json": {
+      "bytes": 17520,
+      "sha256": "6157775dcfaf8d2ee2cbbd74d4e91f6f49c36e8bec1db49f33bbe306ce287a8b"
+    },
+    "work/wildlife-assets-v9/morphology-qa-tundra.json": {
+      "bytes": 20223,
+      "sha256": "af5cfdc76a75c10574c83eec47aa576d361a2b271b91d0403ab21ade9fc53642"
+    },
+    "work/wildlife-assets-v9/morphology-qa.cjs": {
+      "bytes": 4455697,
+      "sha256": "d3dcb2b024ba2801f2d5a6e34a95a75ef1c0a8b2459b3bf40b2c8b8afc5ca07f"
+    },
+    "work/wildlife-assets-v9/morphology-qa.json": {
+      "bytes": 72967,
+      "sha256": "e61c67ccee95b4a23dc5d45893bba740d5bd9f0f4b3d1923801bf6c262d27df6"
+    },
+    "work/wildlife-assets-v9/morphology-qa.mjs": {
+      "bytes": 4989,
+      "sha256": "3246a0112761d31602b5035c837af9eb5784f17452dcba89dd5042a3f4500678"
+    },
+    "work/wildlife-assets-v9/original-skull-studies-v9.blend": {
+      "bytes": 3940485,
+      "sha256": "b14e3ba6d8f6e0c7e3a08ed28d29a1e481c5b24cd06c64676884eb239db5d161"
+    },
+    "work/wildlife-assets-v9/prepare-fixtures.cjs": {
+      "bytes": 2148,
+      "sha256": "6c0be1cfeb9c910b91d650b1aac9e5e84c903542975ed4ea39759bd71c49a0a8"
+    },
+    "work/wildlife-assets-v9/refine-silhouette.cjs": {
+      "bytes": 3608,
+      "sha256": "a06c345398680702c897a5e5d8115dd0b5ea37517c666ba4e4c79bddc1c00c98"
+    },
+    "work/wildlife-assets-v9/render-gallery.py": {
+      "bytes": 4993,
+      "sha256": "6732df50ba17b01acd2ea5f8b94a57723d717269a9adaa7aeaf0f4a38b8cf3f1"
+    },
+    "work/wildlife-assets-v9/revise-anatomy.cjs": {
+      "bytes": 14703,
+      "sha256": "f1bc2747f51a4c82a09655973932f3248728e30bda3c51b52e787ed729cf5fd6"
+    },
+    "work/wildlife-assets-v9/smooth-joins.cjs": {
+      "bytes": 3012,
+      "sha256": "d8b5ab3d674ac0103dcda37f49780f901d038246b3936dc33d1bb713f185a5cf"
+    }
+  }
+}

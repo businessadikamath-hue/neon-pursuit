@@ -1,0 +1,18 @@
+﻿{
+    "version":  "9.0.0",
+    "installed":  "C:\\Users\\adika\\Documents\\Codex\\2026-09-11\\neon-pursuit-game\\outputs\\Neon-Pursuit",
+    "backup":  "C:\\Users\\adika\\Documents\\Codex\\2026-09-11\\neon-pursuit-game\\outputs\\Neon-Pursuit-before-v9",
+    "backupZip":  "C:\\Users\\adika\\Documents\\Codex\\2026-09-11\\neon-pursuit-game\\outputs\\Neon-Pursuit-before-v9.zip",
+    "previousVersion":  "8.0.0",
+    "previousGameSHA256":  "05ce5ad0f0b0eb4a4ae96c677c0c8f58644d03ad05420b16324418ea48e384ca",
+    "previousArchiveSHA256":  "07f611a8ff845b103715ed1db47957ec489582b5604b8403dd975378e9acb4a0",
+    "gameSHA256":  "32c5ee86784a55cef911072245243990c4794b2654f4db4d89d381c799bfe154",
+    "archiveSHA256":  "77740dc4829dc6003079fce6da1b315e6c1062fa4c88d0af260e5a308e660773",
+    "shortcut":  "C:\\Users\\adika\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Neon Pursuit.lnk",
+    "target":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "arguments":  "--app=\"file:///C:/Users/adika/Documents/Codex/2026-09-11/neon-pursuit-game/outputs/Neon-Pursuit/index.html\" --window-size=1440,900 --new-window",
+    "workingDirectory":  "C:\\Users\\adika\\Documents\\Codex\\2026-09-11\\neon-pursuit-game\\outputs\\Neon-Pursuit",
+    "allManifestFilesVerified":  true,
+    "candidateSmokeVerified":  true,
+    "verifiedAt":  "2026-09-13T18:08:00.2419503Z"
+}

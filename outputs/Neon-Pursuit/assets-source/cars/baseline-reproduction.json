@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "views": [
+    {
+      "view": "front",
+      "pngByteIdentical": true
+    },
+    {
+      "view": "rear",
+      "pngByteIdentical": true
+    },
+    {
+      "view": "traffic",
+      "pngByteIdentical": true
+    },
+    {
+      "view": "traffic-rear",
+      "pngByteIdentical": true
+    },
+    {
+      "view": "black-close",
+      "pngByteIdentical": true
+    },
+    {
+      "view": "black-far",
+      "pngByteIdentical": true
+    }
+  ]
+}

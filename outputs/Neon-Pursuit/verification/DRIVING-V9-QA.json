@@ -1,0 +1,973 @@
+{
+  "gameSHA256": "32c5ee86784a55cef911072245243990c4794b2654f4db4d89d381c799bfe154",
+  "cars": [
+    {
+      "name": "McLaren 720S Coupe",
+      "times": {
+        "60": 2.5166666666666666,
+        "180": 8.033333333333333,
+        "200": 9.191666666666666
+      },
+      "maxLaneError": 0,
+      "shifts": 90,
+      "strength": 3,
+      "balance": 42,
+      "unassistedEdge": {
+        "seconds": 2.6166666666666667,
+        "x": 12.62,
+        "speed": 77.43559628809373,
+        "impact": {
+          "kind": "edge",
+          "closingMph": 174.67279061090323,
+          "damage": 0,
+          "atTravel": 206.2386826317103,
+          "atX": 12.62
+        }
+      }
+    },
+    {
+      "name": "Aston Martin DB12 Coupe",
+      "times": {
+        "60": 2.6416666666666666,
+        "180": 8.3,
+        "200": 9.508333333333333
+      },
+      "maxLaneError": 0,
+      "shifts": 175,
+      "strength": 6,
+      "balance": 42,
+      "unassistedEdge": {
+        "seconds": 2.7416666666666667,
+        "x": 12.67,
+        "speed": 77.43479594408399,
+        "impact": {
+          "kind": "edge",
+          "closingMph": 174.55721714509625,
+          "damage": 0,
+          "atTravel": 215.99634467807965,
+          "atX": 12.67
+        }
+      }
+    },
+    {
+      "name": "Lamborghini Huracan STO",
+      "times": {
+        "60": 2.683333333333333,
+        "180": 8.125,
+        "200": 9.291666666666666
+      },
+      "maxLaneError": 0,
+      "shifts": 90,
+      "strength": 2,
+      "balance": 42,
+      "unassistedEdge": {
+        "seconds": 2.841666666666667,
+        "x": 12.59,
+        "speed": 77.43415144714734,
+        "impact": {
+          "kind": "edge",
+          "closingMph": 174.47048336358674,
+          "damage": 0,
+          "atTravel": 223.7979561164732,
+          "atX": 12.59
+        }
+      }
+    },
+    {
+      "name": "Toyota GR Yaris 6MT",
+      "times": {
+        "60": 2.716666666666667,
+        "180": 8.433333333333334,
+        "200": 9.758333333333333
+      },
+      "maxLaneError": 0,
+      "shifts": 195,
+      "strength": 7,
+      "balance": 42,
+      "unassistedEdge": {
+        "seconds": 3.175,
+        "x": 12.76,
+        "speed": 77.43197434186249,
+        "impact": {
+          "kind": "edge",
+          "closingMph": 174.2082792474801,
+          "damage": 0,
+          "atTravel": 249.77691444320843,
+          "atX": 12.76
+        }
+      }
+    },
+    {
+      "name": "Ford Mustang GT Fastback 10AT",
+      "times": {
+        "60": 2.433333333333333,
+        "180": 8.216666666666667,
+        "200": 9.366666666666667
+      },
+      "maxLaneError": 0,
+      "shifts": 243,
+      "strength": 9,
+      "balance": 42,
+      "unassistedEdge": {
+        "seconds": 2.45,
+        "x": 12.639999999999999,
+        "speed": 77.43664442808266,
+        "impact": {
+          "kind": "edge",
+          "closingMph": 174.84145402899495,
+          "damage": 0,
+          "atTravel": 193.21790886620886,
+          "atX": 12.639999999999999
+        }
+      }
+    },
+    {
+      "name": "Mazda MX-5 2.0 Roadster 6MT",
+      "times": {
+        "60": 2.783333333333333,
+        "180": 8.633333333333333,
+        "200": 9.991666666666667
+      },
+      "maxLaneError": 0,
+      "shifts": 205,
+      "strength": 5,
+      "balance": 42,
+      "unassistedEdge": {
+        "seconds": 3.475,
+        "x": 12.799999999999999,
+        "speed": 77.42990403482356,
+        "impact": {
+          "kind": "edge",
+          "closingMph": 173.99042639583158,
+          "damage": 0,
+          "atTravel": 273.1260595390041,
+          "atX": 12.799999999999999
+        }
+      }
+    },
+    {
+      "name": "Tesla Model S Plaid",
+      "times": {
+        "60": 2.408333333333333,
+        "180": 7.925,
+        "200": 9.066666666666666
+      },
+      "maxLaneError": 0,
+      "shifts": 0,
+      "strength": 7,
+      "balance": 42,
+      "unassistedEdge": {
+        "seconds": 2.433333333333333,
+        "x": 12.649999999999999,
+        "speed": 77.43571033254736,
+        "impact": {
+          "kind": "edge",
+          "closingMph": 174.690088941546,
+          "damage": 0,
+          "atTravel": 191.82326389391002,
+          "atX": 12.649999999999999
+        }
+      }
+    },
+    {
+      "name": "Land Rover Defender 110 P400",
+      "times": {
+        "60": 2.6166666666666667,
+        "180": 7.816666666666666,
+        "200": 8.933333333333334
+      },
+      "maxLaneError": 0,
+      "shifts": 224,
+      "strength": 10,
+      "balance": 42,
+      "unassistedEdge": {
+        "seconds": 3.0416666666666665,
+        "x": 12.61,
+        "speed": 77.43285288059673,
+        "impact": {
+          "kind": "edge",
+          "closingMph": 174.30918724830244,
+          "damage": 0,
+          "atTravel": 239.38999695917136,
+          "atX": 12.61
+        }
+      }
+    }
+  ],
+  "cruise": {
+    "maxError": 0.019960535863020823,
+    "target": 150
+  },
+  "edgeLow": {
+    "impact": {
+      "kind": "edge",
+      "closingMph": 29.983205869883214,
+      "damage": 8.883976426211612,
+      "atTravel": 10.097058722651079,
+      "atX": 12.62
+    },
+    "speed": 24.13773957990773,
+    "health": 91.11602357378838,
+    "trauma": 0.4065733659437956
+  },
+  "edgeAudio": {
+    "unlocked": true,
+    "state": "running",
+    "enabled": true,
+    "nature": false,
+    "car": "black",
+    "biome": "coastline",
+    "lastImpact": {
+      "severity": 0.16657336594379563,
+      "kind": "edge",
+      "time": 11.650666666666666
+    },
+    "engineProfile": "McLaren 720S · original twin-turbo V8 pulse model",
+    "engineDynamics": {
+      "cylinders": 8,
+      "cycleHz": 56.63828822858565,
+      "firingHz": 453.1063058286852,
+      "motorOrderHz": 0,
+      "exhaustFilterHz": 998.4218457017237,
+      "intakeResonanceHz": 1480.3722167956385,
+      "driverPedal": 0,
+      "throttleAmount": 0,
+      "load": 0,
+      "accelerationMphPerSecond": -2.1792908177546706,
+      "rawAccelerationNegative": true,
+      "poweredShiftInterruption": false,
+      "decelerating": true,
+      "shiftAllowed": false,
+      "shiftDirection": "up",
+      "shiftCut": 1,
+      "shiftEvents": 0,
+      "suppressedShiftEvents": 2,
+      "lastShift": null,
+      "suppressionReason": "deceleration",
+      "lastSuppressionReason": "deceleration",
+      "waveform": "Original 192-harmonic combustion-cycle wavetables",
+      "lastSpeedMph": 84.41723869893877,
+      "lastAccelerationMphPerSecond": -2.1792908177546706
+    },
+    "engineSource": "Original procedural approximation; not a recorded real-car engine",
+    "soundscape": "surf wash, tree wind, leaf rustle, gulls/terns/cormorants",
+    "signature": "black/8/1/coastline",
+    "rpm": 6804.962890608514,
+    "gear": 2,
+    "rms": 0.09336018532395532,
+    "peak": 0.2395886778831482,
+    "limiter": {
+      "type": "Dynamics compression and oversampled tanh soft limiting",
+      "compressionDb": -0.0001342038594884798,
+      "digitalClipSamples": 0
+    },
+    "layers": {
+      "engine": 0.15747298300266266,
+      "harmonic": 0.040800001472234726,
+      "sub": 0.0272000003606081,
+      "grit": 0.006240000016987324,
+      "turbo": 0,
+      "intakeAir": 0,
+      "mechanical": 0.02282736450433731,
+      "motorRear": 0,
+      "top": 0,
+      "coast": 0.07999999821186066,
+      "brake": 0,
+      "shift": 0,
+      "impact": 0.006151833105832338,
+      "wind": 0,
+      "ocean": 0,
+      "weather": 0,
+      "rustle": 0,
+      "rainLow": 0,
+      "insectsA": 0,
+      "insectsB": 0,
+      "birds": 0,
+      "animals": 0,
+      "traffic": 0.00414882181212306,
+      "siren": 0
+    },
+    "recording": {
+      "source": "Original procedural 11-minute recordings; no downloaded audio",
+      "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+      "expectedDurationSeconds": 660,
+      "durationSeconds": 0,
+      "offsetSeconds": 0,
+      "loaded": false,
+      "playing": false,
+      "crossfadeSeconds": 6,
+      "crossfades": 0,
+      "fallbackActive": false,
+      "errors": [],
+      "tracks": []
+    },
+    "loopSeconds": 47,
+    "fallbackLoopSeconds": 47,
+    "looping": true,
+    "seamJump": 0
+  },
+  "healing": {
+    "before": 91.11602357378838,
+    "after": 100
+  },
+  "edgeHigh": {
+    "version": "9.0.0",
+    "renderer": "Three.js WebGL2",
+    "mode": "crashing",
+    "x": 12.62,
+    "speed": 0,
+    "time": 11.000000000000016,
+    "distance": 0.265448670987457,
+    "score": 1960.2447247627183,
+    "health": 0,
+    "pressure": 0,
+    "near": 0,
+    "level": 1,
+    "passed": 0,
+    "invincible": 0.45,
+    "travel": 265.448670987457,
+    "steer": 0,
+    "lateralV": -1.3259926796581234,
+    "yaw": 0.00004719390096841174,
+    "slip": 0.4180453174091679,
+    "pitch": 2.4728967267358027e-9,
+    "grip": 0.3438075202525488,
+    "rpm": 6672.956351506606,
+    "gear": 2,
+    "shiftRemaining": 0,
+    "trauma": 1,
+    "lastCross": -999,
+    "escapes": 0,
+    "policeRemaining": 0,
+    "policeLow": 0,
+    "nextPoliceAt": 1000000000,
+    "runSeed": 3471831621,
+    "layout": {
+      "seed": 3471831621,
+      "first": 446,
+      "spacing": 982
+    },
+    "laneTarget": 2,
+    "edgeCooldown": 0.85,
+    "lastDamageAt": 11.000000000000016,
+    "cruise": false,
+    "cruiseTarget": 55,
+    "crash": {
+      "kind": "wreck",
+      "reason": "CAR WRECKED / HIGH-SPEED IMPACT",
+      "t": 0,
+      "duration": 3.6,
+      "originX": 12.62,
+      "originTravel": 265.448670987457,
+      "rammed": false,
+      "side": -1,
+      "visualZ": 0
+    },
+    "hazardHits": {},
+    "powertrainInitialized": true,
+    "powertrainCar": "black",
+    "power": {
+      "accel": 0,
+      "rpm": 6672.956351506606,
+      "gear": 2,
+      "pull": 0,
+      "drag": 1.7305000000000001,
+      "grade": -0.02436423963894095,
+      "surface": 0.5,
+      "drafting": 0,
+      "shifting": false,
+      "load": 0,
+      "availablePowerKw": 0,
+      "referenceAvailablePowerKw": 409.833,
+      "driveProfile": "fast",
+      "simulationLabel": "Fast Drive: deliberately arcade acceleration and speed; real-car references are shown separately",
+      "unboostedPull": 0,
+      "referenceDrag": 6.008191531630629,
+      "shiftRemaining": 0
+    },
+    "throttle": 0,
+    "assistCorrection": -37.235648126103925,
+    "roadDrift": 37.235648126103925,
+    "laneAssistActive": true,
+    "manualSteering": false,
+    "natureHazards": [],
+    "lastImpact": {
+      "kind": "edge",
+      "closingMph": 219.99003312251432,
+      "damage": 100,
+      "atTravel": 265.448670987457,
+      "atX": 12.62
+    },
+    "shiftFromRpm": 6672.956351506606,
+    "speedMph": 0,
+    "options": {
+      "car": "black",
+      "day": "afternoon",
+      "environment": "coastline",
+      "units": "mph",
+      "quality": "Game Only",
+      "fpsCap": 60,
+      "zen": false,
+      "nature": false,
+      "sound": true,
+      "trafficOff": true,
+      "treePack": "native",
+      "adaptiveQuality": false,
+      "driftAssist": false,
+      "laneAssist": true,
+      "geography": false,
+      "cruiseStart": true
+    },
+    "record": {
+      "score": 0,
+      "time": 0,
+      "distance": 0,
+      "runs": 0
+    },
+    "legacyRecordsRetained": {},
+    "traffic": [],
+    "police": null,
+    "camera": {
+      "position": [
+        7.096191447725024,
+        2.7981981226401884,
+        8.369546985624394
+      ],
+      "fov": 58.41491990056323
+    },
+    "fps": 11,
+    "frameMs": 106.47222222222223,
+    "timing": {
+      "mean": 106.47222222222223,
+      "p95": 1083.2000000000007,
+      "max": 1083.2000000000007,
+      "samples": 18,
+      "droppedTime": 3.349500000000002,
+      "renderCost": 50.30000000447035,
+      "fixedHz": 120,
+      "interpolation": true
+    },
+    "drawCalls": 752,
+    "triangles": 552602,
+    "details": {
+      "environment": "coastline",
+      "weather": "disabled",
+      "individualLeaves": 0,
+      "birds": 0,
+      "wildlife": 0,
+      "reflectiveOcean": false,
+      "reflectionCaptures": 0,
+      "supersample": 0.8,
+      "shadowSize": 0,
+      "shadowCascades": 0,
+      "adaptive": 1,
+      "preset": "Game Only",
+      "waterSegments": null,
+      "reflectionResolution": 0,
+      "reflectionHz": 0,
+      "reflectionPasses": 0,
+      "aa": "none",
+      "anisotropy": 1,
+      "terrainTiles": 0,
+      "clearShallows": false,
+      "waterOptics": "transparent shallows, depth-color absorption, layered normals and planar reflection",
+      "materialDetail": "correlated original aggregate / wear / height-derived normal / roughness; Blender trunks and rocks",
+      "roadSurface": "asphalt",
+      "localCarReflection": false,
+      "ultraScenery": {
+        "active": false,
+        "materialResolution": 0,
+        "groundInstances": 0,
+        "shorelineInstances": 0,
+        "resourcesCreated": false,
+        "routeBound": true,
+        "suppressedOutsideUltra": true,
+        "placement": "Terrain sampled near-field clumps with road and dynamic junction setbacks"
+      },
+      "oceanPresentation9": {
+        "active": false,
+        "waveModel": "two analytic long swells with paired normals, mipmapped eight-direction wind ripples",
+        "foam": "broken cellular shore wash with receding lace, matched to the curved sea-level shore",
+        "normalResolution": 512,
+        "shoreSeaLevel": true,
+        "reflectionScheduleChanged": false,
+        "original": true
+      },
+      "roadsideCraft": {
+        "corrugatedSteelBeams": 320,
+        "structuralPosts": 320,
+        "hexFasteners": 640,
+        "photographicShoulders": true
+      },
+      "roadMicroDetail10": {
+        "active": false,
+        "quality": "Game Only",
+        "aggregateStones": 0,
+        "paintWearEdges": 0,
+        "paintChips": 0,
+        "perTile": true,
+        "material": "individually modeled aggregate and chipped reflective lane paint"
+      },
+      "treePack": "native",
+      "treePackName": "Native mosaic",
+      "treeSpecies": [
+        "Coastal live oak",
+        "Monterey cypress",
+        "Shore pine"
+      ],
+      "treeSpeciesCounts": [
+        90,
+        85,
+        85
+      ],
+      "authoredTrees": 0,
+      "visibleAuthoredTrees": 0,
+      "leafCapacity": 0,
+      "canopyCards": 0,
+      "pineNeedles": 0,
+      "groundDetail": 0,
+      "grassTufts": 0,
+      "grassStrands": 0,
+      "groundCapacity": 374000,
+      "groundMaterial": "curved individual grass strands",
+      "treeArtWind": true,
+      "legacyVegetationHidden": true,
+      "vegetationPlacement": "terrain sampled roots; layered mixed-species groves; road and junction clearances",
+      "treeUltraDetail": {
+        "active": false,
+        "nearTrees": 0,
+        "leafModel": "standard authored LOD",
+        "resourcesCreated": false,
+        "routeBound": true,
+        "suppressedOutsideUltra": true
+      },
+      "understorySpecies": [],
+      "understoryPlants": 0,
+      "understoryLeaves": 0,
+      "understoryTriangles": 0,
+      "understoryCapacity": 0,
+      "understoryJunctionSuppressed": 0,
+      "understoryWind": false,
+      "understoryPlacement": "Terrain sampled clumps around tree anchors; modeled foliage outside 14 m road corridor; dynamic junction setback",
+      "wildlifeSpecies": [
+        "Roe deer",
+        "Red fox",
+        "Harbor seal"
+      ],
+      "visibleWildlifeSpecies": [],
+      "birdSpecies": [
+        "Herring gull",
+        "Common tern",
+        "Cormorant"
+      ],
+      "wildlifeArt": {
+        "original": true,
+        "articulated": true,
+        "terrainAnchored": true,
+        "groundCount": 0,
+        "birdCount": 0,
+        "groundCapacity": 60,
+        "birdCapacity": 48,
+        "instancedBatches": 23,
+        "furGeometry": false,
+        "featherLayers": true,
+        "behaviors": [
+          "jungle tapir/capybara crossings when geo effects are enabled",
+          "off-road grazing and head turns",
+          "small species-dependent body motion",
+          "tail movement",
+          "species-dependent flapping and gliding"
+        ],
+        "limits": "Procedural stylized anatomy; no full skeletal locomotion or ecological AI"
+      },
+      "wildlifeUltraDetail": {
+        "active": false,
+        "built": false,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": false,
+        "airUnbent": false,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 0,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "photographicScenery": {
+        "active": false,
+        "built": false,
+        "visibleTrees": 0,
+        "visiblePlants": 0,
+        "sourceTriangles": 0,
+        "license": "CC0",
+        "treeSources": "original authored Blender species",
+        "scannedRocks": false,
+        "geometryPolicy": "authored runtime geometry with scanned PBR materials"
+      },
+      "lighting": {
+        "model": "v9 broad directional sun, cooler sky fill, restrained ground bounce and local PBR environment",
+        "day": "afternoon",
+        "sun": [
+          -105,
+          168,
+          -85
+        ],
+        "target": [
+          0,
+          0,
+          -18
+        ],
+        "sunIntensity": 3.45,
+        "fillIntensity": 0.82,
+        "exposure": 0.91,
+        "headlightIntensities": [
+          0,
+          0
+        ],
+        "daytimeSpotlight": false
+      },
+      "photographicAssets": {
+        "pending": 0,
+        "loaded": 16,
+        "errors": [],
+        "sources": "Poly Haven CC0 PBR scans and original generated feather texture",
+        "offline": true,
+        "embeddedImagePayloads": true
+      },
+      "photographicSky": false,
+      "gameOnly": true,
+      "natureHazards": 0
+    },
+    "route": {
+      "curvature": -0.0019250238814326648,
+      "grade": -0.0243641778855012,
+      "elevation": 5.9264463760680135,
+      "centerline": 63.177548699350226,
+      "signal": "GREEN",
+      "intersections": 1,
+      "cycleMeters": 982,
+      "runLayout": {
+        "seed": 3471831621,
+        "first": 446,
+        "spacing": 982
+      },
+      "junction": {
+        "id": 0,
+        "position": 446,
+        "ahead": 180.55132901254302,
+        "phase": 5.621502786874785,
+        "state": "GREEN"
+      }
+    },
+    "vehicle": {
+      "name": "McLaren 720S Coupe",
+      "spec": {
+        "zero60": 2.37,
+        "zero100Kph": 2.45,
+        "zero100": 4.22,
+        "zero180": 7.8,
+        "zero200": 8.97,
+        "topMph": 265,
+        "brakeTime": 2.27,
+        "brakeMeters": 30.4,
+        "driftScore": 5,
+        "mass": 1419,
+        "strength": 3,
+        "damageScale": 1.125,
+        "balanceTotal": 42,
+        "capabilityRanks": [
+          8,
+          10,
+          7,
+          8,
+          6,
+          3
+        ],
+        "analogue": "McLaren 720S Coupe",
+        "reference": {
+          "analogue": "McLaren 720S Coupe",
+          "referenceYear": "2017–2023",
+          "powerKw": 529.5,
+          "powerLabel": "720 PS / 710 bhp",
+          "torqueNm": 770,
+          "mass": 1419,
+          "massBasis": "DIN kerb, no driver",
+          "drivetrain": "RWD",
+          "gears": 7,
+          "transmission": "7-speed dual clutch",
+          "topMph": 212,
+          "acceleration": {
+            "mph": 62.137119,
+            "time": 2.9,
+            "label": "0–100 km/h: 2.9 s (manufacturer specification table)"
+          },
+          "secondaryAcceleration": {
+            "mph": 124.274238,
+            "time": 7.8
+          },
+          "braking": {
+            "mph": 62.137119,
+            "meters": 30,
+            "label": "100–0 km/h: 30 m, manufacturer"
+          },
+          "notes": "The page introduction says 2.8 s; the detailed specification table says 2.9 s. This model uses the table.",
+          "sources": [
+            {
+              "title": "McLaren 720S technical specifications",
+              "url": "https://cars.mclaren.com/en/super-series/720s"
+            }
+          ]
+        },
+        "powerKw": 529.5,
+        "torqueNm": 770,
+        "drivetrain": "RWD",
+        "gears": 7,
+        "referenceAcceleration": "0–100 km/h: 2.9 s (manufacturer specification table)",
+        "brakingBasis": "100–0 km/h: 30 m, manufacturer",
+        "simulationLabel": "Fast Drive: deliberately arcade acceleration and speed; real-car references are shown separately",
+        "performanceLabel": "Arcade fast drive",
+        "driveProfile": "fast",
+        "referencePerformance": {
+          "topMph": 212,
+          "acceleration": {
+            "mph": 62.137119,
+            "time": 2.9,
+            "label": "0–100 km/h: 2.9 s (manufacturer specification table)"
+          },
+          "braking": {
+            "mph": 62.137119,
+            "meters": 30,
+            "label": "100–0 km/h: 30 m, manufacturer"
+          },
+          "powerKw": 529.5,
+          "torqueNm": 770,
+          "mass": 1419,
+          "drivetrain": "RWD",
+          "gears": 7
+        }
+      },
+      "shape": "hypercar"
+    },
+    "quality": {
+      "pixelRatio": 0.8,
+      "shadow": 256,
+      "grass": 0
+    },
+    "audio": {
+      "unlocked": true,
+      "state": "running",
+      "enabled": true,
+      "nature": false,
+      "car": "black",
+      "biome": "coastline",
+      "lastImpact": {
+        "severity": 1,
+        "kind": "edge",
+        "time": 13.690666666666667
+      },
+      "engineProfile": "McLaren 720S · original twin-turbo V8 pulse model",
+      "engineDynamics": {
+        "cylinders": 8,
+        "cycleHz": 55.60963536957386,
+        "firingHz": 444.87708295659087,
+        "motorOrderHz": 0,
+        "exhaustFilterHz": 987.2012898780615,
+        "intakeResonanceHz": 1470.4717263629955,
+        "driverPedal": 0,
+        "throttleAmount": 0,
+        "load": 0,
+        "accelerationMphPerSecond": -0.0048726961343085184,
+        "rawAccelerationNegative": false,
+        "poweredShiftInterruption": false,
+        "decelerating": false,
+        "shiftAllowed": false,
+        "shiftDirection": null,
+        "shiftCut": 1,
+        "shiftEvents": 0,
+        "suppressedShiftEvents": 3,
+        "lastShift": null,
+        "suppressionReason": "coasting or no driver pedal",
+        "lastSuppressionReason": "coasting or no driver pedal",
+        "waveform": "Original 192-harmonic combustion-cycle wavetables",
+        "lastSpeedMph": 54.94940409583151,
+        "lastAccelerationMphPerSecond": -0.0048726961343085184
+      },
+      "engineSource": "Original procedural approximation; not a recorded real-car engine",
+      "soundscape": "surf wash, tree wind, leaf rustle, gulls/terns/cormorants",
+      "signature": "black/8/1/coastline",
+      "rpm": 6672.956351506606,
+      "gear": 1,
+      "rms": 0.11408066761717076,
+      "peak": 0.2796935439109802,
+      "limiter": {
+        "type": "Dynamics compression and oversampled tanh soft limiting",
+        "compressionDb": -1.752636432647705,
+        "digitalClipSamples": 0
+      },
+      "layers": {
+        "engine": 0.16159889101982117,
+        "harmonic": 0.040800001472234726,
+        "sub": 0.0272000003606081,
+        "grit": 0.006240000016987324,
+        "turbo": 0,
+        "intakeAir": 0,
+        "mechanical": 0.018910959362983704,
+        "motorRear": 0,
+        "top": 0,
+        "coast": 0.07999999821186066,
+        "brake": 0,
+        "shift": 0,
+        "impact": 0.6447699069976807,
+        "wind": 0,
+        "ocean": 0,
+        "weather": 0,
+        "rustle": 0,
+        "rainLow": 0,
+        "insectsA": 0,
+        "insectsB": 0,
+        "birds": 0,
+        "animals": 0,
+        "traffic": 0,
+        "siren": 0
+      },
+      "recording": {
+        "source": "Original procedural 11-minute recordings; no downloaded audio",
+        "transport": "Local HTMLAudio playback; independent of WebAudio CORS",
+        "expectedDurationSeconds": 660,
+        "durationSeconds": 0,
+        "offsetSeconds": 0,
+        "loaded": false,
+        "playing": false,
+        "crossfadeSeconds": 6,
+        "crossfades": 0,
+        "fallbackActive": false,
+        "errors": [],
+        "tracks": []
+      },
+      "loopSeconds": 47,
+      "fallbackLoopSeconds": 47,
+      "looping": true,
+      "seamJump": 0
+    },
+    "roadOffset": -374.55460429009065
+  },
+  "policeEligibility": {
+    "at100": false,
+    "above100": true,
+    "startTravel": 1234
+  },
+  "catchStart": {
+    "kind": "police",
+    "reason": "Caught at 1272 m / police intercept",
+    "t": 0.075,
+    "duration": 3.6,
+    "originX": 2,
+    "originTravel": 1272.09025774415,
+    "rammed": false,
+    "side": -1,
+    "visualZ": 0
+  },
+  "catchRam": {
+    "phase": 1.3249999999999977,
+    "rammed": true,
+    "originTravel": 1272.09025774415,
+    "ramTravel": 1272.09025774415,
+    "travel": 1272.09025774415,
+    "police": {
+      "z": 2.308333333333337,
+      "x": 2
+    },
+    "carX": 1.7433333333333365,
+    "carZ": -0.291666666666663,
+    "camera": {
+      "position": [
+        11.929535755030788,
+        4.293794814774966,
+        8.874041733106585
+      ],
+      "fov": 52
+    },
+    "yaw": -0.08399999999999895
+  },
+  "randomRuns": [
+    {
+      "seed": 3489275955,
+      "first": 405,
+      "spacing": 976,
+      "cop": 860.8084664680064
+    },
+    {
+      "seed": 3703660962,
+      "first": 411,
+      "spacing": 905,
+      "cop": 518.690082943067
+    },
+    {
+      "seed": 1049725685,
+      "first": 301,
+      "spacing": 790,
+      "cop": 1083.8649682700634
+    },
+    {
+      "seed": 514610302,
+      "first": 473,
+      "spacing": 796,
+      "cop": 924.5798743795604
+    }
+  ],
+  "forwardTraffic": {
+    "minDelta": 0,
+    "stopped": true,
+    "crossFacing": true,
+    "observedCross": true
+  },
+  "vehicleCollision": {
+    "impact": {
+      "kind": "vehicle",
+      "closingMph": 124.19858929706096,
+      "damage": 79.72209117821124,
+      "atTravel": 10.693029363810018,
+      "atX": 2
+    },
+    "health": 20.277908821788756,
+    "speed": 91.10792286610227
+  },
+  "nearMiss": {
+    "near": 1,
+    "impact": null
+  },
+  "policeEscape": {
+    "started": true,
+    "mode": "playing",
+    "escapes": 1,
+    "remaining": 0,
+    "police": null,
+    "speed": 174.9997909271376
+  },
+  "persisted": {
+    "car": "black",
+    "day": "afternoon",
+    "environment": "coastline",
+    "units": "mph",
+    "quality": "Game Only",
+    "fpsCap": 60,
+    "zen": true,
+    "nature": false,
+    "sound": true,
+    "trafficOff": true,
+    "treePack": "native",
+    "adaptiveQuality": false,
+    "driftAssist": false,
+    "laneAssist": true,
+    "geography": false,
+    "cruiseStart": true
+  },
+  "errors": [],
+  "external": []
+}

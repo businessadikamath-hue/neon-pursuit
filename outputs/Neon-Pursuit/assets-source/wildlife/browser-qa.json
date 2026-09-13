@@ -1,0 +1,844 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "biome": "coastline",
+      "quality": "High",
+      "detail": {
+        "active": false,
+        "built": false,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": false,
+        "airUnbent": false,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 0,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 3,
+        "calls": 55,
+        "triangles": 805272,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra+",
+      "detail": {
+        "active": true,
+        "built": true,
+        "closeSubjects": 49,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 16,
+        "blenderComponents": 22,
+        "geometryTriangles": 266761,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 4,
+        "calls": 73,
+        "triangles": 3875785,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "coastline",
+      "quality": "Game Only",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 266761,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 5,
+        "calls": 29,
+        "triangles": 700,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "coastline",
+      "quality": "Low",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 266761,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 6,
+        "calls": 54,
+        "triangles": 379690,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 266761,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 7,
+        "calls": 56,
+        "triangles": 1257332,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra+",
+      "detail": {
+        "active": true,
+        "built": true,
+        "closeSubjects": 49,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 16,
+        "blenderComponents": 22,
+        "geometryTriangles": 266761,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 8,
+        "calls": 72,
+        "triangles": 3875721,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra+ far",
+      "detail": {
+        "active": true,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 266761,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      }
+    },
+    {
+      "biome": "tundra",
+      "quality": "High",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 276026,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 14,
+        "calls": 56,
+        "triangles": 843768,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "tundra",
+      "quality": "Ultra+",
+      "detail": {
+        "active": true,
+        "built": true,
+        "closeSubjects": 49,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 18,
+        "blenderComponents": 22,
+        "geometryTriangles": 276026,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 15,
+        "calls": 77,
+        "triangles": 3986612,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "tundra",
+      "quality": "Game Only",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 276026,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 16,
+        "calls": 29,
+        "triangles": 700,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "tundra",
+      "quality": "Low",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 276026,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 17,
+        "calls": 55,
+        "triangles": 396506,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "tundra",
+      "quality": "Ultra",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 276026,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 18,
+        "calls": 58,
+        "triangles": 1322356,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "tundra",
+      "quality": "Ultra+",
+      "detail": {
+        "active": true,
+        "built": true,
+        "closeSubjects": 49,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 18,
+        "blenderComponents": 22,
+        "geometryTriangles": 276026,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 19,
+        "calls": 76,
+        "triangles": 3986548,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "tundra",
+      "quality": "Ultra+ far",
+      "detail": {
+        "active": true,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 276026,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      }
+    },
+    {
+      "biome": "desert",
+      "quality": "High",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 273429,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 25,
+        "calls": 56,
+        "triangles": 842872,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "desert",
+      "quality": "Ultra+",
+      "detail": {
+        "active": true,
+        "built": true,
+        "closeSubjects": 49,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 18,
+        "blenderComponents": 22,
+        "geometryTriangles": 273429,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 26,
+        "calls": 77,
+        "triangles": 3976037,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "desert",
+      "quality": "Game Only",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 273429,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 27,
+        "calls": 29,
+        "triangles": 700,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "desert",
+      "quality": "Low",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 273429,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 28,
+        "calls": 55,
+        "triangles": 400346,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "desert",
+      "quality": "Ultra",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 273429,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 29,
+        "calls": 58,
+        "triangles": 1322868,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "desert",
+      "quality": "Ultra+",
+      "detail": {
+        "active": true,
+        "built": true,
+        "closeSubjects": 49,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 18,
+        "blenderComponents": 22,
+        "geometryTriangles": 273429,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 30,
+        "calls": 76,
+        "triangles": 3975973,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "desert",
+      "quality": "Ultra+ far",
+      "detail": {
+        "active": true,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 273429,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      }
+    },
+    {
+      "biome": "jungle",
+      "quality": "High",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 271057,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 36,
+        "calls": 55,
+        "triangles": 833336,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "jungle",
+      "quality": "Ultra+",
+      "detail": {
+        "active": true,
+        "built": true,
+        "closeSubjects": 49,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 18,
+        "blenderComponents": 22,
+        "geometryTriangles": 271057,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 37,
+        "calls": 76,
+        "triangles": 3952833,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "jungle",
+      "quality": "Game Only",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 271057,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 38,
+        "calls": 29,
+        "triangles": 700,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "jungle",
+      "quality": "Low",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 271057,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 39,
+        "calls": 54,
+        "triangles": 391034,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "jungle",
+      "quality": "Ultra",
+      "detail": {
+        "active": false,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 271057,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 40,
+        "calls": 57,
+        "triangles": 1306444,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "jungle",
+      "quality": "Ultra+",
+      "detail": {
+        "active": true,
+        "built": true,
+        "closeSubjects": 49,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 18,
+        "blenderComponents": 22,
+        "geometryTriangles": 271057,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "hazards": [],
+      "draw": {
+        "frame": 41,
+        "calls": 75,
+        "triangles": 3952769,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "biome": "jungle",
+      "quality": "Ultra+ far",
+      "detail": {
+        "active": true,
+        "built": true,
+        "closeSubjects": 0,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 0,
+        "blenderComponents": 22,
+        "geometryTriangles": 271057,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      }
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "activeHazardsVerified": 5
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "view": "front",
+    "normalizedMeanAbsoluteDifference": 8.556230568501633e-07,
+    "fractionPixelsOver2Of255": 1.3586956521739131e-05,
+    "maxChannelDifference": 93,
+    "passes": true
+  },
+  {
+    "view": "rear",
+    "normalizedMeanAbsoluteDifference": 2.566425223449187e-07,
+    "fractionPixelsOver2Of255": 5.095108695652174e-06,
+    "maxChannelDifference": 35,
+    "passes": true
+  },
+  {
+    "view": "traffic",
+    "normalizedMeanAbsoluteDifference": 7.508347721341124e-07,
+    "fractionPixelsOver2Of255": 1.6304347826086955e-05,
+    "maxChannelDifference": 44,
+    "passes": true
+  },
+  {
+    "view": "traffic-rear",
+    "normalizedMeanAbsoluteDifference": 2.7085107490165683e-07,
+    "fractionPixelsOver2Of255": 5.774456521739131e-06,
+    "maxChannelDifference": 31,
+    "passes": true
+  }
+]

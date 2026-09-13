@@ -1,0 +1,205 @@
+{
+  "pass": true,
+  "models": [
+    {
+      "id": "black",
+      "vertices": 6762,
+      "triangles": 10668,
+      "minNormal": 0.9999773639640555,
+      "maxNormal": 1.0000218275698807,
+      "quantizedDegenerateUvTriangles": 0,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "silver",
+      "vertices": 6219,
+      "triangles": 10100,
+      "minNormal": 0.9999776331387649,
+      "maxNormal": 1.0000228408880587,
+      "quantizedDegenerateUvTriangles": 0,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "red",
+      "vertices": 6795,
+      "triangles": 10776,
+      "minNormal": 0.9999768270115209,
+      "maxNormal": 1.0000235571022176,
+      "quantizedDegenerateUvTriangles": 2,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "rally",
+      "vertices": 5371,
+      "triangles": 8570,
+      "minNormal": 0.999978470001542,
+      "maxNormal": 1.000024331991341,
+      "quantizedDegenerateUvTriangles": 0,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "muscle",
+      "vertices": 6193,
+      "triangles": 10096,
+      "minNormal": 0.9999791517857245,
+      "maxNormal": 1.0000222098927145,
+      "quantizedDegenerateUvTriangles": 2,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "roadster",
+      "vertices": 6441,
+      "triangles": 10304,
+      "minNormal": 0.9999769094405063,
+      "maxNormal": 1.0000229573078203,
+      "quantizedDegenerateUvTriangles": 0,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "electric",
+      "vertices": 6726,
+      "triangles": 10668,
+      "minNormal": 0.999978990188013,
+      "maxNormal": 1.0000219528376706,
+      "quantizedDegenerateUvTriangles": 1,
+      "degenerateUvSurfaceFraction": 8.627357072998942e-9,
+      "fittedSeams": 3
+    },
+    {
+      "id": "safari",
+      "vertices": 5523,
+      "triangles": 8684,
+      "minNormal": 0.9999778115018974,
+      "maxNormal": 1.0000216683074634,
+      "quantizedDegenerateUvTriangles": 3,
+      "degenerateUvSurfaceFraction": 1.5732585794605313e-8,
+      "fittedSeams": 3
+    },
+    {
+      "id": "traffic0",
+      "vertices": 5712,
+      "triangles": 9248,
+      "minNormal": 0.9999765010211163,
+      "maxNormal": 1.000023010395227,
+      "quantizedDegenerateUvTriangles": 2,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "traffic1",
+      "vertices": 5691,
+      "triangles": 9168,
+      "minNormal": 0.9999787382445544,
+      "maxNormal": 1.000022399424199,
+      "quantizedDegenerateUvTriangles": 0,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "traffic2",
+      "vertices": 5694,
+      "triangles": 9220,
+      "minNormal": 0.9999784048035769,
+      "maxNormal": 1.0000207593004324,
+      "quantizedDegenerateUvTriangles": 0,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "traffic3",
+      "vertices": 5934,
+      "triangles": 9208,
+      "minNormal": 0.9999776694633741,
+      "maxNormal": 1.0000235547738239,
+      "quantizedDegenerateUvTriangles": 238,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "traffic4",
+      "vertices": 5667,
+      "triangles": 9188,
+      "minNormal": 0.9999754955728993,
+      "maxNormal": 1.0000236525663546,
+      "quantizedDegenerateUvTriangles": 0,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "traffic5",
+      "vertices": 5563,
+      "triangles": 9044,
+      "minNormal": 0.9999779712369996,
+      "maxNormal": 1.000024113122479,
+      "quantizedDegenerateUvTriangles": 0,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "traffic6",
+      "vertices": 5861,
+      "triangles": 9186,
+      "minNormal": 0.9999785528960918,
+      "maxNormal": 1.0000245978936606,
+      "quantizedDegenerateUvTriangles": 50,
+      "degenerateUvSurfaceFraction": 7.93752211820409e-9,
+      "fittedSeams": 3
+    },
+    {
+      "id": "traffic7",
+      "vertices": 5688,
+      "triangles": 9140,
+      "minNormal": 0.9999786008631596,
+      "maxNormal": 1.0000219970772208,
+      "quantizedDegenerateUvTriangles": 0,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "traffic8",
+      "vertices": 5725,
+      "triangles": 9240,
+      "minNormal": 0.9999794391222249,
+      "maxNormal": 1.0000213726008609,
+      "quantizedDegenerateUvTriangles": 2,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "traffic9",
+      "vertices": 5516,
+      "triangles": 8960,
+      "minNormal": 0.9999793236287954,
+      "maxNormal": 1.0000218112710964,
+      "quantizedDegenerateUvTriangles": 2,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "traffic10",
+      "vertices": 5723,
+      "triangles": 9244,
+      "minNormal": 0.9999771581245229,
+      "maxNormal": 1.0000228245892908,
+      "quantizedDegenerateUvTriangles": 0,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    },
+    {
+      "id": "traffic11",
+      "vertices": 5663,
+      "triangles": 9176,
+      "minNormal": 0.9999765457283781,
+      "maxNormal": 1.000023166863357,
+      "quantizedDegenerateUvTriangles": 0,
+      "degenerateUvSurfaceFraction": 0,
+      "fittedSeams": 3
+    }
+  ]
+}

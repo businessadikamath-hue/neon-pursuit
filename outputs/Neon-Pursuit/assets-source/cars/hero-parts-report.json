@@ -1,0 +1,37 @@
+{
+  "blender": "4.5.5 LTS",
+  "planarRotorCapFacesCorrected": 79,
+  "planarRotorCapLoopsCorrected": 1660,
+  "parts": [
+    {
+      "name": "sportTire",
+      "vertices": 16962,
+      "triangles": 33280,
+      "finite": true
+    },
+    {
+      "name": "roadTire",
+      "vertices": 16962,
+      "triangles": 33280,
+      "finite": true
+    },
+    {
+      "name": "offroadTire",
+      "vertices": 16962,
+      "triangles": 33280,
+      "finite": true
+    },
+    {
+      "name": "drilledRotor",
+      "vertices": 9102,
+      "triangles": 12260,
+      "finite": true
+    },
+    {
+      "name": "beveledCaliper",
+      "vertices": 196,
+      "triangles": 220,
+      "finite": true
+    }
+  ]
+}

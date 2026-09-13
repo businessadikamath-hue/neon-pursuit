@@ -1,0 +1,15 @@
+{
+  "runtimePolicy": "embedded-local-image-payloads",
+  "highDetailRoles": [
+    "bark",
+    "earth",
+    "road",
+    "sand"
+  ],
+  "catalogEntries": 40,
+  "skyPayloads": [
+    "sky-day",
+    "sky-morning"
+  ],
+  "sources": "Poly Haven CC0 scans plus original generated feather texture"
+}

@@ -1,0 +1,14 @@
+{
+  "blender": "4.5.5 LTS",
+  "engine": "Cycles CPU",
+  "threads": 4,
+  "samples": 32,
+  "resolution": [
+    1300,
+    900
+  ],
+  "renderSeconds": 73.14250889999948,
+  "component": "Original black car body; complete runtime assembly is in the matched browser galleries",
+  "bodyModuleSHA256": "7df56136f2279ab9c95a02d531ccd43a6e21df5a2725faeb35d839ae013e303b",
+  "imageSHA256": "394fc38e945940d99c21b4af39f08042f944c8d1e461e62627c5a90771cb51aa"
+}

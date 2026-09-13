@@ -1,0 +1,128 @@
+{
+  "passed": true,
+  "errors": [],
+  "captures": 20,
+  "details": [
+    {
+      "version": "v8",
+      "name": "black-close",
+      "tier": {
+        "quality": "Ultra+",
+        "built": true,
+        "active": true,
+        "meshCount": 28,
+        "triangleCount": 227648,
+        "rotatingGroups": 4,
+        "source": "Original Blender parts and procedural detail v8 Ultra+"
+      },
+      "drawCalls": 62,
+      "triangles": 251638
+    },
+    {
+      "version": "v8",
+      "name": "black-far",
+      "tier": {
+        "quality": "Ultra+",
+        "built": true,
+        "active": true,
+        "meshCount": 28,
+        "triangleCount": 227648,
+        "rotatingGroups": 4,
+        "source": "Original Blender parts and procedural detail v8 Ultra+"
+      },
+      "drawCalls": 65,
+      "triangles": 274230
+    },
+    {
+      "version": "v8",
+      "name": "silver-close",
+      "tier": {
+        "quality": "Ultra+",
+        "built": true,
+        "active": true,
+        "meshCount": 28,
+        "triangleCount": 226688,
+        "rotatingGroups": 4,
+        "source": "Original Blender parts and procedural detail v8 Ultra+"
+      },
+      "drawCalls": 57,
+      "triangles": 246810
+    },
+    {
+      "version": "v8",
+      "name": "traffic-close",
+      "tier": {
+        "quality": "Ultra+",
+        "built": true,
+        "active": true,
+        "meshCount": 28,
+        "triangleCount": 229408,
+        "rotatingGroups": 4,
+        "source": "Original Blender parts and procedural detail v8 Ultra+"
+      },
+      "drawCalls": 53,
+      "triangles": 242836
+    },
+    {
+      "version": "v9",
+      "name": "black-close",
+      "tier": {
+        "quality": "Ultra+",
+        "built": true,
+        "active": true,
+        "meshCount": 28,
+        "triangleCount": 227648,
+        "rotatingGroups": 4,
+        "source": "Original Blender parts and procedural detail v9 Ultra+"
+      },
+      "drawCalls": 63,
+      "triangles": 247784
+    },
+    {
+      "version": "v9",
+      "name": "black-far",
+      "tier": {
+        "quality": "Ultra+",
+        "built": true,
+        "active": true,
+        "meshCount": 28,
+        "triangleCount": 227648,
+        "rotatingGroups": 4,
+        "source": "Original Blender parts and procedural detail v9 Ultra+"
+      },
+      "drawCalls": 66,
+      "triangles": 270376
+    },
+    {
+      "version": "v9",
+      "name": "silver-close",
+      "tier": {
+        "quality": "Ultra+",
+        "built": true,
+        "active": true,
+        "meshCount": 28,
+        "triangleCount": 226688,
+        "rotatingGroups": 4,
+        "source": "Original Blender parts and procedural detail v9 Ultra+"
+      },
+      "drawCalls": 58,
+      "triangles": 242772
+    },
+    {
+      "version": "v9",
+      "name": "traffic-close",
+      "tier": {
+        "quality": "Ultra+",
+        "built": true,
+        "active": true,
+        "meshCount": 28,
+        "triangleCount": 229408,
+        "rotatingGroups": 4,
+        "source": "Original Blender parts and procedural detail v9 Ultra+"
+      },
+      "drawCalls": 55,
+      "triangles": 240768
+    }
+  ],
+  "fixture": "Identical camera, light, renderer, quality, viewport, and environment; actual installed v8 versus staged v9 source"
+}

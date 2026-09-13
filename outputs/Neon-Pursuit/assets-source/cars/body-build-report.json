@@ -1,0 +1,125 @@
+{
+  "blender": "4.5.5 LTS",
+  "models": [
+    {
+      "id": "black",
+      "vertices": 6762,
+      "triangles": 10668,
+      "finite": true
+    },
+    {
+      "id": "silver",
+      "vertices": 6219,
+      "triangles": 10100,
+      "finite": true
+    },
+    {
+      "id": "red",
+      "vertices": 6795,
+      "triangles": 10776,
+      "finite": true
+    },
+    {
+      "id": "rally",
+      "vertices": 5371,
+      "triangles": 8570,
+      "finite": true
+    },
+    {
+      "id": "muscle",
+      "vertices": 6193,
+      "triangles": 10096,
+      "finite": true
+    },
+    {
+      "id": "roadster",
+      "vertices": 6441,
+      "triangles": 10304,
+      "finite": true
+    },
+    {
+      "id": "electric",
+      "vertices": 6726,
+      "triangles": 10668,
+      "finite": true
+    },
+    {
+      "id": "safari",
+      "vertices": 5523,
+      "triangles": 8684,
+      "finite": true
+    },
+    {
+      "id": "traffic0",
+      "vertices": 5712,
+      "triangles": 9248,
+      "finite": true
+    },
+    {
+      "id": "traffic1",
+      "vertices": 5691,
+      "triangles": 9168,
+      "finite": true
+    },
+    {
+      "id": "traffic2",
+      "vertices": 5694,
+      "triangles": 9220,
+      "finite": true
+    },
+    {
+      "id": "traffic3",
+      "vertices": 5934,
+      "triangles": 9208,
+      "finite": true
+    },
+    {
+      "id": "traffic4",
+      "vertices": 5667,
+      "triangles": 9188,
+      "finite": true
+    },
+    {
+      "id": "traffic5",
+      "vertices": 5563,
+      "triangles": 9044,
+      "finite": true
+    },
+    {
+      "id": "traffic6",
+      "vertices": 5861,
+      "triangles": 9186,
+      "finite": true
+    },
+    {
+      "id": "traffic7",
+      "vertices": 5688,
+      "triangles": 9140,
+      "finite": true
+    },
+    {
+      "id": "traffic8",
+      "vertices": 5725,
+      "triangles": 9240,
+      "finite": true
+    },
+    {
+      "id": "traffic9",
+      "vertices": 5516,
+      "triangles": 8960,
+      "finite": true
+    },
+    {
+      "id": "traffic10",
+      "vertices": 5723,
+      "triangles": 9244,
+      "finite": true
+    },
+    {
+      "id": "traffic11",
+      "vertices": 5663,
+      "triangles": 9176,
+      "finite": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "blender": "4.5.5 LTS",
+  "original": true,
+  "models": [
+    {
+      "name": "layered-scree",
+      "vertices": 678,
+      "triangles": 1206,
+      "finite": true
+    },
+    {
+      "name": "tide-smoothed-cobble",
+      "vertices": 604,
+      "triangles": 1050,
+      "finite": true
+    },
+    {
+      "name": "broken-slate",
+      "vertices": 652,
+      "triangles": 1186,
+      "finite": true
+    },
+    {
+      "name": "weathered-forked-driftwood",
+      "vertices": 663,
+      "triangles": 1212,
+      "finite": true
+    },
+    {
+      "name": "ribbed-shore-shell",
+      "vertices": 546,
+      "triangles": 1088,
+      "finite": true
+    }
+  ]
+}

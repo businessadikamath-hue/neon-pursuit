@@ -1,0 +1,206 @@
+{
+  "passed": true,
+  "subjects": [],
+  "skulls": [
+    {
+      "name": "skull-fox",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.26888602543571477,
+      "minimumTriangleArea": 0.000025829942206861563
+    },
+    {
+      "name": "skull-coyote",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.32726053449755066,
+      "minimumTriangleArea": 0.00003017303148626175
+    },
+    {
+      "name": "skull-deer",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.43951581119480915,
+      "minimumTriangleArea": 0.000027865225163454303
+    },
+    {
+      "name": "skull-reindeer",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.5298957024945732,
+      "minimumTriangleArea": 0.00003679973536758914
+    },
+    {
+      "name": "skull-bighorn",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.5893878320889342,
+      "minimumTriangleArea": 0.00003391718662110087
+    },
+    {
+      "name": "skull-cat",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.46721318046664057,
+      "minimumTriangleArea": 0.00003254250087201332
+    },
+    {
+      "name": "skull-hare",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.27638563232818286,
+      "minimumTriangleArea": 0.000022230336784036483
+    },
+    {
+      "name": "skull-tapir",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.4594771243709458,
+      "minimumTriangleArea": 0.000053086776391294306
+    },
+    {
+      "name": "skull-capybara",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.5077274569178075,
+      "minimumTriangleArea": 0.000055389463939116116
+    },
+    {
+      "name": "skull-seal",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.355742380868175,
+      "minimumTriangleArea": 0.000026843382034197575
+    },
+    {
+      "name": "skull-bird",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 1.1440449512845197,
+      "minimumTriangleArea": 0.00005791197620886802
+    }
+  ],
+  "behavior": [
+    {
+      "biome": "coastline",
+      "quality": "Low",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Low",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Low",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "High",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "High",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "High",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra+",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra+",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Ultra+",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Game Only",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Game Only",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "coastline",
+      "quality": "Game Only",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    }
+  ],
+  "errors": []
+}

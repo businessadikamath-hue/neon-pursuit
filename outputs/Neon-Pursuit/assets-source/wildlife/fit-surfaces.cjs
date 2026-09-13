@@ -1,0 +1,16 @@
+const fs=require('fs'),path=require('path'),f=path.resolve(__dirname,'../engine-v9/wildlifeDetail8.js');let s=fs.readFileSync(f,'utf8');
+if(!s.includes('function skullSideX('))s=s.replace('function ear(parts,c,side){',`// Intersect each skull triangle in its yz plane. This fits features to the
+// exact exported surface instead of relying on ellipsoid approximations.
+function skullSideX(kind,y,z){const g=blenderWildlife8['skull-'+kind];let best=0;for(let i=0;i<g.i.length;i+=3){const a=g.i[i]*3,b=g.i[i+1]*3,c=g.i[i+2]*3,ay=g.p[a+1],az=g.p[a+2],by=g.p[b+1],bz=g.p[b+2],cy=g.p[c+1],cz=g.p[c+2],den=(bz-cz)*(ay-cy)+(cy-by)*(az-cz);if(Math.abs(den)<1e-12)continue;const u=((bz-cz)*(y-cy)+(cy-by)*(z-cz))/den,v=((cz-az)*(y-cy)+(ay-cy)*(z-cz))/den,w=1-u-v;if(u>=-1e-6&&v>=-1e-6&&w>=-1e-6)best=Math.max(best,u*g.p[a]+v*g.p[b]+w*g.p[c]);}return best;}
+function cheekPatch(parts,c,f,side){const p=[],ix=[],rows=9,sides=36;for(let i=0;i<=rows;i++){const r=i/rows;for(let j=0;j<=sides;j++){const a=j/sides*Math.PI*2,y=.087+Math.sin(a)*.026*r,z=-.031+Math.cos(a)*.038*r,x=skullSideX('bird',(y-f.y)/f.scale[1],z/f.scale[2])*f.scale[0]+.0005;p.push(side*x,y,f.hz+z);}}for(let i=0;i<rows;i++)for(let j=0;j<sides;j++){const a=i*(sides+1)+j,b=a+sides+1;ix.push(...(side===1?[a,a+1,b,a+1,b+1,b]:[a,b,a+1,a+1,b,b+1]));}const g=new T.BufferGeometry();g.setAttribute('position',new T.Float32BufferAttribute(p,3));g.setIndex(ix);g.computeVertexNormals();add(parts,g,0xddcdb0);}
+function ear(parts,c,side){`);
+s=s.replace('const [ex,ey,ez,rad,angle,nz,ny,nw]=fit;','const [,ey,ez,rad,angle,nz,ny,nw]=fit,ex=skullSideX(c.kind,ey,ez)-rad*.20;');
+s=s.replace("[side*.045,.085,hz-.082],[.064,.072,.015]","[side*.045,.085,hz-.115],[.061,.068,.009]");
+s=s.replace("const ex=c.owl?.043:c.macaw?.064:.055,ey=c.owl?.086:.098,ez=hz-(c.owl?.097:.040),rad=c.owl?.0175:c.raptor?.0095:.0078,angle=c.owl?-side*.10:-side*1.18;","const ey=c.owl?.086:.098,ez=hz-(c.owl?.124:.040),rad=c.owl?.0175:c.raptor?.0095:.0078,angle=c.owl?-side*.10:-side*1.18,ex=c.owl?.043:skullSideX('bird',(ey-y)/scale[1],(ez-hz)/scale[2])*scale[0]-rad*.15+(c.macaw?.001:0);");
+s=s.replace("oval(skin,0xddcdb0,[side*.061,.087,hz-.031],[.006,.026,.038]);","cheekPatch(skin,c,{hz,y,scale},side);");
+s=s.replace("side*.065,.067+j*.006","side*(skullSideX('bird',(.067+j*.006-y)/scale[1],-.053/scale[2])*scale[0]+.001),.067+j*.006").replace("side*.067,.069+j*.006","side*(skullSideX('bird',(.069+j*.006-y)/scale[1],-.032/scale[2])*scale[0]+.001),.069+j*.006").replace("side*.065,.070+j*.006","side*(skullSideX('bird',(.070+j*.006-y)/scale[1],-.007/scale[2])*scale[0]+.001),.070+j*.006");
+s=s.replace("lower?new T.Color(c.beak).multiplyScalar(.75).getHex():c.beak","lower?(c.macaw?0x2d2b25:new T.Color(c.beak).multiplyScalar(.75).getHex()):c.beak");
+fs.writeFileSync(f,s);
+// Record helper source input explicitly so a rerun starts from verified v8.
+const helper=path.join(__dirname,'revise-anatomy.cjs');let h=fs.readFileSync(helper,'utf8').replace("let d=fs.readFileSync(path.join(root,'wildlifeDetail8.js')","let d=fs.readFileSync(path.resolve(root,'../engine/wildlifeDetail8.js')").replace("let a=fs.readFileSync(path.join(root,'wildlifeArt.js')","let a=fs.readFileSync(path.resolve(root,'../engine/wildlifeArt.js')");fs.writeFileSync(helper,h);
+console.log('Fitted eyes and cheek patches to exact original skull surfaces.');

@@ -1,0 +1,143 @@
+{
+  "checks": [
+    {
+      "name": "black",
+      "originalMeshes": 287,
+      "batchedMeshes": 53,
+      "triangles": 51924
+    },
+    {
+      "name": "silver",
+      "originalMeshes": 270,
+      "batchedMeshes": 50,
+      "triangles": 50946
+    },
+    {
+      "name": "red",
+      "originalMeshes": 283,
+      "batchedMeshes": 55,
+      "triangles": 53322
+    },
+    {
+      "name": "rally",
+      "originalMeshes": 269,
+      "batchedMeshes": 55,
+      "triangles": 53004
+    },
+    {
+      "name": "muscle",
+      "originalMeshes": 240,
+      "batchedMeshes": 47,
+      "triangles": 42654
+    },
+    {
+      "name": "roadster",
+      "originalMeshes": 226,
+      "batchedMeshes": 49,
+      "triangles": 46036
+    },
+    {
+      "name": "electric",
+      "originalMeshes": 237,
+      "batchedMeshes": 49,
+      "triangles": 44370
+    },
+    {
+      "name": "safari",
+      "originalMeshes": 362,
+      "batchedMeshes": 54,
+      "triangles": 48590
+    },
+    {
+      "name": "Saloon",
+      "originalMeshes": 127,
+      "batchedMeshes": 42,
+      "triangles": 34730
+    },
+    {
+      "name": "Hatchback",
+      "originalMeshes": 121,
+      "batchedMeshes": 40,
+      "triangles": 34290
+    },
+    {
+      "name": "Estate",
+      "originalMeshes": 122,
+      "batchedMeshes": 40,
+      "triangles": 34642
+    },
+    {
+      "name": "Compact SUV",
+      "originalMeshes": 122,
+      "batchedMeshes": 40,
+      "triangles": 34630
+    },
+    {
+      "name": "Family SUV",
+      "originalMeshes": 124,
+      "batchedMeshes": 40,
+      "triangles": 34634
+    },
+    {
+      "name": "Delivery van",
+      "originalMeshes": 103,
+      "batchedMeshes": 38,
+      "triangles": 32372
+    },
+    {
+      "name": "Pickup",
+      "originalMeshes": 130,
+      "batchedMeshes": 39,
+      "triangles": 36752
+    },
+    {
+      "name": "City car",
+      "originalMeshes": 122,
+      "batchedMeshes": 40,
+      "triangles": 34562
+    },
+    {
+      "name": "Taxi",
+      "originalMeshes": 123,
+      "batchedMeshes": 41,
+      "triangles": 34674
+    },
+    {
+      "name": "Minivan",
+      "originalMeshes": 122,
+      "batchedMeshes": 40,
+      "triangles": 34382
+    },
+    {
+      "name": "Coupe",
+      "originalMeshes": 122,
+      "batchedMeshes": 40,
+      "triangles": 34666
+    },
+    {
+      "name": "Utility wagon",
+      "originalMeshes": 124,
+      "batchedMeshes": 40,
+      "triangles": 34622
+    }
+  ],
+  "construction": [
+    {
+      "batching": false,
+      "medianConstructionMsAll20": 720.5333499999997,
+      "minConstructionMsAll20": 686.2764999999999,
+      "maxConstructionMsAll20": 830.3029000000006,
+      "note": "Six measured warm construction runs; not frame time or FPS"
+    },
+    {
+      "batching": true,
+      "medianConstructionMsAll20": 1130.8338000000003,
+      "minConstructionMsAll20": 1087.4428999999982,
+      "maxConstructionMsAll20": 1225.1818000000003,
+      "note": "Six measured warm construction runs; not frame time or FPS"
+    }
+  ],
+  "finiteGeometry": true,
+  "collisionDimensionsUnchanged": true,
+  "allBodiesUsedInGame": true
+}

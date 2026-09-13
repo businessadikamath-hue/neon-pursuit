@@ -1,0 +1,22 @@
+{
+  "version": "9.0.0",
+  "verifiedAt": "2026-09-13T20:20:00Z",
+  "installed": "C:\\Users\\adika\\Documents\\Codex\\2026-09-11\\neon-pursuit-game\\outputs\\Neon-Pursuit",
+  "archive": "C:\\Users\\adika\\Documents\\Codex\\2026-09-11\\neon-pursuit-game\\outputs\\Neon-Pursuit.zip",
+  "archiveBytes": 761407883,
+  "archiveSHA256": "a8bd25d6c4b9e6adf820fd52e61162262d0ecbb28b71983e6dda1eb8eeeaa3e8",
+  "gameSHA256": "8ce237b3ad62a39aa6afb8e71f52085b04246a137794ef29cc567333813ffb82",
+  "files": 472,
+  "manifestValid": true,
+  "zipCrcValid": true,
+  "everyZipEntryMatchesInstalled": true,
+  "installedRuntimeLaunchPassed": true,
+  "installedUltraPlusQualitySmokePassed": true,
+  "qualitySmokeCoverage": "coastline, tundra, desert and jungle; 4096\u00b2 shadows; zero page errors; zero console errors; zero external requests",
+  "blenderOfflinePlayerPassed": true,
+  "previousVersion": "8.0.0",
+  "previousFolder": "C:\\Users\\adika\\Documents\\Codex\\2026-09-11\\neon-pursuit-game\\outputs\\Neon-Pursuit-before-v9",
+  "performance": "Neon-Pursuit/verification/performance/sustained-report.json",
+  "verification": "Neon-Pursuit/VERIFICATION.md",
+  "extractedRuntimeLaunchPassed": true
+}

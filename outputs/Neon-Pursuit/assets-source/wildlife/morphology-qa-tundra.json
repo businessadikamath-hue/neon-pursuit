@@ -1,0 +1,777 @@
+{
+  "passed": true,
+  "subjects": [
+    {
+      "biome": "tundra",
+      "type": "ground",
+      "name": "Reindeer",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 5184,
+            "size": [
+              0.8361999988555908,
+              1.0225944519042969,
+              1.6985623836517334
+            ],
+            "maxNormalLengthError": 3.7625158544329906e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 5904,
+            "size": [
+              0.6536038517951965,
+              0.9512892961502075,
+              1.6416000127792358
+            ],
+            "maxNormalLengthError": 4.5973357676309945e-8,
+            "zeroNormals": 0
+          }
+        },
+        "head": {
+          "before": {
+            "triangles": 6128,
+            "size": [
+              1.0542538166046143,
+              1.0301270633935928,
+              0.8197999894618988
+            ],
+            "maxNormalLengthError": 3.982136664859581e-8,
+            "zeroNormals": 4
+          },
+          "after": {
+            "triangles": 8016,
+            "size": [
+              0.6420554518699646,
+              0.9374637305736542,
+              0.6003327816724777
+            ],
+            "maxNormalLengthError": 4.7454515650358076e-8,
+            "zeroNormals": 4
+          }
+        },
+        "leg": {
+          "before": {
+            "triangles": 800,
+            "size": [
+              0.21643400192260742,
+              0.9672818519175053,
+              0.2647000029683113
+            ],
+            "maxNormalLengthError": 3.267978465615329e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 1368,
+            "size": [
+              0.17490185797214508,
+              0.9229999780654907,
+              0.21868708729743958
+            ],
+            "maxNormalLengthError": 3.5909428763858386e-8,
+            "zeroNormals": 0
+          }
+        },
+        "tail": {
+          "before": {
+            "triangles": 224,
+            "size": [
+              0.11682071909308434,
+              0.23826161958277225,
+              0.22171816509217024
+            ],
+            "maxNormalLengthError": 3.371734869084264e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 224,
+            "size": [
+              0.11682071909308434,
+              0.23826161958277225,
+              0.22171816509217024
+            ],
+            "maxNormalLengthError": 3.371734869084264e-8,
+            "zeroNormals": 0
+          }
+        },
+        "fur": {
+          "before": {
+            "triangles": 360,
+            "size": [
+              0.8886401355266571,
+              0.7896222472190857,
+              1.361792504787445
+            ],
+            "maxNormalLengthError": 4.002798736912894e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 360,
+            "size": [
+              0.6532785594463348,
+              0.6485205292701721,
+              1.3316621780395508
+            ],
+            "maxNormalLengthError": 3.065100573351742e-8,
+            "zeroNormals": 0
+          }
+        }
+      }
+    },
+    {
+      "biome": "tundra",
+      "type": "ground",
+      "name": "Arctic fox",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 5184,
+            "size": [
+              0.5649999976158142,
+              0.528510570526123,
+              1.1115000247955322
+            ],
+            "maxNormalLengthError": 4.096361905236989e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 5904,
+            "size": [
+              0.36634737253189087,
+              0.44854937493801117,
+              1.0829999446868896
+            ],
+            "maxNormalLengthError": 4.198135084010346e-8,
+            "zeroNormals": 0
+          }
+        },
+        "head": {
+          "before": {
+            "triangles": 6736,
+            "size": [
+              0.41645267605781555,
+              0.4155000001192093,
+              0.7469891011714935
+            ],
+            "maxNormalLengthError": 4.688603383318224e-8,
+            "zeroNormals": 4
+          },
+          "after": {
+            "triangles": 7736,
+            "size": [
+              0.23967398703098297,
+              0.25542527437210083,
+              0.3117399960756302
+            ],
+            "maxNormalLengthError": 4.1386807758669875e-8,
+            "zeroNormals": 4
+          }
+        },
+        "leg": {
+          "before": {
+            "triangles": 800,
+            "size": [
+              0.14623919129371643,
+              0.39926641061902046,
+              0.2395000010728836
+            ],
+            "maxNormalLengthError": 3.373861146016566e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 1368,
+            "size": [
+              0.11817692965269089,
+              0.34299999475479126,
+              0.202364481985569
+            ],
+            "maxNormalLengthError": 3.6362961308711306e-8,
+            "zeroNormals": 0
+          }
+        },
+        "tail": {
+          "before": {
+            "triangles": 512,
+            "size": [
+              0.25210021436214447,
+              0.38086703419685364,
+              0.7391907703131437
+            ],
+            "maxNormalLengthError": 3.0723630417561765e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 512,
+            "size": [
+              0.25210021436214447,
+              0.38086703419685364,
+              0.7391907703131437
+            ],
+            "maxNormalLengthError": 3.0723630417561765e-8,
+            "zeroNormals": 0
+          }
+        },
+        "fur": {
+          "before": {
+            "triangles": 360,
+            "size": [
+              0.6293219923973083,
+              0.5817203223705292,
+              0.9125047028064728
+            ],
+            "maxNormalLengthError": 3.819528771042968e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 360,
+            "size": [
+              0.36706630885601044,
+              0.4406905323266983,
+              0.8779989182949066
+            ],
+            "maxNormalLengthError": 3.174392282367933e-8,
+            "zeroNormals": 0
+          }
+        }
+      }
+    },
+    {
+      "biome": "tundra",
+      "type": "ground",
+      "name": "Arctic hare",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 5184,
+            "size": [
+              0.5424000024795532,
+              0.4662790820002556,
+              0.7640316784381866
+            ],
+            "maxNormalLengthError": 4.3269410276991493e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 5904,
+            "size": [
+              0.4191415309906006,
+              0.4182123690843582,
+              0.7296000123023987
+            ],
+            "maxNormalLengthError": 4.186642099668347e-8,
+            "zeroNormals": 0
+          }
+        },
+        "head": {
+          "before": {
+            "triangles": 5008,
+            "size": [
+              0.43269994854927063,
+              0.7029999941587448,
+              0.5654000043869019
+            ],
+            "maxNormalLengthError": 3.982136664859581e-8,
+            "zeroNormals": 4
+          },
+          "after": {
+            "triangles": 6896,
+            "size": [
+              0.32247456908226013,
+              0.5205814242362976,
+              0.26664000004529953
+            ],
+            "maxNormalLengthError": 4.624789717855293e-8,
+            "zeroNormals": 4
+          }
+        },
+        "leg": {
+          "before": {
+            "triangles": 800,
+            "size": [
+              0.14038962125778198,
+              0.30881213769316673,
+              0.3200000002980232
+            ],
+            "maxNormalLengthError": 3.422544603282063e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 1368,
+            "size": [
+              0.11344985663890839,
+              0.24300000071525574,
+              0.26999999582767487
+            ],
+            "maxNormalLengthError": 3.840568907342856e-8,
+            "zeroNormals": 0
+          }
+        },
+        "tail": {
+          "before": {
+            "triangles": 512,
+            "size": [
+              0.161464624106884,
+              0.29533132910728455,
+              0.2000000011175871
+            ],
+            "maxNormalLengthError": 3.301028295155106e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 512,
+            "size": [
+              0.161464624106884,
+              0.29533132910728455,
+              0.2000000011175871
+            ],
+            "maxNormalLengthError": 3.301028295155106e-8,
+            "zeroNormals": 0
+          }
+        },
+        "fur": {
+          "before": {
+            "triangles": 360,
+            "size": [
+              0.5572742521762848,
+              0.5028529204428196,
+              0.6076010763645172
+            ],
+            "maxNormalLengthError": 4.045038504152387e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 360,
+            "size": [
+              0.4062754958868027,
+              0.4202672615647316,
+              0.59196937084198
+            ],
+            "maxNormalLengthError": 3.121763691993351e-8,
+            "zeroNormals": 0
+          }
+        }
+      }
+    },
+    {
+      "biome": "tundra",
+      "type": "birds",
+      "name": "Snowy owl",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 80960,
+            "size": [
+              0.2939999997615814,
+              0.3469086140394211,
+              0.9370000064373016
+            ],
+            "maxNormalLengthError": 4.088501737165018e-8,
+            "zeroNormals": 93
+          },
+          "after": {
+            "triangles": 17808,
+            "size": [
+              0.23478339612483978,
+              0.2946486622095108,
+              0.8799999952316284
+            ],
+            "maxNormalLengthError": 4.1617089774348415e-8,
+            "zeroNormals": 9
+          }
+        },
+        "wing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              1.0199999809265137,
+              0.044283200055360794,
+              0.6698488295078278
+            ],
+            "maxNormalLengthError": 3.658957825614095e-8,
+            "zeroNormals": 26
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              1.0296017974615097,
+              0.018092508893460035,
+              0.5375999808311462
+            ],
+            "maxNormalLengthError": 3.444581264666624e-8,
+            "zeroNormals": 33
+          }
+        },
+        "leftWing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              1.0199999809265137,
+              0.044283200055360794,
+              0.6698488295078278
+            ],
+            "maxNormalLengthError": 3.5998424463556944e-8,
+            "zeroNormals": 624
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              1.0296017974615097,
+              0.018092508893460035,
+              0.5375999808311462
+            ],
+            "maxNormalLengthError": 3.719789209988278e-8,
+            "zeroNormals": 792
+          }
+        }
+      }
+    },
+    {
+      "biome": "tundra",
+      "type": "birds",
+      "name": "Snow bunting",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 63360,
+            "size": [
+              0.2235676646232605,
+              0.2919086068868637,
+              0.972000002861023
+            ],
+            "maxNormalLengthError": 3.6016417848117044e-8,
+            "zeroNormals": 93
+          },
+          "after": {
+            "triangles": 15376,
+            "size": [
+              0.2030138224363327,
+              0.2525726556777954,
+              0.9510000050067902
+            ],
+            "maxNormalLengthError": 4.1652211457687827e-8,
+            "zeroNormals": 9
+          }
+        },
+        "wing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              0.550000011920929,
+              0.04264159873127937,
+              0.3349244147539139
+            ],
+            "maxNormalLengthError": 3.714885010719371e-8,
+            "zeroNormals": 26
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              0.5549711673520505,
+              0.017586872447282076,
+              0.2687999904155731
+            ],
+            "maxNormalLengthError": 2.9786827782096736e-8,
+            "zeroNormals": 33
+          }
+        },
+        "leftWing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              0.550000011920929,
+              0.04264159873127937,
+              0.3349244147539139
+            ],
+            "maxNormalLengthError": 3.967017980777143e-8,
+            "zeroNormals": 624
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              0.5549711673520505,
+              0.017586872447282076,
+              0.2687999904155731
+            ],
+            "maxNormalLengthError": 4.0090255448710366e-8,
+            "zeroNormals": 792
+          }
+        }
+      }
+    },
+    {
+      "biome": "tundra",
+      "type": "birds",
+      "name": "Ptarmigan",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 63360,
+            "size": [
+              0.2235676646232605,
+              0.2919086068868637,
+              0.871999979019165
+            ],
+            "maxNormalLengthError": 3.6016417848117044e-8,
+            "zeroNormals": 93
+          },
+          "after": {
+            "triangles": 15376,
+            "size": [
+              0.2030138224363327,
+              0.2525726556777954,
+              0.8509999811649323
+            ],
+            "maxNormalLengthError": 4.1652211457687827e-8,
+            "zeroNormals": 9
+          }
+        },
+        "wing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              0.6600000262260437,
+              0.04380439966917038,
+              0.572162538766861
+            ],
+            "maxNormalLengthError": 3.728458586316208e-8,
+            "zeroNormals": 26
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              0.6669356729835272,
+              0.01770424610003829,
+              0.459199994802475
+            ],
+            "maxNormalLengthError": 3.0370003734070394e-8,
+            "zeroNormals": 33
+          }
+        },
+        "leftWing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              0.6600000262260437,
+              0.04380439966917038,
+              0.572162538766861
+            ],
+            "maxNormalLengthError": 3.719084351594404e-8,
+            "zeroNormals": 624
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              0.6669356729835272,
+              0.01770424610003829,
+              0.459199994802475
+            ],
+            "maxNormalLengthError": 3.8124235324232814e-8,
+            "zeroNormals": 792
+          }
+        }
+      }
+    }
+  ],
+  "skulls": [
+    {
+      "name": "skull-fox",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.26888602543571477,
+      "minimumTriangleArea": 0.000025829942206861563
+    },
+    {
+      "name": "skull-coyote",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.32726053449755066,
+      "minimumTriangleArea": 0.00003017303148626175
+    },
+    {
+      "name": "skull-deer",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.43951581119480915,
+      "minimumTriangleArea": 0.000027865225163454303
+    },
+    {
+      "name": "skull-reindeer",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.5298957024945732,
+      "minimumTriangleArea": 0.00003679973536758914
+    },
+    {
+      "name": "skull-bighorn",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.5893878320889342,
+      "minimumTriangleArea": 0.00003391718662110087
+    },
+    {
+      "name": "skull-cat",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.46721318046664057,
+      "minimumTriangleArea": 0.00003254250087201332
+    },
+    {
+      "name": "skull-hare",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.27638563232818286,
+      "minimumTriangleArea": 0.000022230336784036483
+    },
+    {
+      "name": "skull-tapir",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.4594771243709458,
+      "minimumTriangleArea": 0.000053086776391294306
+    },
+    {
+      "name": "skull-capybara",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.5077274569178075,
+      "minimumTriangleArea": 0.000055389463939116116
+    },
+    {
+      "name": "skull-seal",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.355742380868175,
+      "minimumTriangleArea": 0.000026843382034197575
+    },
+    {
+      "name": "skull-bird",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 1.1440449512845197,
+      "minimumTriangleArea": 0.00005791197620886802
+    }
+  ],
+  "behavior": [
+    {
+      "biome": "tundra",
+      "quality": "Low",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "tundra",
+      "quality": "Low",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "tundra",
+      "quality": "Low",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "tundra",
+      "quality": "High",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "tundra",
+      "quality": "High",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "tundra",
+      "quality": "High",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "tundra",
+      "quality": "Ultra",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "tundra",
+      "quality": "Ultra",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "tundra",
+      "quality": "Ultra",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "tundra",
+      "quality": "Ultra+",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "tundra",
+      "quality": "Ultra+",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "tundra",
+      "quality": "Ultra+",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "tundra",
+      "quality": "Game Only",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "tundra",
+      "quality": "Game Only",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "tundra",
+      "quality": "Game Only",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    }
+  ],
+  "errors": []
+}

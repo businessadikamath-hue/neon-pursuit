@@ -1,0 +1,27 @@
+{
+  "blenderVersion": "5.2.1 LTS",
+  "scene": "gallery/blender/neon-pursuit-blender-cinematic.blend",
+  "render": {
+    "heroEngine": "Cycles",
+    "animationEngine": "Eevee",
+    "heroResolution": "1280x720",
+    "animationResolution": "1280x720",
+    "frameCount": 48,
+    "frameRate": 24,
+    "losslessFormat": "PNG"
+  },
+  "pbrMaterials": {
+    "asphalt": ["road-4k-map.jpg", "road-4k-normalMap.jpg", "road-4k-roughnessMap.jpg"],
+    "shorelineSand": ["sand-4k-map.jpg", "sand-4k-normalMap.jpg", "sand-4k-roughnessMap.jpg"],
+    "treeBark": ["bark-4k-map.jpg", "bark-4k-normalMap.jpg", "bark-4k-roughnessMap.jpg"],
+    "stone": ["rock-1k-map.jpg", "rock-1k-normalMap.jpg", "rock-1k-roughnessMap.jpg"]
+  },
+  "payloadDirectory": "assets-source/blender-pbr/",
+  "offlinePlayer": "gallery/blender/index.html",
+  "qa": {
+    "playerFirstFrame": "frames/frame_0001.png",
+    "playerAdvancedFrame": "frames/frame_0007.png",
+    "playerPageErrors": [],
+    "installedAndExtractedGameSmoke": true
+  }
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "folder": "C:\\Users\\adika\\Documents\\Codex\\2026-09-11\\neon-pursuit-game\\outputs\\Neon-Pursuit",
+    "gameSHA256": "32c5ee86784a55cef911072245243990c4794b2654f4db4d89d381c799bfe154",
+    "version": "9.0.0",
+    "mode": "playing",
+    "speed": 80.37876135005007,
+    "gameCap": 265,
+    "zero200": 8.97,
+    "realCarPanel": true,
+    "settings": {
+      "quality": "Game Only",
+      "laneAssist": true,
+      "adaptiveQuality": false
+    },
+    "ultra": {
+      "quality": "Ultra+",
+      "scenery": {
+        "active": true,
+        "materialResolution": 1024,
+        "groundInstances": 565,
+        "shorelineInstances": 111,
+        "resourcesCreated": true,
+        "routeBound": true,
+        "suppressedOutsideUltra": true,
+        "placement": "Terrain sampled near-field clumps with road and dynamic junction setbacks"
+      },
+      "trees": {
+        "active": true,
+        "nearTrees": 19,
+        "leafModel": "cambered segmented leaves, attached petioles and three-sided needle bundles",
+        "resourcesCreated": true,
+        "routeBound": true,
+        "suppressedOutsideUltra": true
+      },
+      "wildlife": {
+        "active": true,
+        "built": true,
+        "closeSubjects": 49,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 16,
+        "blenderComponents": 22,
+        "geometryTriangles": 266761,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "triangles": 30788928
+    },
+    "audio": {
+      "localDuration": 660,
+      "loaded": true,
+      "playing": true,
+      "offset": 419.90788895264336,
+      "rms": 0.21390209164088378
+    },
+    "errors": [],
+    "external": []
+  },
+  {
+    "folder": "C:\\Users\\adika\\Documents\\Codex\\2026-09-11\\neon-pursuit-game\\work\\final-smoke\\Neon-Pursuit",
+    "gameSHA256": "32c5ee86784a55cef911072245243990c4794b2654f4db4d89d381c799bfe154",
+    "version": "9.0.0",
+    "mode": "playing",
+    "speed": 80.7397074757998,
+    "gameCap": 265,
+    "zero200": 8.97,
+    "realCarPanel": true,
+    "settings": {
+      "quality": "Game Only",
+      "laneAssist": true,
+      "adaptiveQuality": false
+    },
+    "ultra": {
+      "quality": "Ultra+",
+      "scenery": {
+        "active": true,
+        "materialResolution": 1024,
+        "groundInstances": 582,
+        "shorelineInstances": 113,
+        "resourcesCreated": true,
+        "routeBound": true,
+        "suppressedOutsideUltra": true,
+        "placement": "Terrain sampled near-field clumps with road and dynamic junction setbacks"
+      },
+      "trees": {
+        "active": true,
+        "nearTrees": 20,
+        "leafModel": "cambered segmented leaves, attached petioles and three-sided needle bundles",
+        "resourcesCreated": true,
+        "routeBound": true,
+        "suppressedOutsideUltra": true
+      },
+      "wildlife": {
+        "active": true,
+        "built": true,
+        "closeSubjects": 47,
+        "transportAgreement": true,
+        "groundRouteBound": true,
+        "airUnbent": true,
+        "extraBatches": 16,
+        "blenderComponents": 22,
+        "geometryTriangles": 266761,
+        "features": [
+          "recessed smaller iris/pupil and upper lids",
+          "continuous Blender skull, jaw and muzzle; rooted cupped ears",
+          "directional fur and whiskers",
+          "Blender hooked/spear/conical bills",
+          "asymmetric layered feathers with shafts and barbs"
+        ],
+        "limits": "Stylized authored anatomy; no scanned animals, skeletal skinning or simulated individual hair"
+      },
+      "triangles": 30633234
+    },
+    "audio": {
+      "localDuration": 660,
+      "loaded": true,
+      "playing": true,
+      "offset": 24.257530308161837,
+      "rms": 0.20881899798245657
+    },
+    "errors": [],
+    "external": []
+  }
+]

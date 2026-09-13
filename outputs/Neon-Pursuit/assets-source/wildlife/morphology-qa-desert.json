@@ -1,0 +1,777 @@
+{
+  "passed": true,
+  "subjects": [
+    {
+      "biome": "desert",
+      "type": "ground",
+      "name": "Bighorn sheep",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 5184,
+            "size": [
+              0.8813999891281128,
+              0.801228255033493,
+              1.464127004146576
+            ],
+            "maxNormalLengthError": 4.2837604574685884e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 5904,
+            "size": [
+              0.7202489376068115,
+              0.7062667906284332,
+              1.4021999835968018
+            ],
+            "maxNormalLengthError": 4.301290257302526e-8,
+            "zeroNormals": 0
+          }
+        },
+        "head": {
+          "before": {
+            "triangles": 14416,
+            "size": [
+              0.5740000009536743,
+              0.6476948708295822,
+              0.8515999913215637
+            ],
+            "maxNormalLengthError": 3.982136664859581e-8,
+            "zeroNormals": 4
+          },
+          "after": {
+            "triangles": 12016,
+            "size": [
+              0.3781997263431549,
+              0.5306159555912018,
+              0.6841110587120056
+            ],
+            "maxNormalLengthError": 4.637890493874863e-8,
+            "zeroNormals": 4
+          }
+        },
+        "leg": {
+          "before": {
+            "triangles": 800,
+            "size": [
+              0.22813312709331512,
+              0.791312787681818,
+              0.2689000070095062
+            ],
+            "maxNormalLengthError": 3.267978465615329e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 1368,
+            "size": [
+              0.18435600399971008,
+              0.7429999709129333,
+              0.22153659164905548
+            ],
+            "maxNormalLengthError": 3.636437906351375e-8,
+            "zeroNormals": 0
+          }
+        },
+        "tail": {
+          "before": {
+            "triangles": 224,
+            "size": [
+              0.11661725863814354,
+              0.23610047809779644,
+              0.20404981449246407
+            ],
+            "maxNormalLengthError": 3.111764179664078e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 224,
+            "size": [
+              0.11661725863814354,
+              0.23610047809779644,
+              0.20404981449246407
+            ],
+            "maxNormalLengthError": 3.111764179664078e-8,
+            "zeroNormals": 0
+          }
+        },
+        "fur": {
+          "before": {
+            "triangles": 360,
+            "size": [
+              0.8541854619979858,
+              0.748079925775528,
+              1.1377732753753662
+            ],
+            "maxNormalLengthError": 4.0466388462334635e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 360,
+            "size": [
+              0.7159233391284943,
+              0.6633475422859192,
+              1.128355860710144
+            ],
+            "maxNormalLengthError": 3.171338980312299e-8,
+            "zeroNormals": 0
+          }
+        }
+      }
+    },
+    {
+      "biome": "desert",
+      "type": "ground",
+      "name": "Coyote",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 5184,
+            "size": [
+              0.5875999927520752,
+              0.5668875575065613,
+              1.3922999501228333
+            ],
+            "maxNormalLengthError": 3.993352604148015e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 5904,
+            "size": [
+              0.39665883779525757,
+              0.4904898405075073,
+              1.356600046157837
+            ],
+            "maxNormalLengthError": 4.39637047877639e-8,
+            "zeroNormals": 0
+          }
+        },
+        "head": {
+          "before": {
+            "triangles": 6736,
+            "size": [
+              0.5115955471992493,
+              0.6319999843835831,
+              0.8604706227779388
+            ],
+            "maxNormalLengthError": 3.982136664859581e-8,
+            "zeroNormals": 4
+          },
+          "after": {
+            "triangles": 7736,
+            "size": [
+              0.30761173367500305,
+              0.40710996091365814,
+              0.4558800086379051
+            ],
+            "maxNormalLengthError": 3.9762025116907296e-8,
+            "zeroNormals": 4
+          }
+        },
+        "leg": {
+          "before": {
+            "triangles": 800,
+            "size": [
+              0.15208876132965088,
+              0.6096696639433503,
+              0.24160000681877136
+            ],
+            "maxNormalLengthError": 3.267978465615329e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 1368,
+            "size": [
+              0.12290401011705399,
+              0.5630000233650208,
+              0.20366715639829636
+            ],
+            "maxNormalLengthError": 3.585638075342956e-8,
+            "zeroNormals": 0
+          }
+        },
+        "tail": {
+          "before": {
+            "triangles": 224,
+            "size": [
+              0.20216023921966553,
+              0.3318403661251068,
+              0.6137167438864708
+            ],
+            "maxNormalLengthError": 3.23400930479778e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 224,
+            "size": [
+              0.20216023921966553,
+              0.3318403661251068,
+              0.6137167438864708
+            ],
+            "maxNormalLengthError": 3.23400930479778e-8,
+            "zeroNormals": 0
+          }
+        },
+        "fur": {
+          "before": {
+            "triangles": 360,
+            "size": [
+              0.6062992811203003,
+              0.5365520119667053,
+              1.1084495186805725
+            ],
+            "maxNormalLengthError": 3.9481427016596626e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 360,
+            "size": [
+              0.39264142513275146,
+              0.4536442458629608,
+              1.0868189930915833
+            ],
+            "maxNormalLengthError": 2.9592274186640566e-8,
+            "zeroNormals": 0
+          }
+        }
+      }
+    },
+    {
+      "biome": "desert",
+      "type": "ground",
+      "name": "Black-tailed jackrabbit",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 5184,
+            "size": [
+              0.5424000024795532,
+              0.466279074549675,
+              0.796642005443573
+            ],
+            "maxNormalLengthError": 4.02131403731687e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 5904,
+            "size": [
+              0.4191415309906006,
+              0.4182123616337776,
+              0.7752000093460083
+            ],
+            "maxNormalLengthError": 3.9740558399614656e-8,
+            "zeroNormals": 0
+          }
+        },
+        "head": {
+          "before": {
+            "triangles": 5008,
+            "size": [
+              0.4683425724506378,
+              0.8525000065565109,
+              0.5654000043869019
+            ],
+            "maxNormalLengthError": 3.982136664859581e-8,
+            "zeroNormals": 4
+          },
+          "after": {
+            "triangles": 6896,
+            "size": [
+              0.39110010862350464,
+              0.6557814180850983,
+              0.26664000004529953
+            ],
+            "maxNormalLengthError": 4.624789717855293e-8,
+            "zeroNormals": 4
+          }
+        },
+        "leg": {
+          "before": {
+            "triangles": 800,
+            "size": [
+              0.14038962125778198,
+              0.31740082427859306,
+              0.3200000002980232
+            ],
+            "maxNormalLengthError": 3.6455546248426174e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 1368,
+            "size": [
+              0.11344985663890839,
+              0.2529999911785126,
+              0.26999999582767487
+            ],
+            "maxNormalLengthError": 3.893519595621342e-8,
+            "zeroNormals": 0
+          }
+        },
+        "tail": {
+          "before": {
+            "triangles": 512,
+            "size": [
+              0.16162125021219254,
+              0.297252357006073,
+              0.21802528016269207
+            ],
+            "maxNormalLengthError": 3.111764179664078e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 512,
+            "size": [
+              0.16162125021219254,
+              0.297252357006073,
+              0.21802528016269207
+            ],
+            "maxNormalLengthError": 3.111764179664078e-8,
+            "zeroNormals": 0
+          }
+        },
+        "fur": {
+          "before": {
+            "triangles": 360,
+            "size": [
+              0.5639365911483765,
+              0.4938643276691437,
+              0.6445911228656769
+            ],
+            "maxNormalLengthError": 3.7305214251048824e-8,
+            "zeroNormals": 0
+          },
+          "after": {
+            "triangles": 360,
+            "size": [
+              0.4205937534570694,
+              0.4155082181096077,
+              0.6192893385887146
+            ],
+            "maxNormalLengthError": 3.1713349724071804e-8,
+            "zeroNormals": 0
+          }
+        }
+      }
+    },
+    {
+      "biome": "desert",
+      "type": "birds",
+      "name": "Red-tailed hawk",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 63360,
+            "size": [
+              0.2235676646232605,
+              0.2919086068868637,
+              1.1570000052452087
+            ],
+            "maxNormalLengthError": 4.030302580559919e-8,
+            "zeroNormals": 93
+          },
+          "after": {
+            "triangles": 15376,
+            "size": [
+              0.2030138224363327,
+              0.2525726556777954,
+              1.1290000081062317
+            ],
+            "maxNormalLengthError": 4.1652211457687827e-8,
+            "zeroNormals": 9
+          }
+        },
+        "wing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              1.149999976158142,
+              0.0439411997795105,
+              0.600072905421257
+            ],
+            "maxNormalLengthError": 3.8338562768913675e-8,
+            "zeroNormals": 26
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              1.1593864830210805,
+              0.018232929054647684,
+              0.48159998655319214
+            ],
+            "maxNormalLengthError": 3.004088311442388e-8,
+            "zeroNormals": 33
+          }
+        },
+        "leftWing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              1.149999976158142,
+              0.0439411997795105,
+              0.600072905421257
+            ],
+            "maxNormalLengthError": 3.6072322684432834e-8,
+            "zeroNormals": 624
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              1.1593864830210805,
+              0.018232929054647684,
+              0.48159998655319214
+            ],
+            "maxNormalLengthError": 3.69527348720311e-8,
+            "zeroNormals": 792
+          }
+        }
+      }
+    },
+    {
+      "biome": "desert",
+      "type": "birds",
+      "name": "Common raven",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 63360,
+            "size": [
+              0.2235676646232605,
+              0.2919086068868637,
+              1.1869999766349792
+            ],
+            "maxNormalLengthError": 3.686347382902966e-8,
+            "zeroNormals": 93
+          },
+          "after": {
+            "triangles": 15376,
+            "size": [
+              0.2030138224363327,
+              0.2525726556777954,
+              1.159999966621399
+            ],
+            "maxNormalLengthError": 4.1652211457687827e-8,
+            "zeroNormals": 9
+          }
+        },
+        "wing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              1.0099999904632568,
+              0.043393999338150024,
+              0.4884314462542534
+            ],
+            "maxNormalLengthError": 3.330055520223141e-8,
+            "zeroNormals": 26
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              1.0177546739578247,
+              0.018081707414239645,
+              0.3920000046491623
+            ],
+            "maxNormalLengthError": 3.128070025226748e-8,
+            "zeroNormals": 33
+          }
+        },
+        "leftWing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              1.0099999904632568,
+              0.043393999338150024,
+              0.4884314462542534
+            ],
+            "maxNormalLengthError": 3.827188010951943e-8,
+            "zeroNormals": 624
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              1.0177546739578247,
+              0.018081707414239645,
+              0.3920000046491623
+            ],
+            "maxNormalLengthError": 3.823002092673278e-8,
+            "zeroNormals": 792
+          }
+        }
+      }
+    },
+    {
+      "biome": "desert",
+      "type": "birds",
+      "name": "Mourning dove",
+      "parts": {
+        "body": {
+          "before": {
+            "triangles": 63360,
+            "size": [
+              0.2235676646232605,
+              0.2919086068868637,
+              1.1019999980926514
+            ],
+            "maxNormalLengthError": 3.6016417848117044e-8,
+            "zeroNormals": 93
+          },
+          "after": {
+            "triangles": 15376,
+            "size": [
+              0.2030138224363327,
+              0.2525726556777954,
+              1.0809999704360962
+            ],
+            "maxNormalLengthError": 4.1652211457687827e-8,
+            "zeroNormals": 9
+          }
+        },
+        "wing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              0.6700000166893005,
+              0.04277839884161949,
+              0.36283478885889053
+            ],
+            "maxNormalLengthError": 3.7488012916142566e-8,
+            "zeroNormals": 26
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              0.6756188343279064,
+              0.017714917194098234,
+              0.2912000045180321
+            ],
+            "maxNormalLengthError": 3.151199079454159e-8,
+            "zeroNormals": 33
+          }
+        },
+        "leftWing": {
+          "before": {
+            "triangles": 16640,
+            "size": [
+              0.6700000166893005,
+              0.04277839884161949,
+              0.36283478885889053
+            ],
+            "maxNormalLengthError": 3.4127162651387266e-8,
+            "zeroNormals": 624
+          },
+          "after": {
+            "triangles": 21127,
+            "size": [
+              0.6756188343279064,
+              0.017714917194098234,
+              0.2912000045180321
+            ],
+            "maxNormalLengthError": 3.425981565108316e-8,
+            "zeroNormals": 792
+          }
+        }
+      }
+    }
+  ],
+  "skulls": [
+    {
+      "name": "skull-fox",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.26888602543571477,
+      "minimumTriangleArea": 0.000025829942206861563
+    },
+    {
+      "name": "skull-coyote",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.32726053449755066,
+      "minimumTriangleArea": 0.00003017303148626175
+    },
+    {
+      "name": "skull-deer",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.43951581119480915,
+      "minimumTriangleArea": 0.000027865225163454303
+    },
+    {
+      "name": "skull-reindeer",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.5298957024945732,
+      "minimumTriangleArea": 0.00003679973536758914
+    },
+    {
+      "name": "skull-bighorn",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.5893878320889342,
+      "minimumTriangleArea": 0.00003391718662110087
+    },
+    {
+      "name": "skull-cat",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.46721318046664057,
+      "minimumTriangleArea": 0.00003254250087201332
+    },
+    {
+      "name": "skull-hare",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.27638563232818286,
+      "minimumTriangleArea": 0.000022230336784036483
+    },
+    {
+      "name": "skull-tapir",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.4594771243709458,
+      "minimumTriangleArea": 0.000053086776391294306
+    },
+    {
+      "name": "skull-capybara",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.5077274569178075,
+      "minimumTriangleArea": 0.000055389463939116116
+    },
+    {
+      "name": "skull-seal",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 0.355742380868175,
+      "minimumTriangleArea": 0.000026843382034197575
+    },
+    {
+      "name": "skull-bird",
+      "triangles": 4240,
+      "vertices": 2175,
+      "signedVolume": 1.1440449512845197,
+      "minimumTriangleArea": 0.00005791197620886802
+    }
+  ],
+  "behavior": [
+    {
+      "biome": "desert",
+      "quality": "Low",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "desert",
+      "quality": "Low",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "desert",
+      "quality": "Low",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "desert",
+      "quality": "High",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "desert",
+      "quality": "High",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "desert",
+      "quality": "High",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "desert",
+      "quality": "Ultra",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "desert",
+      "quality": "Ultra",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "desert",
+      "quality": "Ultra",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "desert",
+      "quality": "Ultra+",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "desert",
+      "quality": "Ultra+",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "desert",
+      "quality": "Ultra+",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "desert",
+      "quality": "Game Only",
+      "distance": 100,
+      "time": 0.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "desert",
+      "quality": "Game Only",
+      "distance": 100,
+      "time": 27.3,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    },
+    {
+      "biome": "desert",
+      "quality": "Game Only",
+      "distance": 2873,
+      "time": 123.45,
+      "identicalSourceTransforms": true,
+      "identicalHazards": true
+    }
+  ],
+  "errors": []
+}

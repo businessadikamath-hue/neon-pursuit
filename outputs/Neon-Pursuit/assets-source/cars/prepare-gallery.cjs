@@ -1,0 +1,11 @@
+const fs=require('fs'),path=require('path');
+const here=__dirname,out=path.join(here,'gallery');fs.mkdirSync(out,{recursive:true});
+let source=fs.readFileSync(path.join(here,'../car-assets-v8/ultraplus-gallery/main.js'),'utf8');
+source=source.replace("import {makePlayer,makeTraffic,carDefs,setCarBatching} from '../../engine/models.js';",`import * as before from '../../../outputs/Neon-Pursuit/source/models.js';
+import * as after from '../../engine-v9/models.js';
+let active=after;
+const makePlayer=(...args)=>active.makePlayer(...args),makeTraffic=(...args)=>active.makeTraffic(...args),carDefs=after.carDefs,setCarBatching=value=>{before.setCarBatching(value);after.setCarBatching(value);};
+window.setVersion=name=>{active=name==='v8'?before:after;};`);
+fs.writeFileSync(path.join(out,'main.js'),source);
+fs.writeFileSync(path.join(out,'index.html'),fs.readFileSync(path.join(here,'../car-assets-v8/ultraplus-gallery/index.html')));
+console.log('Prepared identical-camera v8/v9 studio comparison source.');

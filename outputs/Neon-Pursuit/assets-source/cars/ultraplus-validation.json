@@ -1,0 +1,442 @@
+{
+  "pass": true,
+  "vehicles": [
+    {
+      "name": "black",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 227648,
+          "geometriesReachableForDisposal": 644,
+          "ownedMaterials": 14
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 227648,
+          "geometriesReachableForDisposal": 81,
+          "ownedMaterials": 14
+        }
+      ]
+    },
+    {
+      "name": "silver",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 349,
+          "extraTriangles": 226688,
+          "geometriesReachableForDisposal": 619,
+          "ownedMaterials": 14
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 226688,
+          "geometriesReachableForDisposal": 78,
+          "ownedMaterials": 14
+        }
+      ]
+    },
+    {
+      "name": "red",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 227648,
+          "geometriesReachableForDisposal": 640,
+          "ownedMaterials": 14
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 227648,
+          "geometriesReachableForDisposal": 83,
+          "ownedMaterials": 14
+        }
+      ]
+    },
+    {
+      "name": "rally",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 227648,
+          "geometriesReachableForDisposal": 626,
+          "ownedMaterials": 14
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 227648,
+          "geometriesReachableForDisposal": 83,
+          "ownedMaterials": 14
+        }
+      ]
+    },
+    {
+      "name": "muscle",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 597,
+          "ownedMaterials": 14
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 75,
+          "ownedMaterials": 14
+        }
+      ]
+    },
+    {
+      "name": "roadster",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 318,
+          "extraTriangles": 225448,
+          "geometriesReachableForDisposal": 544,
+          "ownedMaterials": 13
+        },
+        {
+          "batching": true,
+          "extraMeshes": 24,
+          "extraTriangles": 225448,
+          "geometriesReachableForDisposal": 73,
+          "ownedMaterials": 13
+        }
+      ]
+    },
+    {
+      "name": "electric",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 349,
+          "extraTriangles": 226688,
+          "geometriesReachableForDisposal": 586,
+          "ownedMaterials": 14
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 226688,
+          "geometriesReachableForDisposal": 77,
+          "ownedMaterials": 14
+        }
+      ]
+    },
+    {
+      "name": "safari",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 719,
+          "ownedMaterials": 14
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 82,
+          "ownedMaterials": 14
+        }
+      ]
+    },
+    {
+      "name": "Saloon",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 484,
+          "ownedMaterials": 15
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 70,
+          "ownedMaterials": 15
+        }
+      ]
+    },
+    {
+      "name": "Hatchback",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 478,
+          "ownedMaterials": 13
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 68,
+          "ownedMaterials": 13
+        }
+      ]
+    },
+    {
+      "name": "Estate",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 479,
+          "ownedMaterials": 13
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 68,
+          "ownedMaterials": 13
+        }
+      ]
+    },
+    {
+      "name": "Compact SUV",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 479,
+          "ownedMaterials": 13
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 68,
+          "ownedMaterials": 13
+        }
+      ]
+    },
+    {
+      "name": "Family SUV",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 481,
+          "ownedMaterials": 13
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 68,
+          "ownedMaterials": 13
+        }
+      ]
+    },
+    {
+      "name": "Delivery van",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 326,
+          "extraTriangles": 228168,
+          "geometriesReachableForDisposal": 429,
+          "ownedMaterials": 12
+        },
+        {
+          "batching": true,
+          "extraMeshes": 25,
+          "extraTriangles": 228168,
+          "geometriesReachableForDisposal": 63,
+          "ownedMaterials": 12
+        }
+      ]
+    },
+    {
+      "name": "Pickup",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 487,
+          "ownedMaterials": 13
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 67,
+          "ownedMaterials": 13
+        }
+      ]
+    },
+    {
+      "name": "City car",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 479,
+          "ownedMaterials": 13
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 68,
+          "ownedMaterials": 13
+        }
+      ]
+    },
+    {
+      "name": "Taxi",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 480,
+          "ownedMaterials": 14
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 69,
+          "ownedMaterials": 14
+        }
+      ]
+    },
+    {
+      "name": "Minivan",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 479,
+          "ownedMaterials": 13
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 68,
+          "ownedMaterials": 13
+        }
+      ]
+    },
+    {
+      "name": "Coupe",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 479,
+          "ownedMaterials": 13
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 68,
+          "ownedMaterials": 13
+        }
+      ]
+    },
+    {
+      "name": "Utility wagon",
+      "pass": true,
+      "modes": [
+        {
+          "batching": false,
+          "extraMeshes": 357,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 481,
+          "ownedMaterials": 13
+        },
+        {
+          "batching": true,
+          "extraMeshes": 28,
+          "extraTriangles": 229408,
+          "geometriesReachableForDisposal": 68,
+          "ownedMaterials": 13
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "name": "sportTire",
+      "vertices": 16962,
+      "triangles": 33280,
+      "outwardTreadNormalFraction": 1
+    },
+    {
+      "name": "roadTire",
+      "vertices": 16962,
+      "triangles": 33280,
+      "outwardTreadNormalFraction": 1
+    },
+    {
+      "name": "offroadTire",
+      "vertices": 16962,
+      "triangles": 33280,
+      "outwardTreadNormalFraction": 1
+    },
+    {
+      "name": "drilledRotor",
+      "vertices": 9102,
+      "triangles": 12260,
+      "outwardTreadNormalFraction": null,
+      "planarCapTriangles": 1493,
+      "maxPlanarNormalDeviation": 0.0005493331705679495
+    },
+    {
+      "name": "beveledCaliper",
+      "vertices": 196,
+      "triangles": 220,
+      "outwardTreadNormalFraction": null
+    }
+  ],
+  "baselineRestored": true,
+  "lazyReuse": true,
+  "disposalAccessible": true
+}

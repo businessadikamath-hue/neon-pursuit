@@ -1,0 +1,61 @@
+{
+  "origin": "Original v9 geometry modeled in Blender; no imported scans",
+  "blender": "4.5.5 LTS",
+  "models": [
+    {
+      "name": "fox",
+      "triangles": 4240,
+      "vertices": 2175
+    },
+    {
+      "name": "coyote",
+      "triangles": 4240,
+      "vertices": 2175
+    },
+    {
+      "name": "deer",
+      "triangles": 4240,
+      "vertices": 2175
+    },
+    {
+      "name": "reindeer",
+      "triangles": 4240,
+      "vertices": 2175
+    },
+    {
+      "name": "bighorn",
+      "triangles": 4240,
+      "vertices": 2175
+    },
+    {
+      "name": "cat",
+      "triangles": 4240,
+      "vertices": 2175
+    },
+    {
+      "name": "hare",
+      "triangles": 4240,
+      "vertices": 2175
+    },
+    {
+      "name": "tapir",
+      "triangles": 4240,
+      "vertices": 2175
+    },
+    {
+      "name": "capybara",
+      "triangles": 4240,
+      "vertices": 2175
+    },
+    {
+      "name": "seal",
+      "triangles": 4240,
+      "vertices": 2175
+    },
+    {
+      "name": "bird",
+      "triangles": 4240,
+      "vertices": 2175
+    }
+  ]
+}
