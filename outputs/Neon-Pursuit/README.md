@@ -51,6 +51,8 @@ Police only begin a pursuit **above 100 mph**, at varying route positions. Durin
 
 **Automatic quality reduction is disabled.** Ultra+ displays a warning before selection because its dense scenery, reflections and supersampling can be very expensive. The FPS cap is a ceiling, not a promised frame rate. Read **VERIFICATION.md** for measured performance on the test computer. Normal distance-based vegetation detail still operates within each selected preset.
 
+When a patrol begins, the alert briefly renders a small live picture-in-picture of the pursuing car for two seconds. It then closes automatically while the regular forward driving view remains available for the rest of the chase.
+
 The current quality pass gives Ultra+ a 4096² shadow map, a 2× device-pixel ceiling, a 160×80 terrain heightfield and a 96×64 displaced distant-hill mesh. Scanned surface maps reach the hills as well as the road, shore and roadside aggregate. The following camera sees a second modeled neon plate with individually raised glyph strokes, colored edge bars, screws and recessed backing.
 
 ## V9 visual refinement

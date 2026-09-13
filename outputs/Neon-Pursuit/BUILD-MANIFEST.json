@@ -14,12 +14,12 @@
       "sha256": "d8d660e2d4c5d979919559bb603d1d1925520ae82855a05e8f8d32f77ce3ceb1"
     },
     "game.js": {
-      "bytes": 26378771,
-      "sha256": "6fce5b57240df07befcef78af92762eec15ec251da081dddac0e05fe95921e47"
+      "bytes": 26379036,
+      "sha256": "2b81c1a9a31b5ce15220dbc5b3eb276fbadff780e7f8efcad0f22867754493d6"
     },
     "index.html": {
-      "bytes": 5817,
-      "sha256": "ab2faf8e35296e085d4d141c8a5e9e29abe6cfe444b2d37c2d23a7ea8241ebf0"
+      "bytes": 5868,
+      "sha256": "c0d754b1104901d2b1329805fbe840a6d018073ab7f4034c95de279cc372a2bf"
     },
     "Install.cmd": {
       "bytes": 91,
@@ -42,28 +42,28 @@
       "sha256": "8239596ceae2d311419be731d3f67d4c650e886cfe54ca6e0ba7352bc9567e0d"
     },
     "PACKAGE-INFO.json": {
-      "bytes": 1935,
-      "sha256": "12a4dd44948505b49f6a4e7aee0127bd177e9b81cfcd4e4b56cff6378d863be4"
+      "bytes": 2035,
+      "sha256": "5f585d5c10689ac43f1692179c19a2dd54765f47d70beb0b056d85d6868880e8"
     },
     "README.md": {
-      "bytes": 11240,
-      "sha256": "6eadbd57879179400a9f460e78cb7683639a55ebcba94e8ae6cc7a539daa74b5"
+      "bytes": 11470,
+      "sha256": "c5eab0cd3a5146f5a61ea3f96233a8a4d3e37c1e8fe46182328443a2458ab313"
     },
     "REAL-CAR-SPECS.md": {
       "bytes": 6578,
       "sha256": "588387379eba17168bb9faa542c7fb424f3b2c97b79865293d18a15b6d4be5b1"
     },
     "style.css": {
-      "bytes": 8993,
-      "sha256": "80163d75397465dc4781cc48eb0aa8066866cdb95726108b22836fe09a718bb0"
+      "bytes": 9105,
+      "sha256": "36a1824f86ee5409c7edcca098b903bdb7f180d38c08cb33aa6f2a0500949b2c"
     },
     "THREE-LICENSE.txt": {
       "bytes": 1081,
       "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
     },
     "VERIFICATION.md": {
-      "bytes": 10949,
-      "sha256": "e5a088d463afd2faa908a801464d16356930ba765015fa4d3f8d26a17ecba88b"
+      "bytes": 11267,
+      "sha256": "1d7844d6ce0e201c8e75d312f7eb0b31bc0ab48ae1b5b4f27775f201c20d858f"
     },
     "assets-source/README.md": {
       "bytes": 1416,
@@ -334,8 +334,8 @@
       "sha256": "cd74da76058c93f6f3e7185f7feb3620f59c388e6f543c31a8fd7f598a6d1839"
     },
     "source/main.js": {
-      "bytes": 35975,
-      "sha256": "f35a6748e09c507b90616a5a20b16bf74107d17947b7c13221672f3ba749fff2"
+      "bytes": 36977,
+      "sha256": "39d62a780afb539d8eb1684105d0f35779764c55cd9baea99d3dec844b053057"
     },
     "source/models.js": {
       "bytes": 36824,

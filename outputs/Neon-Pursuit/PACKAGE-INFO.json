@@ -1,7 +1,7 @@
 {
   "version": "9.1.0",
   "verifiedAt": "2026-09-13T21:10:00Z",
-  "gameSHA256": "6fce5b57240df07befcef78af92762eec15ec251da081dddac0e05fe95921e47",
+  "gameSHA256": "2b81c1a9a31b5ce15220dbc5b3eb276fbadff780e7f8efcad0f22867754493d6",
   "archiveHashRecord": "External work/zip-v9-results.json; the archive hash is kept outside the archive to avoid self-reference.",
   "installedAndExtractedOfflineSmokePassed": true,
   "ultraPlusActivationPassed": true,
@@ -44,5 +44,6 @@
   "weatherEffects": {
     "tundra": "textured drifting snowfall",
     "desert": "gust-driven shoulder dust"
-  }
+  },
+  "policeAlertPresentation": "two-second live cop-car picture-in-picture, then forward view only"
 }
