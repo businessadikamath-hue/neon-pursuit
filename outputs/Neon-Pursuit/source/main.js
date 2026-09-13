@@ -35,9 +35,9 @@ const legacy=read('neon-3d-records',{});let records=read('neon-5-records',{}),mo
 const audio=new AudioEngine(),rand=()=>{seed=(1664525*seed+1013904223)>>>0;return seed/4294967296};
 let blenderAssets=null;
 let sceneCalls=0,sceneTriangles=0,qaView=null;
-let post,previous=null,accumulator=0,nextRender=0,lastTick=0,droppedTime=0,adaptAt=0,renderCost=0,efficientSnapshots=true;
+let post,previous=null,accumulator=0,nextRender=0,lastTick=0,droppedTime=0,adaptAt=0,renderCost=0,lastShadowUpdate=0,efficientSnapshots=true;
 const FIXED=1/120;
-function resetClock(){lastTick=0;accumulator=0;nextRender=0;lastRender=0;previous=null;frameDeltas=[];}
+function resetClock(){lastTick=0;accumulator=0;nextRender=0;lastRender=0;lastShadowUpdate=0;previous=null;frameDeltas=[];}
 function frameStats(){const a=[...frameDeltas].sort((a,b)=>a-b);return {mean:a.length?a.reduce((s,x)=>s+x,0)/a.length:0,p95:a[Math.floor(a.length*.95)]||0,max:a.at(-1)||0,samples:a.length};}
 let fps=0,frames=0,fpsStart=performance.now(),lastRender=0,frameDeltas=[];
 function reset(){resetClock();policeViewUntil=0;const runSeed=crypto.getRandomValues(new Uint32Array(1))[0];seed=runSeed;const layout=configureRoute(runSeed);s={x:2,speed:(opts.zen?55:85)*MPH,time:0,distance:0,score:0,health:100,pressure:0,near:0,level:1,passed:0,invincible:0,travel:0,steer:0,lateralV:0,yaw:0,slip:0,pitch:0,grip:1,rpm:1400,gear:1,shiftRemaining:0,trauma:0,lastCross:-999,escapes:0,policeRemaining:0,policeLow:0,nextPoliceAt:500+rand()*600,runSeed,layout,laneTarget:2,edgeCooldown:0,lastDamageAt:-99,cruise:opts.zen&&opts.cruiseStart,cruiseTarget:55,crash:null,hazardHits:{}};spawnIn=.85;simTime=0;clearTraffic();if(policeMesh){world.scene.remove(policeMesh);disposeCar(policeMesh);policeMesh=null}}
@@ -125,7 +125,7 @@ function frame(t){
  const renderDt=lastRender?Math.min((t-lastRender)/1000,.1):FIXED;if(lastRender){frameDeltas.push(t-lastRender);if(frameDeltas.length>240)frameDeltas.shift();}lastRender=t;
  const begin=performance.now();visuals(renderDt,accumulator/FIXED);
  const actual=traffic.map(o=>[o,o.mesh.position.z]);for(const [o,z] of actual)o.mesh.position.z=T.MathUtils.lerp(o.previousZ??z,z,accumulator/FIXED);
- world.reflections(player);renderer.shadowMap.needsUpdate=true;post.begin(camera,opts.environment,simTime,opts.day);renderer.setViewport(0,0,innerWidth,innerHeight);renderer.render(world.scene,camera);sceneCalls=renderer.info.render.calls;sceneTriangles=renderer.info.render.triangles;
+ world.reflections(player);const shadowHz=opts.quality==='Ultra+'?30:opts.quality==='Ultra'?24:60;if(renderer.shadowMap.enabled&&performance.now()-lastShadowUpdate>=1000/shadowHz){renderer.shadowMap.needsUpdate=true;lastShadowUpdate=performance.now();}post.begin(camera,opts.environment,simTime,opts.day);renderer.setViewport(0,0,innerWidth,innerHeight);renderer.render(world.scene,camera);sceneCalls=renderer.info.render.calls;sceneTriangles=renderer.info.render.triangles;
  if(policeMesh&&s.policeRemaining>0&&mode==='playing'&&performance.now()<policeViewUntil){const w=320,h=100,x=(innerWidth-w)/2,y=innerHeight-250;mirrorCamera.position.set(s.x,1.6,3.3);mirrorCamera.lookAt(s.x,1.2,60);renderer.setScissor(x,y,w,h);renderer.setViewport(x,y,w,h);renderer.setScissorTest(true);renderer.render(world.scene,mirrorCamera);renderer.setScissorTest(false);}
  post.end();for(const [o,z] of actual)o.mesh.position.z=z;
  renderCost=performance.now()-begin;frames++;if(t-fpsStart>=1000){fps=Math.round(frames*1000/(t-fpsStart));frames=0;fpsStart=t;}hud();

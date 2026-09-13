@@ -14,8 +14,8 @@
       "sha256": "d8d660e2d4c5d979919559bb603d1d1925520ae82855a05e8f8d32f77ce3ceb1"
     },
     "game.js": {
-      "bytes": 26379036,
-      "sha256": "2b81c1a9a31b5ce15220dbc5b3eb276fbadff780e7f8efcad0f22867754493d6"
+      "bytes": 26379355,
+      "sha256": "a041090e3cfe9b473d1847f3608f4dc5784fa5de6536288ce4839d4ff66ad98f"
     },
     "index.html": {
       "bytes": 5868,
@@ -42,12 +42,12 @@
       "sha256": "8239596ceae2d311419be731d3f67d4c650e886cfe54ca6e0ba7352bc9567e0d"
     },
     "PACKAGE-INFO.json": {
-      "bytes": 2035,
-      "sha256": "5f585d5c10689ac43f1692179c19a2dd54765f47d70beb0b056d85d6868880e8"
+      "bytes": 2269,
+      "sha256": "e0da44842ac9361b84a68b8f3380c702e59264b912fd475e7599a7d567c633aa"
     },
     "README.md": {
-      "bytes": 11470,
-      "sha256": "c5eab0cd3a5146f5a61ea3f96233a8a4d3e37c1e8fe46182328443a2458ab313"
+      "bytes": 11959,
+      "sha256": "b657b6661afb68259205535edc3b374ec7f785c47e3eac69cfb96516390463a1"
     },
     "REAL-CAR-SPECS.md": {
       "bytes": 6578,
@@ -62,8 +62,8 @@
       "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
     },
     "VERIFICATION.md": {
-      "bytes": 11267,
-      "sha256": "1d7844d6ce0e201c8e75d312f7eb0b31bc0ab48ae1b5b4f27775f201c20d858f"
+      "bytes": 11504,
+      "sha256": "68f2a9a5adef75d251979e35f0f967d0235505eb02734f79010aeec9cb441379"
     },
     "assets-source/README.md": {
       "bytes": 1416,
@@ -278,8 +278,8 @@
       "sha256": "d10e0ed5c47d761a2f0314c3549ff739f61afc2a8baa6655cf4eda60d4732415"
     },
     "source/atmospherePipeline.js": {
-      "bytes": 3823,
-      "sha256": "20007acb3b66566f10c65ddf0d41b87ad8c99970720e1cf3d52974fb8ed1cea1"
+      "bytes": 3839,
+      "sha256": "ca40a47f5ab84d42cc375e6a1f5be310e7703ca93b4cc62dfc374ba0ce6f9439"
     },
     "source/audio.js": {
       "bytes": 2388,
@@ -294,8 +294,8 @@
       "sha256": "d0c4f09e47df98df79daca97c83bb5c2d1f3a4cd97f5a3b503bfe7836131a8f9"
     },
     "source/biomes.js": {
-      "bytes": 21161,
-      "sha256": "ef8953aa043e489cba98754d1e30db62bf5959600e885db7378ffd119eda61f9"
+      "bytes": 21242,
+      "sha256": "22af2d9a3e8403f004fae0db74e046fc52532e44a7720554ec92421d58bb33f1"
     },
     "source/blenderCarBodies.js": {
       "bytes": 1107864,
@@ -334,8 +334,8 @@
       "sha256": "cd74da76058c93f6f3e7185f7feb3620f59c388e6f543c31a8fd7f598a6d1839"
     },
     "source/main.js": {
-      "bytes": 36977,
-      "sha256": "39d62a780afb539d8eb1684105d0f35779764c55cd9baea99d3dec844b053057"
+      "bytes": 37204,
+      "sha256": "c117975b31b9712240e1b907df363f26eab4347315435ba07de3098d9cdbe152"
     },
     "source/models.js": {
       "bytes": 36824,
@@ -374,12 +374,12 @@
       "sha256": "2734bf73447edd37280ff6feea133481cfa41c0243dc03e0ee8b2c727103a720"
     },
     "source/presets.js": {
-      "bytes": 986,
-      "sha256": "80edf6471dabcf1cfe5b13a050209e230cd32424e81e29bd9cf140877e027bf1"
+      "bytes": 1031,
+      "sha256": "43857b719ac7eb0fed581866587df564c27c8b7596f3a6ac2dee9fc882c58e06"
     },
     "source/qualityPass10.js": {
-      "bytes": 3544,
-      "sha256": "c99c18b85082272644a005a0d2075b67f2353cae5c337e6f6ba2b52f04256ec1"
+      "bytes": 3634,
+      "sha256": "b2bac73bbf6763b61ab5f595dc403a0358c5d25232adb3a880eaa8f284302255"
     },
     "source/realCarSpecs.js": {
       "bytes": 7475,
@@ -450,12 +450,12 @@
       "sha256": "2bc3c1a96134b093d772c67caac2ce4874f1ad3df9c2e2967c9ca622cfb89d54"
     },
     "source/worldArt.js": {
-      "bytes": 10251,
-      "sha256": "02b92d44832b3eaa8f08c7fad7691a70c08437054cb6ba189d4a4fc4f310f0f6"
+      "bytes": 10279,
+      "sha256": "dd577290e8d0fe2a86e58398a4ec75174846bfb02faa8b9b1cb5fbaba68aef92"
     },
     "source/worldDetail10.js": {
-      "bytes": 5049,
-      "sha256": "50e6323b39edc7490805aef109e831e7f15fc6905d2b35b2d7ef4129aa514930"
+      "bytes": 5135,
+      "sha256": "6b471aa4152d20b547cc15ad6e8e1204187449402176aac607638d426f49d5c2"
     },
     "verification/BLENDER-PBR-V9.json": {
       "bytes": 999,

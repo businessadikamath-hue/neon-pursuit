@@ -52,7 +52,7 @@ export function installQualityPass10(world,renderer,biome){
   });
   function apply(name){
     current=name;
-    const maps=photoSurface9(kind,name==='Ultra+');
+    const maps=photoSurface9(kind,name==='Ultra'||name==='Ultra+');
     for(const entry of entries){
       const m=entry.material;
       if(maps){

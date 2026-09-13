@@ -38,7 +38,7 @@ function installRoadPebbles(tile,biome,index){
 export function installWorldDetail10(world,biome){
  if(!world||world.__worldDetail10)return world;
  world.__worldDetail10=true;const passes=world.tiles.map((tile,index)=>installRoadPebbles(tile,biome,index));let quality='High';
- const updateCounts=()=>{const factor={"Game Only":0,Low:.20,High:.58,Ultra:.82,"Ultra+":1}[quality]??.58;for(const p of passes){p.pebbles.count=Math.floor(p.basePebbles*factor);p.edges.count=Math.floor(p.baseEdges*factor);p.chips.count=Math.floor(p.baseChips*factor);p.pebbles.visible=p.edges.visible=p.chips.visible=factor>0;}};
+ const updateCounts=()=>{const factor={"Game Only":0,Low:.20,High:.58,Ultra:.82,"Ultra+":1}[quality]??.58;for(const p of passes){p.pebbles.count=Math.floor(p.basePebbles*factor);p.pebbles.castShadow=quality==='Ultra+';p.edges.count=Math.floor(p.baseEdges*factor);p.chips.count=Math.floor(p.baseChips*factor);p.pebbles.visible=p.edges.visible=p.chips.visible=factor>0;}};
  const oldQuality=world.quality;world.quality=q=>{oldQuality(q);quality=q;updateCounts();};
  const oldUpdate=world.update;world.update=(distance,time,x)=>{oldUpdate(distance,time,x);for(const p of passes){p.pebbles.instanceMatrix.needsUpdate=false;}};
  const oldDetails=world.details;world.details=()=>({...oldDetails(),roadMicroDetail10:{active:quality!=='Game Only',quality,aggregateStones:passes.reduce((n,p)=>n+p.pebbles.count,0),paintWearEdges:passes.reduce((n,p)=>n+p.edges.count,0),paintChips:passes.reduce((n,p)=>n+p.chips.count,0),perTile:true,material:'individually modeled aggregate and chipped reflective lane paint'}});
