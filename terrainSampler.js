@@ -1,0 +1,6 @@
+export function installTerrainSamplers(world){
+ for(const tile of world.tiles){const fields=[];tile.traverse(m=>{if(!m.isMesh||m.isInstancedMesh)return;const g=m.geometry,p=g?.parameters;if(!p||![330,300,38].includes(p.width))return;const a=g.attributes.position,nx=p.widthSegments,nz=p.heightSegments;if(!nx||!nz)return;let minX=Infinity,maxX=-Infinity,minZ=Infinity,maxZ=-Infinity;for(let i=0;i<a.count;i++){minX=Math.min(minX,a.getX(i));maxX=Math.max(maxX,a.getX(i));minZ=Math.min(minZ,a.getZ(i));maxZ=Math.max(maxZ,a.getZ(i))}fields.push({a,nx,nz,minX,maxX,minZ,maxZ});m.userData.groundSurface=true;});
+ tile.userData.terrainHeight=(x,z)=>{if(Math.abs(x)<12.8)return .02;let highest=-Infinity;for(const f of fields){if(x<f.minX||x>f.maxX||z<f.minZ||z>f.maxZ)continue;const u=Math.max(0,Math.min(f.nx-.00001,(x-f.minX)/(f.maxX-f.minX)*f.nx)),v=Math.max(0,Math.min(f.nz-.00001,(z-f.minZ)/(f.maxZ-f.minZ)*f.nz)),ix=Math.floor(u),iz=Math.floor(v),fx=u-ix,fz=v-iz,a=f.a,stride=f.nx+1,h00=a.getY(iz*stride+ix),h10=a.getY(iz*stride+ix+1),h01=a.getY((iz+1)*stride+ix),h11=a.getY((iz+1)*stride+ix+1),h=fx+fz<=1?h00+(h10-h00)*fx+(h01-h00)*fz:h11+(h01-h11)*(1-fx)+(h10-h11)*(1-fz);highest=Math.max(highest,h)}return Number.isFinite(highest)?highest:-.1};
+ for(const t of tile.userData.trees)t.y=tile.userData.terrainHeight(t.x,t.z);
+ }return world;
+}

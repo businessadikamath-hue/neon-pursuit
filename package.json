@@ -1,0 +1,15 @@
+{
+  "name": "neon-pursuit",
+  "private": true,
+  "version": "9.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild main.js --bundle --minify --format=iife --outfile=../game.js"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.0"
+  }
+}
