@@ -1,10 +1,10 @@
 {
   "version": "9.1.0",
-  "verifiedAt": "2026-09-13T21:00:00Z",
+  "verifiedAt": "2026-09-13T21:15:00Z",
   "installed": "C:\\Users\\adika\\Documents\\Codex\\2026-09-11\\neon-pursuit-game\\outputs\\Neon-Pursuit",
   "archive": "C:\\Users\\adika\\Documents\\Codex\\2026-09-11\\neon-pursuit-game\\outputs\\Neon-Pursuit.zip",
-  "archiveBytes": 761418605,
-  "archiveSHA256": "da06c458c7ddec43c7d9675d6d7553bfa0be90f838d02dc2938ec880ceac7fdf",
+  "archiveBytes": 761418606,
+  "archiveSHA256": "b809bca3ff1588e6f38ebbc2518c1241c52db97a8fde82577847662169a7227b",
   "gameSHA256": "8d26d6bb345ac11b20d6a8a9e7eeafb05e9058a9f8eb799c696272681e0fbdef",
   "files": 475,
   "manifestValid": true,
