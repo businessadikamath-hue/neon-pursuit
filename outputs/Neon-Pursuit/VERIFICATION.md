@@ -14,6 +14,8 @@ Trees have unequal branches, stronger taper, more varied leaf orientation and le
 
 Daylight uses a single broad directional sun with cooler sky fill, less ground fill, adjusted exposure and tighter filtered-shadow coverage. The sky has layered cloud shading, a restrained sun/horizon glow, and a slow time-driven drift across multiple cloud scales. Asphalt now has irregular mineral grains in dark bitumen with correlated normal and roughness maps, including smoother sealed tar. Ultra+ adds individually instanced aggregate stones, worn lane edges and chipped reflective paint flecks. Longitudinal road wear now uses the correct plane coordinates. Terrain has periodic erosion detail and spatial color variation; distant islands have smoother geometry.
 
+Biome weather is now authored as separate effects: Tundra uses textured snow flakes that fall with per-particle drift and recycle above the route, while Desert uses shoulder dust with wind motion and a low-frequency gust envelope so denser dust arrives in occasional bursts instead of a constant veil. The weather field follows the same quality budgets as the rest of the scene and remains active in the balanced Ultra preset.
+
 The coastal edge blends to sea level beyond the road while preserving road coordinates. Its normal/tangent transformation was checked against finite differences across 600 cases. Water and foam follow the curved boundary. Original long swells, paired approximate normals, a 512-pixel mipmapped wind-normal map, extra cross-direction wave bands, animated glints and broken cellular foam replace the more regular wave pattern. Wet shoreline sand is darker and less rough. Existing planar reflection resolutions and capture rates remain unchanged.
 
 ## Matched visual evidence

@@ -14,8 +14,8 @@
       "sha256": "d8d660e2d4c5d979919559bb603d1d1925520ae82855a05e8f8d32f77ce3ceb1"
     },
     "game.js": {
-      "bytes": 26371886,
-      "sha256": "8ce237b3ad62a39aa6afb8e71f52085b04246a137794ef29cc567333813ffb82"
+      "bytes": 26378771,
+      "sha256": "6fce5b57240df07befcef78af92762eec15ec251da081dddac0e05fe95921e47"
     },
     "index.html": {
       "bytes": 5817,
@@ -42,12 +42,12 @@
       "sha256": "8239596ceae2d311419be731d3f67d4c650e886cfe54ca6e0ba7352bc9567e0d"
     },
     "PACKAGE-INFO.json": {
-      "bytes": 1508,
-      "sha256": "d88c90097865e117612521e18db4776e0d91820b9cc4f5a0a6e6a733e4d535a3"
+      "bytes": 1935,
+      "sha256": "12a4dd44948505b49f6a4e7aee0127bd177e9b81cfcd4e4b56cff6378d863be4"
     },
     "README.md": {
-      "bytes": 10424,
-      "sha256": "368d9998d76f5f3e69b5a2e30e6db9fdf513ef50068dc262702e655df608c9e7"
+      "bytes": 11240,
+      "sha256": "6eadbd57879179400a9f460e78cb7683639a55ebcba94e8ae6cc7a539daa74b5"
     },
     "REAL-CAR-SPECS.md": {
       "bytes": 6578,
@@ -62,8 +62,8 @@
       "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
     },
     "VERIFICATION.md": {
-      "bytes": 10016,
-      "sha256": "ee006b39fd62a1b39047e8a6b8692d2ede61dc1f4516de6f0d75b24db4a445c3"
+      "bytes": 10949,
+      "sha256": "e5a088d463afd2faa908a801464d16356930ba765015fa4d3f8d26a17ecba88b"
     },
     "assets-source/README.md": {
       "bytes": 1416,
@@ -294,8 +294,8 @@
       "sha256": "d0c4f09e47df98df79daca97c83bb5c2d1f3a4cd97f5a3b503bfe7836131a8f9"
     },
     "source/biomes.js": {
-      "bytes": 19171,
-      "sha256": "5d00119640e061477b567eee170573442ad056dc2a475ed70a7197e677613468"
+      "bytes": 21161,
+      "sha256": "ef8953aa043e489cba98754d1e30db62bf5959600e885db7378ffd119eda61f9"
     },
     "source/blenderCarBodies.js": {
       "bytes": 1107864,
@@ -374,8 +374,8 @@
       "sha256": "2734bf73447edd37280ff6feea133481cfa41c0243dc03e0ee8b2c727103a720"
     },
     "source/presets.js": {
-      "bytes": 774,
-      "sha256": "592123361180518abd4c37b4efc6cc7765bb7d8b75ed4929b55583d45baa1090"
+      "bytes": 986,
+      "sha256": "80edf6471dabcf1cfe5b13a050209e230cd32424e81e29bd9cf140877e027bf1"
     },
     "source/qualityPass10.js": {
       "bytes": 3544,
