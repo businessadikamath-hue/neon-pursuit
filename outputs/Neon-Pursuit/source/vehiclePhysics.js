@@ -20,7 +20,7 @@ export const referenceVehicles=Object.fromEntries(Object.entries(realCarSpecs).m
 // The default game uses deliberately boosted performance. These numbers describe
 // the fictional cars, never the published real-world analogues in realCarSpecs.
 const fastDrive={
- black:{topMph:265,accel:25.5},silver:{topMph:255,accel:26.5},red:{topMph:260,accel:25.2},rally:{topMph:240,accel:27.0},
+ black:{topMph:265,accel:25.5},silver:{topMph:255,accel:26.5},red:{topMph:268,accel:32.0},rally:{topMph:240,accel:27.0},
  muscle:{topMph:250,accel:29.0},roadster:{topMph:235,accel:26.5},electric:{topMph:265,accel:23.0},safari:{topMph:230,accel:31.0}
 };
 // Authored game capability budget: acceleration, top speed, handling, braking, stability, strength.
