@@ -6,5 +6,5 @@ export const presets={
  // geometry and PBR response while avoiding Ultra+'s supersampling, 4K
  // shadows, dense wildlife and high-frequency reflection schedule.
  Ultra:{scale:.84,shadow:768,leaves:620,animals:8,birds:14,grass:360,water:[40,28],reflection:192,reflectionHz:4,anisotropy:4,samples:1,postDetail:0,fxaa:true},
- 'Ultra+':{scale:1.6,shadow:4096,leaves:4200,animals:52,birds:110,grass:2600,water:[192,128],reflection:1024,reflectionHz:20,anisotropy:16,samples:8,postDetail:3,fxaa:true}
+ 'Ultra+':{scale:1.85,shadow:4096,leaves:5200,animals:64,birds:140,grass:3200,water:[256,160],reflection:1536,reflectionHz:24,anisotropy:16,samples:8,postDetail:4,fxaa:true}
 };
