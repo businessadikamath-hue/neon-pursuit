@@ -80,7 +80,7 @@ export function longitudinal(mph,v,{throttle=1,braking=false,grade=0,surface=1,h
    // Full throttle offsets rolling/aero losses on healthy dry flat pavement;
    // surface and damage still reduce thrust, while grades still act as gravity.
    const launch=v.gears===1?1+.25*Math.max(0,1-mph/80):1;
-   drive=(v.fastAccel*fastBand(mph,v.topMph)*launch+drag)*MPH_TO_MS*Math.max(.15,surface)*damage*throttle;
+   drive=((v.fastAccel*1.75)*fastBand(mph,v.topMph)*launch+drag)*MPH_TO_MS*Math.max(.15,surface)*damage*throttle;
  }
  const limiter=clamp((v.topMph-mph)/1.25,0,1);drive*=limiter;
  const pull=shifting?0:drive/MPH_TO_MS;
