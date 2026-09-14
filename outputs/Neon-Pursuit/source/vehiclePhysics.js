@@ -114,7 +114,7 @@ export function handling(s,v,steer,dt,context={}){
  const speedResponse=clamp(mph/18,0,1),steeringVelocity=s.steer*(3.3+mph*.024)*speedResponse;
  // Relative to a curved road, an unchanged world heading drifts toward the outside.
  // Ice has lower lateral damping, so both steering momentum and curve drift persist.
- const roadDrift=-(context.curvature??0)*(s.speed/3.6)**2*2;
+ const roadDrift=-(context.curvature??0)*(s.speed/3.6)**2*2*(context.driftMultiplier??1);
  const followVelocity=clamp((s.laneTarget-s.x)*1.8,-5.0,5.0)*speedResponse;
  const target=laneAssist&&!manual?followVelocity:steeringVelocity;
  const tireResponse=Math.max(.48,Math.pow(Math.max(.10,grip),1.55)*6);

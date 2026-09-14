@@ -29,7 +29,7 @@ function write(key,value){try{localStorage.setItem(key,JSON.stringify(value));re
 const MPH=1.609344,defaults={car:'black',day:'afternoon',environment:'coastline',units:'mph',quality:'High',fpsCap:120,zen:false,nature:false,sound:false,trafficOff:false,treePack:'native',adaptiveQuality:false,driftAssist:false,laneAssist:false,geography:true,cruiseStart:false};
 const opts={...defaults,...read('neon-4-settings',{})};for(const [key,list] of Object.entries({car:Object.keys(vehicles),day:['morning','afternoon','night'],environment:['coastline','tundra','desert','jungle'],units:['mph','kph'],quality:['Game Only','Low','High','Ultra','Ultra+'],fpsCap:[30,60,120,144,240]}))if(!list.includes(opts[key]))opts[key]=defaults[key];
 opts.adaptiveQuality=false;
-const qualityLabel=q=>({'Game Only':'Game Only',Low:'Low',High:'Medium',Ultra:'High', 'Ultra+':'Ultra'}[q]||q);
+const qualityLabel=q=>({'Game Only':'Game Only',Low:'Low',High:'Medium',Ultra:'High · most optimized', 'Ultra+':'Ultra · maximum detail'}[q]||q);
 const BIOMES={coastline:{road:'Coastal asphalt',difficulty:'EASY / open coastal road',surface:1},tundra:{road:'Ice road',difficulty:'HARD / ice and long skids',surface:.48},desert:{road:'Rocky road',difficulty:'MODERATE / rough rocks',surface:.80},jungle:{road:'Dirt road',difficulty:'HARD / dirt and crossing animals',surface:.76}};
 let pauseFrom='playing';
 const legacy=read('neon-3d-records',{});let records=read('neon-5-records',{}),mode='menu',s,traffic=[],keys=new Set(),toastUntil=0,simTime=0,seed=7811,spawnIn=0,spawnType=0,player,renderer,world,camera,mirrorCamera,policeMesh,policeViewUntil=0;const worlds={},worldOrder=[];
@@ -87,7 +87,7 @@ function step(dt){
  s.trauma=Math.max(0,s.trauma-dt*1.7);s.invincible=Math.max(0,s.invincible-dt);s.edgeCooldown=Math.max(0,s.edgeCooldown-dt);if(!opts.zen&&s.time-s.lastDamageAt>4&&s.health<100)s.health=Math.min(100,s.health+2.4*dt);
  const accelerating=keys.has('ArrowUp'),braking=keys.has('ArrowDown');if(braking)s.cruise=false;const offroad=Math.abs(s.x)>11.3,baseSurface=opts.geography?BIOMES[opts.environment].surface:1,surface=offroad?(['rally','safari'].includes(opts.car)?.82:.50):baseSurface;
  const drafting=traffic.some(t=>!t.cross&&t.mesh.position.z<-6&&t.mesh.position.z>-35&&Math.abs(t.mesh.position.x-s.x)<1.7)?1:0;
- const context={throttle:accelerating?1:0,braking,grade:grade(s.travel),surface,health:s.health,drafting};let cruiseAccel=null;
+ const biomeHandling={coastline:{grip:1.08,drift:0.72},tundra:{grip:.58,drift:1.55},desert:{grip:.82,drift:1.12},jungle:{grip:.68,drift:1.30}}[opts.environment];const context={throttle:accelerating?1:0,braking,grade:grade(s.travel),surface:surface*biomeHandling.grip,driftMultiplier:biomeHandling.drift,health:s.health,drafting};let cruiseAccel=null;
  if(s.cruise&&!accelerating&&!braking){const mph=s.speed/MPH,full=longitudinal(mph,def,{...context,throttle:1,gear:s.gear});cruiseAccel=clamp((s.cruiseTarget-mph)*3,-def.brake*.25,60);context.throttle=clamp((cruiseAccel+full.drag+context.grade*9.80665/.44704)/Math.max(.1,full.pull),0,1);}
  const power=advancePowertrain(s.speed/MPH,def,s,context,dt);if(cruiseAccel!==null&&cruiseAccel<0&&power.accel>cruiseAccel)power.accel=cruiseAccel;s.power=power;s.throttle=context.throttle;s.speed=clamp(s.speed+power.accel*MPH*dt,0,def.topMph*MPH);
  const steer=(keys.has('ArrowRight')?1:0)-(keys.has('ArrowLeft')?1:0);handling(s,def,steer,dt,{...context,curvature:curvature(s.travel),assist:opts.zen&&opts.driftAssist,laneAssist:opts.laneAssist,laneTarget:s.laneTarget,geography:opts.geography});
@@ -127,7 +127,7 @@ function frame(t){
  const begin=performance.now();visuals(renderDt,accumulator/FIXED);
  const actual=traffic.map(o=>[o,o.mesh.position.z]);for(const [o,z] of actual)o.mesh.position.z=T.MathUtils.lerp(o.previousZ??z,z,accumulator/FIXED);
  world.reflections(player);const shadowHz=opts.quality==='Ultra+'?30:opts.quality==='Ultra'?12:60;if(renderer.shadowMap.enabled&&performance.now()-lastShadowUpdate>=1000/shadowHz){renderer.shadowMap.needsUpdate=true;lastShadowUpdate=performance.now();}post.begin(camera,opts.environment,simTime,opts.day);renderer.setViewport(0,0,innerWidth,innerHeight);renderer.render(world.scene,camera);sceneCalls=renderer.info.render.calls;sceneTriangles=renderer.info.render.triangles;
- if(policeMesh&&s.policeRemaining>0&&mode==='playing'&&performance.now()<policeViewUntil){const w=320,h=100,x=(innerWidth-w)/2,y=innerHeight-250;mirrorCamera.position.set(s.x,1.6,3.3);mirrorCamera.lookAt(s.x,1.2,60);renderer.setScissor(x,y,w,h);renderer.setViewport(x,y,w,h);renderer.setScissorTest(true);renderer.render(world.scene,mirrorCamera);renderer.setScissorTest(false);}
+ if(policeMesh&&s.policeRemaining>0&&mode==='playing'&&performance.now()<policeViewUntil){const w=320,h=100,x=(innerWidth-w)/2,y=24;mirrorCamera.position.set(s.x,1.6,3.3);mirrorCamera.lookAt(s.x,1.2,60);renderer.setScissor(x,y,w,h);renderer.setViewport(x,y,w,h);renderer.setScissorTest(true);renderer.render(world.scene,mirrorCamera);renderer.setScissorTest(false);}
  post.end();for(const [o,z] of actual)o.mesh.position.z=z;
  renderCost=performance.now()-begin;frames++;if(t-fpsStart>=1000){fps=Math.round(frames*1000/(t-fpsStart));frames=0;fpsStart=t;}hud();
 
