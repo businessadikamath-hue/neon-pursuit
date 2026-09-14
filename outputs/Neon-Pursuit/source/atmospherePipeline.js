@@ -12,7 +12,7 @@ export function pipeline(renderer){
  vec4 ray4=invProjection*vec4(uv*2.-1.,1.,1.);vec3 ray=normalize((viewWorld*vec4(normalize(ray4.xyz/ray4.w),0.)).xyz);vec3 origin=viewWorld[3].xyz;
  float path=min(distance/max(.1,-normalize(ray4.xyz).z),420.),density=0.;for(int j=0;j<10;j++){if(float(j)>=3.+detailLevel*1.5)break;float d=(float(j)+.5)*path/(3.+detailLevel*1.5);vec3 p=origin+ray*d;float layer=exp(-max(0.,p.y)*.095);float billow=.72+.20*sin(p.x*.07+p.z*.035+clockTime*.08)*sin(p.z*.021-clockTime*.045);density+=layer*billow*path/(3.+detailLevel*1.5);}
  float amount=1.-exp(-density*(biomeId>2.5?.0027:biomeId>.5&&biomeId<1.5?.0012:.00065));color.rgb=mix(color.rgb,fogTint,amount);
- color.rgb*=1.-.09*pow(length(uv-.5),2.);return color;}
+ color.rgb*=1.-.09*pow(length(uv-.5),2.);if(detailLevel>3.){float luma=dot(color.rgb,vec3(.2126,.7152,.0722));color.rgb=mix(vec3(luma),color.rgb,1.10);float sun=pow(max(0.,1.-length(uv-vec2(.72,.24))*2.2),7.);color.rgb+=vec3(1.0,.72,.42)*sun*.045;color.rgb=clamp(color.rgb,0.,1.);};return color;}
  `;
  const uniforms={...T.UniformsUtils.clone(FXAAShader.uniforms),detailLevel:{value:0},sceneDepth:{value:target.depthTexture},nearPlane:{value:.1},farPlane:{value:2200},clockTime:{value:0},biomeId:{value:0},invProjection:{value:new T.Matrix4()},viewWorld:{value:new T.Matrix4()},fogTint:{value:new T.Color(0x9facad)}};
  const fragment=FXAAShader.fragmentShader.replace('void main()',extra+'\nvoid main()').replace('gl_FragColor = ApplyFXAA( tDiffuse, resolution.xy, vUv );','gl_FragColor = atmosphere(vUv);\n#include <colorspace_fragment>');
