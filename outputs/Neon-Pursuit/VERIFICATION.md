@@ -22,7 +22,7 @@ The coastal edge blends to sea level beyond the road while preserving road coord
 
 ## Matched visual evidence
 
-The full-game comparison has 17 before and 17 after captures at 1440×900. Scene seed, simulation pose/time, camera, car, biome and quality settings are fixed. High and Ultra+ driving/road views cover all four locations, with a coastal shore view. The actual game renderer and postprocessing are used. Frozen-frame HUD FPS values are not performance evidence. Component Blender/studio images are labeled separately from full-game captures.
+The full-game comparison has 17 before and 17 after captures at 1440×900. Scene seed, simulation pose/time, camera, car, biome and quality settings are fixed. High and Ultra driving/road views cover all four locations, with a coastal shore view. The actual game renderer and postprocessing are used. Frozen-frame HUD FPS values are not performance evidence. Component Blender/studio images are labeled separately from full-game captures.
 
 GALLERY.html collects the before/after images and component evidence. Changes in pixels establish that the presentation changed; visual inspection and the accompanying descriptions support the narrower claims above. They do not provide an objective photorealism score.
 
@@ -44,9 +44,9 @@ Headless Edge at 1280×800 on the recorded device, Jungle, 180 mph cruise and La
 |---|---:|---:|---:|---:|
 | Game Only | 113.34 | 120.0 | 3.80 | 0.000 |
 | Low | 30.02 | 31.0 | 14.10 | 0.000 |
-| High | 8.34 | 9.0 | 16.05 | 0.000 |
-| Ultra | 5.19 | 5.0 | 17.10 | 0.042 |
-| Ultra+ | 3.01 | 3.0 | 22.10 | 4.684 |
+| Medium (former High) | 8.34 | 9.0 | 16.05 | 0.000 |
+| High (former Ultra) | 5.19 | 5.0 | 17.10 | 0.042 |
+| Ultra (former Ultra+) | 3.01 | 3.0 | 22.10 | 4.684 |
 
 Device: `{"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0", "viewport": [1280, 800], "devicePixelRatio": 1, "renderer": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x000046A8) Direct3D11 vs_5_0 ps_5_0, D3D11)", "vendor": "Google Inc. (Intel)"}`.
 
@@ -54,13 +54,13 @@ The FPS cap is a ceiling. A roughly 60 Hz browser cadence does not demonstrate a
 
 ## Blender cinematic evidence
 
-The delivered `gallery/blender/neon-pursuit-blender-cinematic.blend` is an editable Blender 5.2.1 scene with the modeled car, cabin, doors, plate glyphs, wheels/brakes, shoreline, ocean, trees, rocks, clouds and high-detail gull assets. Its packed materials use the supplied 4K asphalt, sand and bark payloads plus 1K rock payloads; the source JPGs are retained in `assets-source/blender-pbr/`. A 1280×720 Cycles hero still and 48 1280×720 Eevee frames at 24 fps are included. The offline player was read back in Edge: its first frame loaded, advancing to frame 7 produced no page errors, and both installed and extracted game bundles passed the final driving/Ultra+ smoke. The cinematic is a Blender-rendered presentation asset; the interactive game remains the authored WebGL2 runtime described above.
+The delivered `gallery/blender/neon-pursuit-blender-cinematic.blend` is an editable Blender 5.2.1 scene with the modeled car, cabin, doors, plate glyphs, wheels/brakes, shoreline, ocean, trees, rocks, clouds and high-detail gull assets. Its packed materials use the supplied 4K asphalt, sand and bark payloads plus 1K rock payloads; the source JPGs are retained in `assets-source/blender-pbr/`. A 1280×720 Cycles hero still and 48 1280×720 Eevee frames at 24 fps are included. The offline player was read back in Edge: its first frame loaded, advancing to frame 7 produced no page errors, and both installed and extracted game bundles passed the final driving/Ultra smoke. The cinematic is a Blender-rendered presentation asset; the interactive game remains the authored WebGL2 runtime described above.
 
 ## Quality pass 10
 
 The final quality pass raises the actual Ultra+ render budget to 2× device-pixel supersampling and 4096² filtered shadows, and increases the terrain heightfield to 160×80 with a 96×64 displaced distant-hill mesh. Distant hills now use the same local scanned colour, normal and roughness payloads as the road, sand, snow and rock surfaces. The runtime car carries independently modeled neon plates on both faces, including raised per-stroke glyph relief, colored edge bars, screws and a dark recessed backing, so the plate remains legible from the following camera. The new surface pass keeps those maps live across recycled tiles and adds a small correlated strata response to textured terrain. The interface received a glass-surface pass with clearer focus states, layered shadows and restrained highlight glow.
 
-The quality-pass smoke opened both the installed bundle and a fresh extraction of the final ZIP across all four biomes at Ultra+: 4096² shadows, 30–33 visible wildlife subjects, 48 birds, 671,880–1,198,562 modeled leaves, and 32,165–272,492 active grass strands depending on the biome. Both runs completed with zero page errors, zero console errors and zero external HTTP requests. The screenshots in `work/graphics-v9/quality-pass-all` and `work/quality-pass-smoke` are additional actual-render evidence; their frozen-frame FPS labels are not performance claims.
+The quality-pass smoke opened both the installed bundle and a fresh extraction of the final ZIP across all four biomes at Ultra: 4096² shadows, 30–33 visible wildlife subjects, 48 birds, 671,880–1,198,562 modeled leaves, and 32,165–272,492 active grass strands depending on the biome. Both runs completed with zero page errors, zero console errors and zero external HTTP requests. The screenshots in `work/graphics-v9/quality-pass-all` and `work/quality-pass-smoke` are additional actual-render evidence; their frozen-frame FPS labels are not performance claims.
 
 ## Limits and delivery
 

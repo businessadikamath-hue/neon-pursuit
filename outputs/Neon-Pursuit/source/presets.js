@@ -5,6 +5,6 @@ export const presets={
  // Ultra is the everyday high-fidelity preset: it keeps the authored close
  // geometry and PBR response while avoiding Ultra+'s supersampling, 4K
  // shadows, dense wildlife and high-frequency reflection schedule.
- Ultra:{scale:1.0,shadow:1536,leaves:1350,animals:16,birds:32,grass:850,water:[64,48],reflection:384,reflectionHz:8,anisotropy:4,samples:2,postDetail:1,fxaa:true},
+ Ultra:{scale:.95,shadow:1024,leaves:850,animals:10,birds:20,grass:500,water:[48,32],reflection:256,reflectionHz:6,anisotropy:4,samples:2,postDetail:1,fxaa:true},
  'Ultra+':{scale:1.4,shadow:4096,leaves:3600,animals:40,birds:80,grass:2000,water:[144,96],reflection:768,reflectionHz:15,anisotropy:16,samples:4,postDetail:2,fxaa:true}
 };

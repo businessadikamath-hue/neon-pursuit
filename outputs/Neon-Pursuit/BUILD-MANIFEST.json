@@ -14,12 +14,12 @@
       "sha256": "d8d660e2d4c5d979919559bb603d1d1925520ae82855a05e8f8d32f77ce3ceb1"
     },
     "game.js": {
-      "bytes": 26379355,
-      "sha256": "a041090e3cfe9b473d1847f3608f4dc5784fa5de6536288ce4839d4ff66ad98f"
+      "bytes": 26379454,
+      "sha256": "796c82f4ca879af53e978d259da3aceee2a0afd5fd3f8b834d8e6a9564e633f2"
     },
     "index.html": {
-      "bytes": 5868,
-      "sha256": "c0d754b1104901d2b1329805fbe840a6d018073ab7f4034c95de279cc372a2bf"
+      "bytes": 5873,
+      "sha256": "6961c55cb414d95830c1bdd32f7ea9d1398b824843a86a785faf568558043b63"
     },
     "Install.cmd": {
       "bytes": 91,
@@ -42,12 +42,12 @@
       "sha256": "8239596ceae2d311419be731d3f67d4c650e886cfe54ca6e0ba7352bc9567e0d"
     },
     "PACKAGE-INFO.json": {
-      "bytes": 2269,
-      "sha256": "e0da44842ac9361b84a68b8f3380c702e59264b912fd475e7599a7d567c633aa"
+      "bytes": 2268,
+      "sha256": "9811c8ef5fc99ac9b6f29d4ea6eb1dc2689e2e538eb717ecb9d8064f6b8f107d"
     },
     "README.md": {
-      "bytes": 11959,
-      "sha256": "b657b6661afb68259205535edc3b374ec7f785c47e3eac69cfb96516390463a1"
+      "bytes": 11999,
+      "sha256": "d6186c587b88d2cb3347df9b36a55008f065027791588a0acec4f8340dbb297f"
     },
     "REAL-CAR-SPECS.md": {
       "bytes": 6578,
@@ -62,8 +62,8 @@
       "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
     },
     "VERIFICATION.md": {
-      "bytes": 11504,
-      "sha256": "68f2a9a5adef75d251979e35f0f967d0235505eb02734f79010aeec9cb441379"
+      "bytes": 11546,
+      "sha256": "23fafd902105fc2b97e849bd5bbf9f6a7e464c44f6db010d0f2d565a39957e6b"
     },
     "assets-source/README.md": {
       "bytes": 1416,
@@ -334,8 +334,8 @@
       "sha256": "cd74da76058c93f6f3e7185f7feb3620f59c388e6f543c31a8fd7f598a6d1839"
     },
     "source/main.js": {
-      "bytes": 37204,
-      "sha256": "c117975b31b9712240e1b907df363f26eab4347315435ba07de3098d9cdbe152"
+      "bytes": 37331,
+      "sha256": "561df500d9eb72149734c9c1dd5ced7f54aa657e9f1bf566b2d5f35f07fa1b11"
     },
     "source/models.js": {
       "bytes": 36824,
@@ -374,8 +374,8 @@
       "sha256": "2734bf73447edd37280ff6feea133481cfa41c0243dc03e0ee8b2c727103a720"
     },
     "source/presets.js": {
-      "bytes": 1031,
-      "sha256": "43857b719ac7eb0fed581866587df564c27c8b7596f3a6ac2dee9fc882c58e06"
+      "bytes": 1030,
+      "sha256": "68d76ca2dd258ad3c783deb5f288b1e278f0e067c4a24e64865180a7c6d787f3"
     },
     "source/qualityPass10.js": {
       "bytes": 3634,
@@ -610,8 +610,8 @@
       "sha256": "7f56da0165a8ee3616c32680f41e0713b5474be9ac17785f3ddbe020f9b2a4bc"
     },
     "gallery/blender/index.html": {
-      "bytes": 2534,
-      "sha256": "b2c77aaf414feaeaa3751e113536656397eb643a2a619ab5d88eb391d7966712"
+      "bytes": 3642,
+      "sha256": "be05d562ed04741dbf9285a24a23702b275789fe6faea9e811667b275c0daaee"
     },
     "gallery/blender/neon-pursuit-blender-cinematic.blend": {
       "bytes": 123116544,

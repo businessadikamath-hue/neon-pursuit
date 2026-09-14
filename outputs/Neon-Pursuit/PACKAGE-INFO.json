@@ -1,7 +1,7 @@
 {
   "version": "9.1.0",
   "verifiedAt": "2026-09-13T21:10:00Z",
-  "gameSHA256": "a041090e3cfe9b473d1847f3608f4dc5784fa5de6536288ce4839d4ff66ad98f",
+  "gameSHA256": "796c82f4ca879af53e978d259da3aceee2a0afd5fd3f8b834d8e6a9564e633f2",
   "archiveHashRecord": "External work/zip-v9-results.json; the archive hash is kept outside the archive to avoid self-reference.",
   "installedAndExtractedOfflineSmokePassed": true,
   "ultraPlusActivationPassed": true,
@@ -46,10 +46,10 @@
     "desert": "gust-driven shoulder dust"
   },
   "policeAlertPresentation": "two-second live cop-car picture-in-picture, then forward view only",
-  "ultraOptimization": {
-    "premiumPBR": "4K local maps",
-    "postDetail": "tier 1 atmosphere shading",
-    "shadowRefresh": "24 Hz dynamic refresh",
-    "microShadowPolicy": "road aggregate shadows reserved for Ultra+"
+  "ultraOptimization": "former Ultra tuned for the 80/20 high-fidelity target",
+  "qualityLabels": {
+    "High": "Medium \u00b7 most optimized",
+    "Ultra": "High \u00b7 rich detail",
+    "Ultra+": "Ultra \u00b7 maximum"
   }
 }
