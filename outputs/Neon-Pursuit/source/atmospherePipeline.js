@@ -8,9 +8,9 @@ export function pipeline(renderer){
  vec4 atmosphere(vec2 uv){float distance=viewDepth(uv);vec2 warped=uv;
  if(biomeId>1.5&&biomeId<2.5&&distance>25.){float strength=smoothstep(25.,160.,distance)*.00065;warped.x+=sin(uv.y*330.+clockTime*2.1)*sin(uv.x*24.+clockTime*.7)*strength;}
  vec4 color=ApplyFXAA(tDiffuse,resolution,warped);
- float shade=0.;for(int i=0;i<8;i++){if(float(i)>=4.+detailLevel*2.)break;float angle=float(i)*6.28318/(4.+detailLevel*2.);vec2 offset=vec2(cos(angle),sin(angle))*resolution*5.;float delta=distance-viewDepth(uv+offset);shade+=smoothstep(.035,.22,delta)*(1.-smoothstep(.8,2.8,delta));}color.rgb*=1.-shade*(.376/(4.+detailLevel*2.));
+ float shade=0.;for(int i=0;i<12;i++){if(float(i)>=4.+detailLevel*2.)break;float angle=float(i)*6.28318/(4.+detailLevel*2.);vec2 offset=vec2(cos(angle),sin(angle))*resolution*5.;float delta=distance-viewDepth(uv+offset);shade+=smoothstep(.035,.22,delta)*(1.-smoothstep(.8,2.8,delta));}color.rgb*=1.-shade*(.376/(4.+detailLevel*2.));
  vec4 ray4=invProjection*vec4(uv*2.-1.,1.,1.);vec3 ray=normalize((viewWorld*vec4(normalize(ray4.xyz/ray4.w),0.)).xyz);vec3 origin=viewWorld[3].xyz;
- float path=min(distance/max(.1,-normalize(ray4.xyz).z),420.),density=0.;for(int j=0;j<6;j++){if(float(j)>=3.+detailLevel*1.5)break;float d=(float(j)+.5)*path/(3.+detailLevel*1.5);vec3 p=origin+ray*d;float layer=exp(-max(0.,p.y)*.095);float billow=.72+.20*sin(p.x*.07+p.z*.035+clockTime*.08)*sin(p.z*.021-clockTime*.045);density+=layer*billow*path/(3.+detailLevel*1.5);}
+ float path=min(distance/max(.1,-normalize(ray4.xyz).z),420.),density=0.;for(int j=0;j<10;j++){if(float(j)>=3.+detailLevel*1.5)break;float d=(float(j)+.5)*path/(3.+detailLevel*1.5);vec3 p=origin+ray*d;float layer=exp(-max(0.,p.y)*.095);float billow=.72+.20*sin(p.x*.07+p.z*.035+clockTime*.08)*sin(p.z*.021-clockTime*.045);density+=layer*billow*path/(3.+detailLevel*1.5);}
  float amount=1.-exp(-density*(biomeId>2.5?.0027:biomeId>.5&&biomeId<1.5?.0012:.00065));color.rgb=mix(color.rgb,fogTint,amount);
  color.rgb*=1.-.09*pow(length(uv-.5),2.);return color;}
  `;
